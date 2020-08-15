@@ -1,0 +1,1755 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Localization language="Farsi" description="Farsi" cultureName="fa">
+  <A_WebViewer>
+    <FirstPage>صفحه اول</FirstPage>
+    <LastPage>صفحه آخر</LastPage>
+    <NextPage>صفحه بعد</NextPage>
+    <OnePage>یک صفحه</OnePage>
+    <Page>صفحه</Page>
+    <PageOf>ی</PageOf>
+    <PreviousPage>صفحه ی قبل </PreviousPage>
+    <PrintReport>چاپ گزارش</PrintReport>
+    <SaveReport>ذخیره گزارش</SaveReport>
+    <WholeReport>تمام گزارش</WholeReport>
+  </A_WebViewer>
+  <Adapters>
+    <AdapterBusinessObjects>اطلاعات از اشیای تجاری</AdapterBusinessObjects>
+    <AdapterDataTables>داده از مجموعه داده و جداول داده</AdapterDataTables>
+    <AdapterDataViews>داده از  جدولهای نمایش داده</AdapterDataViews>
+    <AdapterEnumerables>داده از منابع شمارشی</AdapterEnumerables>
+    <AdapterFirebirdConnection>داده از منابع قابل شمارش</AdapterFirebirdConnection>
+    <AdapterOdbcConnection>Odbc   داده از ارتباط </AdapterOdbcConnection>
+    <AdapterOleDbConnection> OleDb  داده از ارتباط</AdapterOleDbConnection>
+    <AdapterOracleConnection>Oracle  داده از ارتباط</AdapterOracleConnection>
+    <AdapterPostgreSQLConnection>PostgreSQL داده از ارتباط</AdapterPostgreSQLConnection>
+    <AdapterSqlConnection>Sql داده از ارتباط</AdapterSqlConnection>
+    <AdapterUserSources>داده از منابع کاربر</AdapterUserSources>
+    <AdapterVirtualTables>داده از جداول مجازی</AdapterVirtualTables>
+  </Adapters>
+  <Buttons>
+    <Add>جمع</Add>
+    <AddAllColumns>جمع همه ستون ها </AddAllColumns>
+    <Cancel>&amp;انصراف</Cancel>
+    <Close>بستن</Close>
+    <Delete>حذف</Delete>
+    <Design>طراحی</Design>
+    <Down>پایین</Down>
+    <Export>صادر کردن</Export>
+    <Help>کمک</Help>
+    <Ok>&amp;تایید</Ok>
+    <Open>باز کردن</Open>
+    <Print>چاپ</Print>
+    <Remove>از بین بردن</Remove>
+    <Rename>تغییر نام</Rename>
+    <RestoreDefaults>بازگشت به حالت اولیه</RestoreDefaults>
+    <Save>ذخیره</Save>
+    <Test>آزمایش</Test>
+    <Up>بالا</Up>
+  </Buttons>
+  <Chart>
+    <AddSeries>اضافه کرن سری ها</AddSeries>
+    <Area>محیط</Area>
+    <ChartType>نوع نمودار</ChartType>
+    <ClusteredBar>میله دسته ای</ClusteredBar>
+    <ClusteredColumn>ستون دسته ای</ClusteredColumn>
+    <Doughnut>حلقه ای</Doughnut>
+    <FullStackedArea>محیط کامل پشته ای</FullStackedArea>
+    <FullStackedBar>میله کامل پشته ای </FullStackedBar>
+    <FullStackedColumn>کامل پشته ای ستون</FullStackedColumn>
+    <FullStackedLine>خط کامل پشته ای</FullStackedLine>
+    <FullStackedSpline>چند قطعه ای کامل پشته ای</FullStackedSpline>
+    <FullStackedSplineArea>محیط چنئ قطعه ای</FullStackedSplineArea>
+    <LabelsCenter>مرکز</LabelsCenter>
+    <LabelsInside>داخل</LabelsInside>
+    <LabelsInsideBase>پایگاه داخل</LabelsInsideBase>
+    <LabelsInsideEnd>انتهای داخل</LabelsInsideEnd>
+    <LabelsNone>هیچ</LabelsNone>
+    <LabelsOutside>بیرون</LabelsOutside>
+    <LabelsOutsideBase>پایگاه بیرون</LabelsOutsideBase>
+    <LabelsOutsideEnd>انتهای بیرون</LabelsOutsideEnd>
+    <LabelsTwoColumns>دو ستون</LabelsTwoColumns>
+    <Legend>فهرست علایم</Legend>
+    <Line>خط</Line>
+    <MoveSeriesDown>حرکت سری ها به داخل</MoveSeriesDown>
+    <MoveSeriesUp>حرکت سری ها به بالا</MoveSeriesUp>
+    <Pie>دایره ای</Pie>
+    <RemoveSeries>حذف سری ها</RemoveSeries>
+    <Series>سری ها</Series>
+    <SeriesEditorForm>ویرایشگر سری ها</SeriesEditorForm>
+    <Serieses>سری ها</Serieses>
+    <Spline>چند قطعه ای</Spline>
+    <SplineArea>محیط چند قطعه ای</SplineArea>
+    <StackedArea>محیط پشته ای</StackedArea>
+    <StackedBar>میله پشته ای</StackedBar>
+    <StackedColumn>ستون پشته ای</StackedColumn>
+    <StackedLine>خط پشته ای</StackedLine>
+    <StackedSpline>چند قطعه ای پشته ای</StackedSpline>
+    <StackedSplineArea>محیط چند قطعه ای پشته ای</StackedSplineArea>
+    <Style>سبک</Style>
+  </Chart>
+  <Components>
+    <StiBarCode>رمز میله ای</StiBarCode>
+    <StiChart>نمودار</StiChart>
+    <StiCheckBox>جعبه چک</StiCheckBox>
+    <StiChildBand>فرزند</StiChildBand>
+    <StiClone>تکثیر</StiClone>
+    <StiColumnFooterBand>ستون زیرنویس</StiColumnFooterBand>
+    <StiColumnHeaderBand>ستون سرصفحه</StiColumnHeaderBand>
+    <StiComponent>مولفه</StiComponent>
+    <StiContainer>حامل</StiContainer>
+    <StiContourText>نوشته ناحیه</StiContourText>
+    <StiCrossColumn>ستون متقاطع</StiCrossColumn>
+    <StiCrossColumnTotal>جمع ستون متقاطع</StiCrossColumnTotal>
+    <StiCrossDataBand>داده متقاطع</StiCrossDataBand>
+    <StiCrossFooterBand>زیرنویس متقاطع</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>زیرنویس گروهی متقاطع</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>سرصفحه گروهی متقاطع</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>سرصفحه متقاطع</StiCrossHeaderBand>
+    <StiCrossRow>ردیف متقاطع</StiCrossRow>
+    <StiCrossRowTotal>جمع ردیف متقاطع</StiCrossRowTotal>
+    <StiCrossSummary>خلاصه پیوند</StiCrossSummary>
+    <StiCrossTab>جدول بندی پیوند</StiCrossTab>
+    <StiDataBand>داده</StiDataBand>
+    <StiEmptyBand>نوار خالی</StiEmptyBand>
+    <StiFooterBand>زیرنویس</StiFooterBand>
+    <StiGroupFooterBand>گروه زیرنویس</StiGroupFooterBand>
+    <StiGroupHeaderBand>گروه سرصفحه</StiGroupHeaderBand>
+    <StiHeaderBand>سرصفحه</StiHeaderBand>
+    <StiImage>تصویر</StiImage>
+    <StiPage>صفحه</StiPage>
+    <StiPageFooterBand>زیرنویس صفحه</StiPageFooterBand>
+    <StiPageHeaderBand>سرصفحه صفحه</StiPageHeaderBand>
+    <StiReport>گزارش</StiReport>
+    <StiReportSummaryBand>خلاصه گزارش</StiReportSummaryBand>
+    <StiReportTitleBand>عنوان گزارش</StiReportTitleBand>
+    <StiRichText>متن توانا</StiRichText>
+    <StiShape>شکل</StiShape>
+    <StiSubReport>زیر)جزء( گزارش</StiSubReport>
+    <StiSystemText>متن سیستم</StiSystemText>
+    <StiText>متن</StiText>
+    <StiWinControl>Win کنترل</StiWinControl>
+    <StiZipCode>کد فشرده</StiZipCode>
+  </Components>
+  <Controls>
+    <StiButtonControl>دکمه</StiButtonControl>
+    <StiCheckBoxControl>جعبه چک</StiCheckBoxControl>
+    <StiCheckedListBoxControl>جعبه چک لیست شده</StiCheckedListBoxControl>
+    <StiComboBoxControl>جهبه دسته ی کوچک</StiComboBoxControl>
+    <StiDateTimePickerControl>بردا رنده تاریخ ساعت</StiDateTimePickerControl>
+    <StiForm>فرم</StiForm>
+    <StiGridControl>دریچه</StiGridControl>
+    <StiGroupBoxControl>جعبه گروه</StiGroupBoxControl>
+    <StiLabelControl>برچسب</StiLabelControl>
+    <StiListBoxControl>جعبه لیستی</StiListBoxControl>
+    <StiLookUpBoxControl>جعبه مراجعه</StiLookUpBoxControl>
+    <StiNumericUpDownControl>شمارشی بالا به پایین</StiNumericUpDownControl>
+    <StiPanelControl>صفحه</StiPanelControl>
+    <StiPictureBoxControl>جعبه تصویر</StiPictureBoxControl>
+    <StiRadioButtonControl>دکمه رادیویی</StiRadioButtonControl>
+    <StiReportControl>کنترل گزارش</StiReportControl>
+    <StiTextBoxControl>جعبه متن</StiTextBoxControl>
+    <StiTreeViewControl>دید درختی</StiTreeViewControl>
+  </Controls>
+  <Database>
+    <Connection>ارتباط</Connection>
+    <DatabaseFirebird>Firebird ارتباط</DatabaseFirebird>
+    <DatabaseOdbc>Odbc ارتباط</DatabaseOdbc>
+    <DatabaseOleDb>OleDB ارتباط</DatabaseOleDb>
+    <DatabaseOracle>Oracle ارتباط</DatabaseOracle>
+    <DatabasePostgreSQL>PostgreSQL ارتباط</DatabasePostgreSQL>
+    <DatabaseSql>Sql ارتباط</DatabaseSql>
+    <DatabaseXml>Xml داده</DatabaseXml>
+  </Database>
+  <Editor>
+    <CantFind>داده ای که شما به دنبالش می گردید نمی توان پیدا کرد </CantFind>
+    <CollapseToDefinitions>خراب شدن تعاریف</CollapseToDefinitions>
+    <Column>ستون:{0}</Column>
+    <EntireScope>&amp;کل میدان دید</EntireScope>
+    <Find>&amp;پیدا کردن</Find>
+    <FindNext>&amp;بعدی را پیدا کن</FindNext>
+    <FindWhat>پیدا کن چه چیز را:</FindWhat>
+    <FromCursor>از نشانه رو</FromCursor>
+    <GotoLine> خط&amp;برو به</GotoLine>
+    <Line>خط:{0}</Line>
+    <LineNumber>خط شماره:</LineNumber>
+    <LineNumberIndex>({0} - {1})خط شماره </LineNumberIndex>
+    <MarkAll>&amp;همه را نشانه بگذار</MarkAll>
+    <MatchCase>مورد &amp;تطبیق بده</MatchCase>
+    <MatchWholeWord>تمام کلمه &amp;تطبیق بده</MatchWholeWord>
+    <Outlining>خط کشی&amp;بیرون</Outlining>
+    <PromptOnReplace>اجازه برای جایگزینی</PromptOnReplace>
+    <Replace>&amp;جایگزین</Replace>
+    <ReplaceAll>همه&amp;جایگزین</ReplaceAll>
+    <ReplaceWith>جایگزین با:</ReplaceWith>
+    <Search>جستجو</Search>
+    <SearchHiddenText>متن مخفی</SearchHiddenText>
+    <SearchUp>به بالا &amp;جستجو</SearchUp>
+    <SelectionOnly>فقط &amp;انتخاب</SelectionOnly>
+    <ShowLineNumbers>نمایش اعداد خطوط</ShowLineNumbers>
+    <StopOutlining>متوقف کن&amp;خلاصه کردن</StopOutlining>
+    <titleFind>پیدا کردن</titleFind>
+    <titleGotoLine>برو به خط</titleGotoLine>
+    <titleReplace>جایگزین</titleReplace>
+    <ToggleAllOutlining>همه را به صرفصل خلاصه کن</ToggleAllOutlining>
+    <ToggleOutliningExpansion>همه را با جزیاات نشان بده</ToggleOutliningExpansion>
+    <UseRegularExpressions>عبارات منظم &amp;استفاده کن از</UseRegularExpressions>
+  </Editor>
+  <Errors>
+    <ComponentIsNotRelease>مولفه تحویل داده نشد{0}.</ComponentIsNotRelease>
+    <ContainerIsNotValidForComponent>حامل {0} برای مولفه {1}معتبر نیست</ContainerIsNotValidForComponent>
+    <DataNotFound>داده پیدا نشد.</DataNotFound>
+    <Error>اشتباه</Error>
+    <FieldRequire>میدان {0} نیاز به پر کردن داشت</FieldRequire>
+    <FileNotFound>پیدا نشد "{0}" فایل.</FileNotFound>
+    <IdentifierIsNotValid>مشخصه {0} پیدا نشد.</IdentifierIsNotValid>
+    <ImpossibleFindDataSource>پیدا کردن منبع داده امکان پذیر نیست</ImpossibleFindDataSource>
+    <NameExists> .هم اکنون یک مولفه با نام'{0}'وجود دارد مولفه ها باید نام های واحد داشته باشند.و نام ها باید حساس به متن باشند</NameExists>
+    <NoServices>سرویس ها در'{0}'پیدا نشد</NoServices>
+    <NotAssign>منبع داده مشخص نشده است</NotAssign>
+    <RelationsNotFound>ارتباطات پیدا نشد</RelationsNotFound>
+    <ServiceNotFound>'{0}' سرویس پیدا نشد</ServiceNotFound>
+    <StopBeforePage>ارائه گزارش متوقف شد!صفخه رسیده{0}.این تابع با مشخصه گزارش چک شده است.برای غیر فعال کردن این مجموع تابع این خصوصیت به 0. </StopBeforePage>
+    <StopFactor> برای غیر فعال کردن این مجموع تابع این خصوصیت به 0 Report.StopFactor ارائه گزارش متوقف شد.شاید انتشار دوباره گزارش اتفاق افتاده.این تابع چک شده با مولفه </StopFactor>
+  </Errors>
+  <Export>
+    <CodePage>صفحه کد:</CodePage>
+    <Color>رنگ</Color>
+    <Compressed>فشرده شده</Compressed>
+    <EmbeddedFonts>خانواده حروف محدود شده</EmbeddedFonts>
+    <Encoding>رمزگذاری:</Encoding>
+    <ExportMode>وضعیت بیرون برنده:</ExportMode>
+    <ExportModeFrame>فریم</ExportModeFrame>
+    <ExportModeTabbedText>Tabbed Text</ExportModeTabbedText>
+    <ExportModeWinWord>WinWord</ExportModeWinWord>
+    <ExportQuality>کیفیت صادره:</ExportQuality>
+    <ExportQualityHigh>بالا</ExportQualityHigh>
+    <ExportQualityLow>پایین</ExportQualityLow>
+    <ExportTypeBmpFile>BMP تصویر</ExportTypeBmpFile>
+    <ExportTypeCsvFile>CSV فایل</ExportTypeCsvFile>
+    <ExportTypeExcelFile>Excel فایل</ExportTypeExcelFile>
+    <ExportTypeExcelXmlFile>Excel Xml فایل</ExportTypeExcelXmlFile>
+    <ExportTypeGifFile>GIF تصویر</ExportTypeGifFile>
+    <ExportTypeHtmlFile>HTML فایل</ExportTypeHtmlFile>
+    <ExportTypeJpegFile>JPEG تصویر</ExportTypeJpegFile>
+    <ExportTypeMetafile>Windows ابرفایل</ExportTypeMetafile>
+    <ExportTypePdfFile>PDF فایل</ExportTypePdfFile>
+    <ExportTypePngFile>PNG تصویر</ExportTypePngFile>
+    <ExportTypeRtfFile>RTF (MS Word) فایل</ExportTypeRtfFile>
+    <ExportTypeTiffFile>TIFF تصویر</ExportTypeTiffFile>
+    <ExportTypeTxtFile>Text فایل</ExportTypeTxtFile>
+    <ExportTypeXmlFile>XML فایل</ExportTypeXmlFile>
+    <ImageCutEdges>حاشیه های بریده شده</ImageCutEdges>
+    <ImageFormat>قالب تصویر:</ImageFormat>
+    <ImageGrayscale>برد سایه روشن</ImageGrayscale>
+    <ImageMonochrome>تک رنگ</ImageMonochrome>
+    <ImageQuality>کیفیت تصویر</ImageQuality>
+    <ImageResolution>شفافیت تصویر:</ImageResolution>
+    <ImageType>نوع تصویر</ImageType>
+    <MoreSettings>تنظیمات بیشتر</MoreSettings>
+    <OpenAfterExport>باز کردن بعد از صادرکردن</OpenAfterExport>
+    <Separator>جداکننده:</Separator>
+    <Settings>تنظیمات</Settings>
+    <StandardPDFFonts>فونت های استاندارد pdf</StandardPDFFonts>
+    <title>تنظیمات صادر شدن:</title>
+    <TxtBorderType>نوع حاشیه:</TxtBorderType>
+    <TxtBorderTypeDouble>Unicode-Double</TxtBorderTypeDouble>
+    <TxtBorderTypeSimple>ساده</TxtBorderTypeSimple>
+    <TxtBorderTypeSingle>Unicode-Single</TxtBorderTypeSingle>
+    <TxtDrawBorder>طراحی حاشیه</TxtDrawBorder>
+    <TxtKillSpaceLines>از بین بردن خط خالی</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>صفحه کد خالی بگذار</TxtPutFeedPageCode>
+    <X>X:</X>
+    <Y>Y:</Y>
+    <Zoom>زوم:</Zoom>
+  </Export>
+  <FileFilters>
+    <BmpFiles>BMP تصویر (*.bmp)|*.bmp</BmpFiles>
+    <CsvFiles>CSV فایلها (*.csv)|*.csv</CsvFiles>
+    <DataSetXmlData>منبع داده XML Data (*.xml)|*.xml</DataSetXmlData>
+    <DataSetXmlSchema>منبع داده XML schema (*.xsd)|*.xsd</DataSetXmlSchema>
+    <DictionaryFiles>دیکشنری فایل ها (*.dct)|*.dct</DictionaryFiles>
+    <DllFiles>DLL فایل های (*.dll)|*.dll</DllFiles>
+    <DocumentFiles>فایل های سند (*.mdc)|*.mdc</DocumentFiles>
+    <EmfFiles>ابر فایل (*.emf)|*.emf</EmfFiles>
+    <ExcelFiles>Excel فایل های (*.xls)|*.xls</ExcelFiles>
+    <ExcelXmlFiles>Excel XML فایل های (*.xls)|*.xls</ExcelXmlFiles>
+    <ExeFiles>EXE فایل های (*.exe)|*.exe</ExeFiles>
+    <GifFiles>GIF تصویر (*.gif)|*.gif</GifFiles>
+    <HtmlFiles>HTML فایل های (*.html)|*.html</HtmlFiles>
+    <JpegFiles>JPEG تصویر (*.jpeg)|*.jpeg</JpegFiles>
+    <LanguageFiles>{0} فایل های (*.{1})|*.{2}</LanguageFiles>
+    <PackedDocumentFiles>فایل های سند بسته بندی شده (*.mdz)|*.mdz</PackedDocumentFiles>
+    <PackedReportFiles>فایل های گزارش بسته بندی شده (*.mrz)|*.mrz</PackedReportFiles>
+    <PageFiles>فایل های صفحه (*.pg)|*.pg</PageFiles>
+    <PdfFiles>Adobe PDF فایل های (*.pdf)|*.pdf</PdfFiles>
+    <PngFiles>PNG تصویر (*.png)|*.png</PngFiles>
+    <ReportFiles>فایل های گزارش (*.mrt)|*.mrt</ReportFiles>
+    <RtfFiles>RTF متن (*.rtf)|*.rtf</RtfFiles>
+    <StylesFiles>فایل های سبک (*.sts)|*.sts</StylesFiles>
+    <TiffFiles>TIFF تصویر (*.tiff)|*.tiff</TiffFiles>
+    <TxtFiles>متن (*.txt)|*.txt</TxtFiles>
+    <XmlFiles>XML فایل های (*.xml)|*.xml</XmlFiles>
+  </FileFilters>
+  <Formats>
+    <custom01>d</custom01>
+    <custom02>D</custom02>
+    <custom03>f</custom03>
+    <custom04>F</custom04>
+    <custom05>yy/MM/dd</custom05>
+    <custom06>yyyy/MM/dd</custom06>
+    <custom07>G</custom07>
+    <date01>*d</date01>
+    <date02>*D</date02>
+    <date03>M.dd</date03>
+    <date04>yy.M.dd</date04>
+    <date05>yy.MM.dd</date05>
+    <date06>MMM.dd</date06>
+    <date07>yy.MMM.dd</date07>
+    <date08>yyyy, MMMM</date08>
+    <date09>*f</date09>
+    <date10>*F</date10>
+    <time01>t</time01>
+    <time02>T</time02>
+  </Formats>
+  <FormBand>
+    <Ascending>صعودی</Ascending>
+    <Descending>نزولی</Descending>
+    <NoSort>بدون مرتب سازی</NoSort>
+    <Sort1>اولین مرتب سازی</Sort1>
+    <Sort2>دومین مرتب سازی</Sort2>
+    <Sort3>سومین مرتب سازی</Sort3>
+    <Sort4>چهارمین مرتب سازی</Sort4>
+    <Sort5>پنجمین مرتب سازی</Sort5>
+    <SortBy>مرتب سازی بر اساس:</SortBy>
+    <title>برپا کردن اطلاعات</title>
+  </FormBand>
+  <FormColorBoxPopup>
+    <Color>رنگ</Color>
+    <Custom>سنت</Custom>
+    <Others>بقیه...</Others>
+    <System>سیستم</System>
+    <Web>وب</Web>
+  </FormColorBoxPopup>
+  <FormCrossTabDesigner>
+    <Columns>ستون ها :</Columns>
+    <DataSource>منبع داده:</DataSource>
+    <Properties>خصوصیات:</Properties>
+    <Rows>ردیف ها:</Rows>
+    <Summary>خلاصه:</Summary>
+    <Swap>تعویض ردیف ها/ستون ها</Swap>
+    <title>Cross-Tab طراح</title>
+  </FormCrossTabDesigner>
+  <FormDatabaseEdit>
+    <ConnectionString>رشته ارتباط:</ConnectionString>
+    <DatabaseName>نام پیگاه داده:</DatabaseName>
+    <FirebirdEdit> Firebird  ویرایش ارتباط</FirebirdEdit>
+    <FirebirdNew>جدید Firebird ارتباط</FirebirdNew>
+    <OdbcEdit> Odbc ویرایش ارتباط</OdbcEdit>
+    <OdbcNew>جدید Odbc ارتباط</OdbcNew>
+    <OleDbEdit> OleDb ویرایش ارتباط</OleDbEdit>
+    <OleDbNew>جدید OleDb ارتباط</OleDbNew>
+    <OracleEdit> Oracle ویرایش ارتباط</OracleEdit>
+    <OracleNew>جدید Oracle ارتباط</OracleNew>
+    <PathData>مسیر XML Data:</PathData>
+    <PathSchema>مسیر XSD Schema:</PathSchema>
+    <PostgreSQLEdit> PostgreSQL ویرایش ارتباط</PostgreSQLEdit>
+    <PostgreSQLNew>جدید PostgreSQL ارتباط</PostgreSQLNew>
+    <SqlEdit> Sql ویرایش ارتباط</SqlEdit>
+    <SqlNew>جدید Sql ارتباط</SqlNew>
+    <XmlEdit> Xml ویرایش داده</XmlEdit>
+    <XmlNew>جدید Xml داده</XmlNew>
+  </FormDatabaseEdit>
+  <FormDesigner>
+    <Code>کد</Code>
+    <CompilingReport>گزارش در حال کامپایل است</CompilingReport>
+    <LocalizePropertyGrid>محلی سازی دریچه خصوصیت</LocalizePropertyGrid>
+    <OrderToolbars>سفارش جعبه ابزار</OrderToolbars>
+    <Pages>صفحات</Pages>
+    <Preview>پیش نمایش</Preview>
+    <PropertyChange>تغییر خصوصیت {0}'</PropertyChange>
+    <SetupToolbox>برپا کردن جعبه ابزار</SetupToolbox>
+    <ShowDescription>نمایش توصیف</ShowDescription>
+    <title>طراح</title>
+  </FormDesigner>
+  <FormDictionaryDesigner>
+    <Actions>اعمال</Actions>
+    <CalcColumnEdit>ویرایش ستون حساب شده</CalcColumnEdit>
+    <CalcColumnNew>ستون حساب شده جدید</CalcColumnNew>
+    <CategoryEdit> ویرایش دسته بندی</CategoryEdit>
+    <CategoryNew>دسته بندی جدید</CategoryNew>
+    <ChildSource>منبع داده فرزند:</ChildSource>
+    <ColumnEdit>ویرایش ستون</ColumnEdit>
+    <ColumnNew>ستون جدید</ColumnNew>
+    <DatabaseEdit>ویرایش پایگاه داده</DatabaseEdit>
+    <DatabaseNew>پایگاه داده جدید</DatabaseNew>
+    <DataSourceEdit>ویرایش منبع داده</DataSourceEdit>
+    <DataSourceNew>منبع داده جدید</DataSourceNew>
+    <DataSourcesNew>منابع داده جدید</DataSourcesNew>
+    <Delete>حذف</Delete>
+    <DictionaryMerge>ادغام دیکشنری...</DictionaryMerge>
+    <DictionaryNew>دیکشنری جدید...</DictionaryNew>
+    <DictionaryOpen>باز کردن دیکشنری...</DictionaryOpen>
+    <DictionarySaveAs>ذخیره دیکشنری با نام...</DictionarySaveAs>
+    <EditQuery>ویرایش </EditQuery>
+    <ExecutedSQLStatementSuccessfully>دستورات sql با موفقیت انجام شد</ExecutedSQLStatementSuccessfully>
+    <ImportRelations>ورود ارتباطات</ImportRelations>
+    <MarkUsedItems>نشانه گذاری موارد استفاده شده</MarkUsedItems>
+    <NewItem>مورد جدید</NewItem>
+    <ParentSource>منبع داده والد:</ParentSource>
+    <QueryText>متن درخواست</QueryText>
+    <RelationEdit>ویرایش ارتباط</RelationEdit>
+    <RelationName>نام ارتباط</RelationName>
+    <RelationNew>ارتباط جدید</RelationNew>
+    <RetrieveColumns>بازیابی ستون ها </RetrieveColumns>
+    <Run>اجرا</Run>
+    <Synchronize>هم زمانی</Synchronize>
+    <SynchronizeHint>همزمان کردن محتویات مخزن داده و محتویات دیکشنری</SynchronizeHint>
+    <title>طراح دیکشنری</title>
+    <VariableEdit>ویرایش متغیر</VariableEdit>
+    <VariableNew>متغیر جدید</VariableNew>
+    <ViewData>نمایش داده</ViewData>
+    <ViewQuery>نمایش درخواست</ViewQuery>
+  </FormDictionaryDesigner>
+  <FormFormatEditor>
+    <Boolean>بولی</Boolean>
+    <BooleanDisplay>نمایش:</BooleanDisplay>
+    <BooleanValue>مقدار:</BooleanValue>
+    <Currency>رواج:</Currency>
+    <CurrencySymbol>نشانه رواج:</CurrencySymbol>
+    <Custom>سنت:</Custom>
+    <Date>تاریخ:</Date>
+    <DecimalDigits>اعداد دهدهی:</DecimalDigits>
+    <DecimalSeparator>جدا کننده دهدهی:</DecimalSeparator>
+    <FormatMask>قالب پوشش:</FormatMask>
+    <Formats>قالب ها</Formats>
+    <General>عموم</General>
+    <GroupSeparator>جداکننده عمومی:</GroupSeparator>
+    <GroupSize>اندازه گروه:</GroupSize>
+    <nameAbsent>غایب</nameAbsent>
+    <nameEmpty>خالی</nameEmpty>
+    <nameEmptyDate>تاریخ خالی</nameEmptyDate>
+    <nameFalse>غلط</nameFalse>
+    <nameNo>خیر</nameNo>
+    <nameNoDate>تاریخ وجود ندارد</nameNoDate>
+    <nameNull>پوچ</nameNull>
+    <nameOff>خاموش</nameOff>
+    <nameOn>روشن</nameOn>
+    <nameTrue>صحیح</nameTrue>
+    <nameYes>بله</nameYes>
+    <NegativePattern>الگوی منفی:</NegativePattern>
+    <NullDisplay>نمایش خالی:</NullDisplay>
+    <Number>عدد</Number>
+    <Percentage>درصد</Percentage>
+    <PercentageSymbol>نماد درصد:</PercentageSymbol>
+    <PositivePattern>الگوی مثبت:</PositivePattern>
+    <Properties>خصوصیات</Properties>
+    <Sample>نمونه</Sample>
+    <SampleText>متن نمونه</SampleText>
+    <TextFormat>قالب متن</TextFormat>
+    <Time>زمان</Time>
+    <title>قالب</title>
+    <UseGroupSeparator>استفاده از جدا کننده گروه</UseGroupSeparator>
+    <UseLocalSetting>استفاده از تنظیمات محلی</UseLocalSetting>
+  </FormFormatEditor>
+  <FormOptions>
+    <Default>پیش فرض</Default>
+    <Drawing>ترسیم</Drawing>
+    <DrawMarkersWhenMoving>ترسیم نشانه گذارها هنگام حرکت</DrawMarkersWhenMoving>
+    <EditAfterInsert>ویرایش بعد از الحاق</EditAfterInsert>
+    <FillBands>پرکردن حاشیه ها</FillBands>
+    <FillComponents>پر کردن مولفه ها</FillComponents>
+    <FillContainers>پر کردن حامل ها</FillContainers>
+    <FillCrossBands>پرکردن نوارهای متقاطع</FillCrossBands>
+    <Grid>پنجره</Grid>
+    <GridDots>نقاط</GridDots>
+    <GridLines>خطوط</GridLines>
+    <GridMode>حالت دریچه</GridMode>
+    <GridSize>اندازه دریچه</GridSize>
+    <MarkersStyle>سبک نشانه گذارها</MarkersStyle>
+    <MarkersStyleCorners>گوشه ها</MarkersStyleCorners>
+    <MarkersStyleDashedRectangle>مستتطیل خط چین</MarkersStyleDashedRectangle>
+    <MarkersStyleNone>هیچ چیز</MarkersStyleNone>
+    <SelectUILanguage>انتخاب زبان واسط کاربر</SelectUILanguage>
+    <title>انتخاب</title>
+    <UseComponentColor>استفاده از مولفه رنگ برای پرکردن </UseComponentColor>
+    <UseLastFormat>استفاده از آخرین قالب</UseLastFormat>
+    <ViewOptions>دید</ViewOptions>
+  </FormOptions>
+  <FormPageSetup>
+    <ApplyTo>به کار بردن برای</ApplyTo>
+    <Bottom>زیر:</Bottom>
+    <Columns>ستون ها</Columns>
+    <Height>ارتفاع:</Height>
+    <Left>چپ:</Left>
+    <Margins>حاشیه ها</Margins>
+    <NumberOfColumns>تعداد ستون:</NumberOfColumns>
+    <Orientation>جهت یابی</Orientation>
+    <PageOrientationLandscape>چشم انداز</PageOrientationLandscape>
+    <PageOrientationPortrait>تصویر</PageOrientationPortrait>
+    <Paper>کاغذ:</Paper>
+    <Right>راست:</Right>
+    <ScaleContent>محتوای قیاس</ScaleContent>
+    <SegmentPerHeight>قطعه هر ارتفاع:</SegmentPerHeight>
+    <SegmentPerWidth>قطعه هر عرض:</SegmentPerWidth>
+    <Size>اندازه:</Size>
+    <title>بر پا کردن صفحه</title>
+    <Top>بالا:</Top>
+    <Width>عرض:</Width>
+  </FormPageSetup>
+  <FormPreview>
+    <Bookmarks>نشانواره ها</Bookmarks>
+    <Close>بستن</Close>
+    <CollapseAll>خرابی همه</CollapseAll>
+    <ExpandAll>گسترش همه</ExpandAll>
+    <Export>صادرات</Export>
+    <FirstPage>صفحه اول</FirstPage>
+    <FullScreen>تمام صفحه</FullScreen>
+    <LastPage>آخرین صفحه</LastPage>
+    <NextPage>صفحه بعد</NextPage>
+    <Open>باز کردن</Open>
+    <PageDelete>حذف صفحه</PageDelete>
+    <PageDesign>ویرایش صفحه</PageDesign>
+    <PageNew>صفحه جدید</PageNew>
+    <PageNofM>صفحه {0} از {1}</PageNofM>
+    <PageNumber>شماره صفحه</PageNumber>
+    <PageSize>سایز صفحه</PageSize>
+    <PageViewModeContinuous>پیوسته</PageViewModeContinuous>
+    <PageViewModeMultiplePages>چند صفحه ای</PageViewModeMultiplePages>
+    <PageViewModeSinglePage>تک صفحه</PageViewModeSinglePage>
+    <PrevPage>صفحه قبل</PrevPage>
+    <Print>چاپ</Print>
+    <qnPageDelete>میخواهید صفحه را پاک کنید؟</qnPageDelete>
+    <Save>ذخیره</Save>
+    <SendEMail>نامه الکترونیکی بفرست</SendEMail>
+    <Thumbnails>کوچک</Thumbnails>
+    <title>پیش نمایش</title>
+    <ToolEditor>ویرایشگر ابزار</ToolEditor>
+    <ToolFind>پیدا کردن ابزار</ToolFind>
+    <ToolHand>دست ابزار</ToolHand>
+    <ToolSelect>انتخاب ابزار</ToolSelect>
+    <Zoom>زوم</Zoom>
+    <ZoomIn>زوم کن به جلو</ZoomIn>
+    <ZoomMultiplePages>صفحات چند تایی</ZoomMultiplePages>
+    <ZoomOnePage>یک صفحه</ZoomOnePage>
+    <ZoomOut>زوم کن به عقب</ZoomOut>
+    <ZoomPageWidth>عرض صفحه</ZoomPageWidth>
+    <ZoomTo100>زوم به 100 درصد</ZoomTo100>
+    <ZoomTwoPages>دوصفحه</ZoomTwoPages>
+    <ZoomXXPages>{0} X {1} صفحات</ZoomXXPages>
+    <ZoomXXPagesCancel>انصراف</ZoomXXPagesCancel>
+  </FormPreview>
+  <FormPreviewFind>
+    <Close>بستن</Close>
+    <FindNext>پیدا کردن بعدی</FindNext>
+    <FindWhat>کدام را پیدا کن:</FindWhat>
+    <title>پیدا کردن</title>
+  </FormPreviewFind>
+  <FormReportSetup>
+    <GenerateNewCode>تولید کد جدید</GenerateNewCode>
+    <ReportChanged>تغییر گزارش:</ReportChanged>
+    <ReportCreated>ایجاد گزارش:</ReportCreated>
+    <title>برپا کردن گزارش</title>
+  </FormReportSetup>
+  <FormRichTextEditor>
+    <Bullets>گلوله</Bullets>
+    <FontName>نام فونت</FontName>
+    <FontSize>اندازه فونت</FontSize>
+    <Insert>ورود عبارت</Insert>
+    <title>Rich Text ویرایشگر</title>
+  </FormRichTextEditor>
+  <FormServicesConfigurator>
+    <AddServices>اضافه کردن سرویس ها</AddServices>
+    <NewServicesAreNotFound>سرویس های جدید پیدا نشد</NewServicesAreNotFound>
+    <RemoveService>سرویس را حذف کنید</RemoveService>
+    <RemoveServiceCategory>دسته بندی را حذف کنید</RemoveServiceCategory>
+    <title>تنظیم سرویس ها </title>
+  </FormServicesConfigurator>
+  <FormStyleDesigner>
+    <Add>اضافه کردن سبک</Add>
+    <CurrentStyle>سبک جاری</CurrentStyle>
+    <Open>باز کردن سبک</Open>
+    <Remove>حذف سبک</Remove>
+    <Save>ذخیره سبک</Save>
+    <Style>سبک</Style>
+    <title>طراح سبک</title>
+  </FormStyleDesigner>
+  <FormTipOfTheDay>
+    <DidYouKnow>آیا شما می دانید</DidYouKnow>
+    <NextTip>&amp;قلم بعدی</NextTip>
+    <ShowTipsOnStartup>نمایش اقلام در شروع</ShowTipsOnStartup>
+    <title>تیپ روز</title>
+  </FormTipOfTheDay>
+  <FormTitles>
+    <ConditionEditorForm>شرط</ConditionEditorForm>
+    <ContainerSelectForm>انتخاب حامل</ContainerSelectForm>
+    <DataAdapterServiceSelectForm>انتخاب نوع داده</DataAdapterServiceSelectForm>
+    <DatabaseSelectForm>انتخاب نوع پایگاه داده</DatabaseSelectForm>
+    <DataRelationSelectForm>انتخاب ارتباط داده</DataRelationSelectForm>
+    <DataSetName>ورود نام مجموعه داده</DataSetName>
+    <DataSourceSelectForm>انتخاب منبع داده</DataSourceSelectForm>
+    <DataSourcesNewForm>منبع داده جدید</DataSourcesNewForm>
+    <DataStoreViewerForm>نمایشگر انبار داده</DataStoreViewerForm>
+    <EventEditorForm>ویرایشگر واقعه</EventEditorForm>
+    <ExpressionEditorForm>ویرایشگر عبارت</ExpressionEditorForm>
+    <HighlightConditionForm>شرط را برجسته کن</HighlightConditionForm>
+    <MasterComponentSelectForm>انتخاب مولفه اصلی</MasterComponentSelectForm>
+    <PageAddForm>اضافه کردن صفحه</PageAddForm>
+    <PageSizeForm>اندازه صفحه</PageSizeForm>
+    <PagesManagerForm>مدیر صفحات</PagesManagerForm>
+    <ServiceSelectForm>انتخاب سرویس</ServiceSelectForm>
+    <SqlExpressionsForm>Sql عبارات</SqlExpressionsForm>
+    <SystemTextEditor>ویرایشگر متن سیستم</SystemTextEditor>
+    <TextEditorForm>ویرایشگر متن</TextEditorForm>
+    <ViewDataForm>داده را ببین</ViewDataForm>
+  </FormTitles>
+  <Help>
+    <Help1> کلید اف4 برای تعویض به درخت دیکشنری را فشار دهید کلیدهای کنترل + ورود را فشار دهید برای خروج از ویرایشگر</Help1>
+    <Help2>  اف4 را برای تعویض به ویرایشگر فشار دهید.کلید الحاق را برای الحاق یک عنصر به دیکشنری فشار دهید. کلید   .</Help2>
+  </Help>
+  <MainMenu>
+    <menuContextClone>تکثیر...</menuContextClone>
+    <menuContextDesign>طراحی...</menuContextDesign>
+    <menuContextTextFormat>قالب متن...</menuContextTextFormat>
+    <menuEdit>&amp;ویرایش</menuEdit>
+    <menuEditCalcColumnNew>ستون حساب شده جدید...</menuEditCalcColumnNew>
+    <menuEditCantRedo>عدم توان دوباره انجام دادن</menuEditCantRedo>
+    <menuEditCantUndo> عدم توان دوباره بازگشتن</menuEditCantUndo>
+    <menuEditCategoryNew>دسته بندی جدید...</menuEditCategoryNew>
+    <menuEditClearContents>پاک کردن محتویات</menuEditClearContents>
+    <menuEditColumnNew>ستون جدید...</menuEditColumnNew>
+    <menuEditCopy>&amp;کپی</menuEditCopy>
+    <menuEditCut>برچیدن</menuEditCut>
+    <menuEditDatabaseNew>پایگاه داده جدید...</menuEditDatabaseNew>
+    <menuEditDataSourceNew>منبع داده جدید....</menuEditDataSourceNew>
+    <menuEditDataSourcesNew>منبع داده جدید...</menuEditDataSourcesNew>
+    <menuEditDelete>&amp;حذف</menuEditDelete>
+    <menuEditEdit>ویرایش</menuEditEdit>
+    <menuEditImportRelations>وارد کردن ارتباط...</menuEditImportRelations>
+    <menuEditPaste>&amp;گذاشتن</menuEditPaste>
+    <menuEditRedo>&amp;دوباره انجام دادن</menuEditRedo>
+    <menuEditRedoText>&amp;دوباره انجام دادن {0}</menuEditRedoText>
+    <menuEditRelationNew>ارتباط جدید</menuEditRelationNew>
+    <menuEditRemoveUnused>حذف موارد استفاده نشده</menuEditRemoveUnused>
+    <menuEditSelectAll>انتخاب همه</menuEditSelectAll>
+    <menuEditSynchronize>هم زمانی</menuEditSynchronize>
+    <menuEditUndo>&amp;بی اثر کردن</menuEditUndo>
+    <menuEditUndoText>&amp;بی اثر کردن {0}</menuEditUndoText>
+    <menuEditVariableNew>متغیر جدید...</menuEditVariableNew>
+    <menuEditViewData>دیدن داده...</menuEditViewData>
+    <menuFile>&amp;فایل</menuFile>
+    <menuFileExit>خروج</menuFileExit>
+    <menuFileExportXMLData>صدور داده xml...</menuFileExportXMLData>
+    <menuFileExportXMLSchema>صدور XML Schema...</menuFileExportXMLSchema>
+    <menuFileFormNew>فرم جدید</menuFileFormNew>
+    <menuFileImportXMLSchema>ورود XML Schema...</menuFileImportXMLSchema>
+    <menuFileMerge>به هم چسباندن</menuFileMerge>
+    <menuFileMergeXMLSchema>ادغام XML Schema...</menuFileMergeXMLSchema>
+    <menuFileNew>جدید</menuFileNew>
+    <menuFileOpen>باز کردن...</menuFileOpen>
+    <menuFilePageDelete>حذف صفحه</menuFilePageDelete>
+    <menuFilePageNew>صفحه جدید</menuFilePageNew>
+    <menuFilePageOpen>باز کردن صفحه...</menuFilePageOpen>
+    <menuFilePageSaveAs>دخیره صفحه به نام...</menuFilePageSaveAs>
+    <menuFilePageSetup>برپا کردن صفحه</menuFilePageSetup>
+    <menuFileReportNew>گزارش جدید</menuFileReportNew>
+    <menuFileReportOpen>باز کردن گزارش</menuFileReportOpen>
+    <menuFileReportPreview>پیش نمایش</menuFileReportPreview>
+    <menuFileReportSave>ذخیره گزارش</menuFileReportSave>
+    <menuFileReportSaveAs>ذخیره گزارش با نام</menuFileReportSaveAs>
+    <menuFileReportSetup>بر پایی گزارش</menuFileReportSetup>
+    <menuFileSaveAs>ذخیره با نام</menuFileSaveAs>
+    <menuHelp>کمک</menuHelp>
+    <menuHelpAboutProgramm>درباره </menuHelpAboutProgramm>
+    <menuHelpContents>محتویات</menuHelpContents>
+    <menuHelpFAQPage>FAQ صفحه</menuHelpFAQPage>
+    <menuHelpHowToRegister>چگونه ثبت نام کنید</menuHelpHowToRegister>
+    <menuHelpProductHomePage>تولید صفحه خانگی</menuHelpProductHomePage>
+    <menuHelpSupport>حمایت</menuHelpSupport>
+    <menuHelpTipOfTheDay>نکته روز...</menuHelpTipOfTheDay>
+    <menuTools>ابزار</menuTools>
+    <menuToolsDataStore>مخزن داده...</menuToolsDataStore>
+    <menuToolsDictionary>دیکشنری...</menuToolsDictionary>
+    <menuToolsOptions>&amp;انتخاب...</menuToolsOptions>
+    <menuToolsPagesManager>&amp;مدیر صفحات...</menuToolsPagesManager>
+    <menuToolsServicesConfigurator>تنظیم کننده خدمات</menuToolsServicesConfigurator>
+    <menuToolsStyleDesigner>طراح سبک</menuToolsStyleDesigner>
+    <menuView>دید</menuView>
+    <menuViewAlignToGrid>هم تراز کردن با پنجره</menuViewAlignToGrid>
+    <menuViewLockDockingPanels>قفل جاخا لی های صفحات</menuViewLockDockingPanels>
+    <menuViewNormal>&amp;عادی</menuViewNormal>
+    <menuViewPageBreakPreview>صفحه جدا کردن پیش نمایش</menuViewPageBreakPreview>
+    <menuViewQuickInfo>اطلاع سریع</menuViewQuickInfo>
+    <menuViewQuickInfoNone>هیچ</menuViewQuickInfoNone>
+    <menuViewQuickInfoOverlay>نمایش مولفه های بیشتر</menuViewQuickInfoOverlay>
+    <menuViewQuickInfoShowComponentsNames>نمایش نام مولفه ها</menuViewQuickInfoShowComponentsNames>
+    <menuViewQuickInfoShowContent>نمایش محتوا</menuViewQuickInfoShowContent>
+    <menuViewQuickInfoShowEvents>نمایش وقایع</menuViewQuickInfoShowEvents>
+    <menuViewQuickInfoShowFields>نمایش زمینه ها</menuViewQuickInfoShowFields>
+    <menuViewQuickInfoShowFieldsOnly>فقط نمایش زمینه ها</menuViewQuickInfoShowFieldsOnly>
+    <menuViewShowGrid>نمایش پنجره</menuViewShowGrid>
+    <menuViewShowHeaders>نمایش سرصفحه</menuViewShowHeaders>
+    <menuViewShowOrder>نمایش سفارش</menuViewShowOrder>
+    <menuViewShowRulers>نمایش خطکش ها</menuViewShowRulers>
+    <menuViewTableMode>حالت جدول</menuViewTableMode>
+    <menuViewToolbars>نوار ابزار</menuViewToolbars>
+  </MainMenu>
+  <Panels>
+    <Dictionary>دیکشنری</Dictionary>
+    <Messages>پیغام ها</Messages>
+    <Properties>خصوصیات</Properties>
+    <ReportTree>درخت گزارش</ReportTree>
+  </Panels>
+  <PropertyCategory>
+    <AppearanceCategory>ظاهر</AppearanceCategory>
+    <BehaviorCategory>رفتار</BehaviorCategory>
+    <ChartCategory>نمودار</ChartCategory>
+    <ColorsCategory>رنگ ها</ColorsCategory>
+    <ColumnsCategory>ستون ها</ColumnsCategory>
+    <ControlCategory>کنترل</ControlCategory>
+    <ControlsEventsCategory>کنترل کردن وقایع</ControlsEventsCategory>
+    <DataCategory>داده</DataCategory>
+    <DesignCategory>طراحی</DesignCategory>
+    <DisplayCategory>نمایش</DisplayCategory>
+    <LayoutCategory>طرح بندی</LayoutCategory>
+    <MainCategory>اصلی</MainCategory>
+    <MarkerCategory>نشانه گذار</MarkerCategory>
+    <MiscCategory>مختلف</MiscCategory>
+    <MouseEventsCategory>وقایع موس</MouseEventsCategory>
+    <NavigationCategory>شناور بودن</NavigationCategory>
+    <NavigationEventsCategory>وقایع شناور بودن</NavigationEventsCategory>
+    <OptionsCategory>انتخاب ها</OptionsCategory>
+    <ParametersCategory>پارامتر</ParametersCategory>
+    <PositionCategory>موقعیت</PositionCategory>
+    <PrintEventsCategory>چاپ وقایع</PrintEventsCategory>
+    <RenderEventsCategory>ارائه وقایع</RenderEventsCategory>
+    <ReportStopCategory>توقف گزارش</ReportStopCategory>
+    <StylesCategory>سبک ها</StylesCategory>
+    <ValueEventsCategory>مقدار وقایع</ValueEventsCategory>
+  </PropertyCategory>
+  <PropertyColor>
+    <AliceBlue>آبی آلیسی</AliceBlue>
+    <AntiqueWhite>سفید باستانی</AntiqueWhite>
+    <Aqua>اب و زلال</Aqua>
+    <Aquamarine>زرد کبود</Aquamarine>
+    <Azure>لاجوردی</Azure>
+    <Beige>قهوه ای مایل به زرد</Beige>
+    <Bisque>رنگ گوشت پخته</Bisque>
+    <Black>مشکی</Black>
+    <BlanchedAlmond>بادامی کمرنگ</BlanchedAlmond>
+    <Blue>ابی</Blue>
+    <BlueViolet>آبی مایل به بنفش</BlueViolet>
+    <Brown>قهوه ای</Brown>
+    <BurlyWood>قهوه ای گره دار</BurlyWood>
+    <CadetBlue>آبی افسری</CadetBlue>
+    <Chartreuse>سبز زرد</Chartreuse>
+    <Chocolate>شکلاتی</Chocolate>
+    <Coral>مرجانی</Coral>
+    <CornflowerBlue>آبی روشن</CornflowerBlue>
+    <Cornsilk>ابریشمی دانه دار</Cornsilk>
+    <Crimson>قرمز لاکی</Crimson>
+    <Cyan>آبی مایل به سبز</Cyan>
+    <DarkBlue>آبی تیره</DarkBlue>
+    <DarkCyan>آبی مایل به سبز تیره</DarkCyan>
+    <DarkGoldenrod>طلایی تیره</DarkGoldenrod>
+    <DarkGray>خاکستری تیره</DarkGray>
+    <DarkGreen>سبز تیره</DarkGreen>
+    <DarkKhaki>خاکی تیره</DarkKhaki>
+    <DarkMagenta>سرخ تیره</DarkMagenta>
+    <DarkOliveGreen>سبز زیتونی تیره</DarkOliveGreen>
+    <DarkOrange>نارنجی تیره</DarkOrange>
+    <DarkOrchid>ارغوانی تیره</DarkOrchid>
+    <DarkRed>قرمز تیره</DarkRed>
+    <DarkSalmon>قزل آلایی تیره</DarkSalmon>
+    <DarkSeaGreen>سبز دریای تیره</DarkSeaGreen>
+    <DarkSlateBlue>آبی سنگی تیره</DarkSlateBlue>
+    <DarkSlateGray>خاکستری سنگی تیره</DarkSlateGray>
+    <DarkTurquoise>فیروزه ای تیره</DarkTurquoise>
+    <DarkViolet>بنفش تیره</DarkViolet>
+    <DeepPink>صورتی ژرف </DeepPink>
+    <DeepSkyBlue>آبی آسمانی ژرف</DeepSkyBlue>
+    <DimGray>خاکستری تار</DimGray>
+    <DodgerBlue>آبی خال دار</DodgerBlue>
+    <Firebrick>آجری</Firebrick>
+    <FloralWhite>سفید گلدار</FloralWhite>
+    <ForestGreen>سبز جنگلی</ForestGreen>
+    <Fuchsia>فوکسید</Fuchsia>
+    <Gainsboro>خاکستری</Gainsboro>
+    <GhostWhite>سفید روحی</GhostWhite>
+    <Gold>طلایی</Gold>
+    <Goldenrod>زرد طلایی</Goldenrod>
+    <Gray>خاکستری</Gray>
+    <Green>سبز</Green>
+    <GreenYellow>زرد سبز</GreenYellow>
+    <Honeydew>عسلی</Honeydew>
+    <HotPink>صورتی تند</HotPink>
+    <IndianRed>قرمز هندی</IndianRed>
+    <Indigo>نیلی</Indigo>
+    <Ivory>عاجی</Ivory>
+    <Khaki>خاکی</Khaki>
+    <Lavender>سنبلی</Lavender>
+    <LavenderBlush>سنبلی مایل به سرخ</LavenderBlush>
+    <LawnGreen>سبز چمنی</LawnGreen>
+    <LemonChiffon>ابریشمی لیمویی</LemonChiffon>
+    <LightBlue>آبی روشن</LightBlue>
+    <LightCoral>مرجانی روشن</LightCoral>
+    <LightCyan>آبی مایل به سبز روشن</LightCyan>
+    <LightGoldenrodYellow>زرد طلایی روشن</LightGoldenrodYellow>
+    <LightGray>خاکستری روشن</LightGray>
+    <LightGreen>سبز روشن</LightGreen>
+    <LightPink>صورتی روشن</LightPink>
+    <LightSalmon>قزل الایی روشن</LightSalmon>
+    <LightSeaGreen>سبز دریایی روشن</LightSeaGreen>
+    <LightSkyBlue>آبی آسمانی روشن</LightSkyBlue>
+    <LightSlateGray>خاکستری رنگی روشن</LightSlateGray>
+    <LightSteelBlue>آبی پولادی روشن</LightSteelBlue>
+    <LightYellow>زرد روشن</LightYellow>
+    <Lime>آهکی</Lime>
+    <LimeGreen>سبز آهکی</LimeGreen>
+    <Linen>کتانی</Linen>
+    <Magenta>مایل به سرخ</Magenta>
+    <Maroon>بلوطی</Maroon>
+    <MediumAquamarine>فام متوسط</MediumAquamarine>
+    <MediumBlue>آبی متوسط</MediumBlue>
+    <MediumOrchid>ارغوانی متوسط</MediumOrchid>
+    <MediumPurple>بنفش متوسط</MediumPurple>
+    <MediumSeaGreen>سبز دریایی متوسط</MediumSeaGreen>
+    <MediumSlateBlue>آبی سنگی متوسط</MediumSlateBlue>
+    <MediumSpringGreen>سبز بهاری متوسط</MediumSpringGreen>
+    <MediumTurquoise>فیروزه ای متوسط</MediumTurquoise>
+    <MediumVioletRed>قرمز بنفش متوسط</MediumVioletRed>
+    <MidnightBlue>آبی نیمه شب</MidnightBlue>
+    <MintCream>کرمی ناخالص</MintCream>
+    <MistyRose>سرخ مه دار</MistyRose>
+    <Moccasin>پوست ماری</Moccasin>
+    <NavajoWhite>متمایل به سفید</NavajoWhite>
+    <Navy>دریایی</Navy>
+    <OldLace>توری کهنه</OldLace>
+    <Olive>زیتونی</Olive>
+    <OliveDrab>خاکستری زیتونی</OliveDrab>
+    <Orange>نارنجی</Orange>
+    <OrangeRed>قرمز نارنجی</OrangeRed>
+    <Orchid>ارغوانی</Orchid>
+    <PaleGoldenrod>زردطلایی کمرنگ</PaleGoldenrod>
+    <PaleGreen>سبز میله ای</PaleGreen>
+    <PaleTurquoise>قزل آلای میله ای</PaleTurquoise>
+    <PaleVioletRed>قرمز بنفش میله ای</PaleVioletRed>
+    <PapayaWhip>عنبه ای</PapayaWhip>
+    <PeachPuff>هلویی</PeachPuff>
+    <Peru>Peru</Peru>
+    <Pink>صورتی</Pink>
+    <Plum>گوجه ای</Plum>
+    <PowderBlue>آبی پودری</PowderBlue>
+    <Purple>ارغوانی</Purple>
+    <Red>قرمز</Red>
+    <RosyBrown>قهوه ای سرخ رنگ</RosyBrown>
+    <RoyalBlue>آبی سلطنتی</RoyalBlue>
+    <SaddleBrown>قهوه ای زین اسبی</SaddleBrown>
+    <Salmon>قزل آلایی</Salmon>
+    <SandyBrown>قهوه ای ماسه ای</SandyBrown>
+    <SeaGreen>سبز دریایی</SeaGreen>
+    <SeaShell>سبوسی دریایی</SeaShell>
+    <Sienna>قهوهای مایل به زرد</Sienna>
+    <Silver>نقره ای</Silver>
+    <SkyBlue>آبی آسمانی</SkyBlue>
+    <SlateBlue>آبی سنگی</SlateBlue>
+    <SlateGray>خاکستری سنگی</SlateGray>
+    <Snow>برفی</Snow>
+    <SpringGreen>سبز بهاری</SpringGreen>
+    <SteelBlue>آبی استیلی</SteelBlue>
+    <Tan>برنزه</Tan>
+    <Teal>مرغابی</Teal>
+    <Thistle>خاری</Thistle>
+    <Tomato>گوجه ای</Tomato>
+    <Transparent>شفاف</Transparent>
+    <Turquoise>فیروزه ای</Turquoise>
+    <Violet>بنفش</Violet>
+    <Wheat>گندمی</Wheat>
+    <White>سفید</White>
+    <WhiteSmoke>سفید دودی</WhiteSmoke>
+    <Yellow>زرد</Yellow>
+    <YellowGreen>سبز زردی</YellowGreen>
+  </PropertyColor>
+  <PropertyEnum>
+    <boolFalse>غلط</boolFalse>
+    <boolTrue>صحیح</boolTrue>
+    <BorderStyleFixed3D>ثابت سه بعدی</BorderStyleFixed3D>
+    <BorderStyleFixedSingle>تنهای  ثابت</BorderStyleFixedSingle>
+    <BorderStyleNone>هیچ</BorderStyleNone>
+    <ComboBoxStyleDropDown>کشش به پایین</ComboBoxStyleDropDown>
+    <ComboBoxStyleDropDownList> لیست کشش به پایین</ComboBoxStyleDropDownList>
+    <ComboBoxStyleSimple>ساده</ComboBoxStyleSimple>
+    <ContentAlignmentBottomCenter>مرکز پایین</ContentAlignmentBottomCenter>
+    <ContentAlignmentBottomLeft>چپ پایین</ContentAlignmentBottomLeft>
+    <ContentAlignmentBottomRight>راست پایین</ContentAlignmentBottomRight>
+    <ContentAlignmentMiddleCenter>مرکز وسط</ContentAlignmentMiddleCenter>
+    <ContentAlignmentMiddleLeft>جپ وسط</ContentAlignmentMiddleLeft>
+    <ContentAlignmentMiddleRight>راست وسط</ContentAlignmentMiddleRight>
+    <ContentAlignmentTopCenter>مرکز بالا</ContentAlignmentTopCenter>
+    <ContentAlignmentTopLeft>چپ بالا</ContentAlignmentTopLeft>
+    <ContentAlignmentTopRight>راست بالا</ContentAlignmentTopRight>
+    <DataGridLineStyleNone>هیچ</DataGridLineStyleNone>
+    <DataGridLineStyleSolid>قوی و پر</DataGridLineStyleSolid>
+    <DateTimePickerFormatCustom>سنتی</DateTimePickerFormatCustom>
+    <DateTimePickerFormatLong>بلند</DateTimePickerFormatLong>
+    <DateTimePickerFormatShort>کوتاه</DateTimePickerFormatShort>
+    <DateTimePickerFormatTime>زمان</DateTimePickerFormatTime>
+    <DialogResultAbort>قطع کن</DialogResultAbort>
+    <DialogResultCancel>انصراف</DialogResultCancel>
+    <DialogResultIgnore>بگذر</DialogResultIgnore>
+    <DialogResultNo>خیر</DialogResultNo>
+    <DialogResultNone>هیچ</DialogResultNone>
+    <DialogResultOK>تایید</DialogResultOK>
+    <DialogResultRetry>دوباره سعی کردن</DialogResultRetry>
+    <DialogResultYes>بله</DialogResultYes>
+    <DockStyleBottom>پایین</DockStyleBottom>
+    <DockStyleFill>پر کردن</DockStyleFill>
+    <DockStyleLeft>چپ</DockStyleLeft>
+    <DockStyleNone>هیچ</DockStyleNone>
+    <DockStyleRight>راست</DockStyleRight>
+    <DockStyleTop>بالا</DockStyleTop>
+    <FormStartPositionCenterParent>والد مرکزی</FormStartPositionCenterParent>
+    <FormStartPositionCenterScreen>صفحه مرکزی</FormStartPositionCenterScreen>
+    <FormStartPositionManual>دستی</FormStartPositionManual>
+    <FormStartPositionWindowsDefaultBounds>مرزهای پیش فرض پنجره</FormStartPositionWindowsDefaultBounds>
+    <FormStartPositionWindowsDefaultLocation>مکان پیش فرض پنجره</FormStartPositionWindowsDefaultLocation>
+    <FormWindowStateMaximized>بیشینه شده</FormWindowStateMaximized>
+    <FormWindowStateMinimized>کمینه شده</FormWindowStateMinimized>
+    <FormWindowStateNormal>عادی</FormWindowStateNormal>
+    <HorizontalAlignmentCenter>مرکز</HorizontalAlignmentCenter>
+    <HorizontalAlignmentLeft>چپ</HorizontalAlignmentLeft>
+    <HorizontalAlignmentRight>راست</HorizontalAlignmentRight>
+    <HotkeyPrefixHide>پنهان کردن</HotkeyPrefixHide>
+    <HotkeyPrefixNone>هیچ</HotkeyPrefixNone>
+    <HotkeyPrefixShow>نمایش دادن</HotkeyPrefixShow>
+    <LeftRightAlignmentLeft>چپ</LeftRightAlignmentLeft>
+    <LeftRightAlignmentRight>راست</LeftRightAlignmentRight>
+    <PictureBoxSizeModeAutoSize>اندازه اتوماتیکی</PictureBoxSizeModeAutoSize>
+    <PictureBoxSizeModeCenterImage>تصویر مرکزی</PictureBoxSizeModeCenterImage>
+    <PictureBoxSizeModeNormal>عادی</PictureBoxSizeModeNormal>
+    <PictureBoxSizeModeStretchImage>تصویر را بکش</PictureBoxSizeModeStretchImage>
+    <RightToLeftInherit>به ارث بردن</RightToLeftInherit>
+    <RightToLeftNo>خیر</RightToLeftNo>
+    <RightToLeftYes>بله</RightToLeftYes>
+    <SelectionModeMultiExtended>چند گستره</SelectionModeMultiExtended>
+    <SelectionModeMultiSimple>چند سادگی</SelectionModeMultiSimple>
+    <SelectionModeNone>هیچ</SelectionModeNone>
+    <SelectionModeOne>یک</SelectionModeOne>
+    <StiAngleAngle0>0 درجه</StiAngleAngle0>
+    <StiAngleAngle180>180 درجه</StiAngleAngle180>
+    <StiAngleAngle270>270 درجه</StiAngleAngle270>
+    <StiAngleAngle45>45 درجه</StiAngleAngle45>
+    <StiAngleAngle90>90 درجه</StiAngleAngle90>
+    <StiArrowStyleLines>خطوط</StiArrowStyleLines>
+    <StiArrowStyleNone>هیچ</StiArrowStyleNone>
+    <StiArrowStyleTriangle>مثلث</StiArrowStyleTriangle>
+    <StiBorderSidesAll>همه</StiBorderSidesAll>
+    <StiBorderSidesBottom>پایین</StiBorderSidesBottom>
+    <StiBorderSidesLeft>چپ</StiBorderSidesLeft>
+    <StiBorderSidesNone>هیچ</StiBorderSidesNone>
+    <StiBorderSidesRight>راست</StiBorderSidesRight>
+    <StiBorderSidesTop>بالا</StiBorderSidesTop>
+    <StiBorderStyleBump>ضربت</StiBorderStyleBump>
+    <StiBorderStyleEtched>منقوش</StiBorderStyleEtched>
+    <StiBorderStyleFlat>یک دست</StiBorderStyleFlat>
+    <StiBorderStyleNone>هیچ</StiBorderStyleNone>
+    <StiBorderStyleRaised>ترفیع</StiBorderStyleRaised>
+    <StiBorderStyleRaisedInner>ترفیع داخلی</StiBorderStyleRaisedInner>
+    <StiBorderStyleRaisedOuter>ترفیع خارجی</StiBorderStyleRaisedOuter>
+    <StiBorderStyleSunken>فرو رفته</StiBorderStyleSunken>
+    <StiBorderStyleSunkenInner>فرورفته داخلی</StiBorderStyleSunkenInner>
+    <StiBorderStyleSunkenOuter>فرورفته خارجی</StiBorderStyleSunkenOuter>
+    <StiCheckStyleCheck>چک کردن</StiCheckStyleCheck>
+    <StiCheckStyleCross>پیوند</StiCheckStyleCross>
+    <StiCheckSumNo>خیر</StiCheckSumNo>
+    <StiCheckSumYes>بالا</StiCheckSumYes>
+    <StiColumnDirectionAcrossThenDown>سرتاسر سپس پایین</StiColumnDirectionAcrossThenDown>
+    <StiColumnDirectionDownThenAcross>پایین سپس سرتاسر</StiColumnDirectionDownThenAcross>
+    <StiEmptySizeModeAlignFooterToBottom>تنظیم زیرنویس به پایین</StiEmptySizeModeAlignFooterToBottom>
+    <StiEmptySizeModeAlignFooterToTop>تنظیم زیرنویس به بالا</StiEmptySizeModeAlignFooterToTop>
+    <StiEmptySizeModeDecreaseLastRow>کاهش آخرین ردیف</StiEmptySizeModeDecreaseLastRow>
+    <StiEmptySizeModeIncreaseLastRow>افزایش آخرین ردیف</StiEmptySizeModeIncreaseLastRow>
+    <StiHorAlignmentCenter>مرکز</StiHorAlignmentCenter>
+    <StiHorAlignmentLeft>چپ</StiHorAlignmentLeft>
+    <StiHorAlignmentRight>راست</StiHorAlignmentRight>
+    <StiLabelsPlacementNone>هیچ</StiLabelsPlacementNone>
+    <StiLabelsPlacementOneLine>یک خط</StiLabelsPlacementOneLine>
+    <StiLabelsPlacementTwoLines>دو خط</StiLabelsPlacementTwoLines>
+    <StiLegendDirectionLeftToRight>چپ به راست</StiLegendDirectionLeftToRight>
+    <StiLegendDirectionRightToLeft>راست به چپ</StiLegendDirectionRightToLeft>
+    <StiLegendDirectionTopToBottom>بالا به پایین</StiLegendDirectionTopToBottom>
+    <StiLegendHorAlignmentCenter>مرکز</StiLegendHorAlignmentCenter>
+    <StiLegendHorAlignmentLeft>چپ</StiLegendHorAlignmentLeft>
+    <StiLegendHorAlignmentLeftOutside>چپ بیرون</StiLegendHorAlignmentLeftOutside>
+    <StiLegendHorAlignmentRight>راست</StiLegendHorAlignmentRight>
+    <StiLegendHorAlignmentRightOutside>راست بیرون</StiLegendHorAlignmentRightOutside>
+    <StiLegendVertAlignmentBottom>پایین</StiLegendVertAlignmentBottom>
+    <StiLegendVertAlignmentBottomOutside>پایین بیرون</StiLegendVertAlignmentBottomOutside>
+    <StiLegendVertAlignmentCenter>مرکز</StiLegendVertAlignmentCenter>
+    <StiLegendVertAlignmentTop>بالا</StiLegendVertAlignmentTop>
+    <StiLegendVertAlignmentTopOutside>بالا بیرون</StiLegendVertAlignmentTopOutside>
+    <StiMarkerAlignmentLeft>چپ</StiMarkerAlignmentLeft>
+    <StiMarkerAlignmentRight>راست</StiMarkerAlignmentRight>
+    <StiPageOrientationLandscape>چشم انداز</StiPageOrientationLandscape>
+    <StiPageOrientationPortrait>تصویر</StiPageOrientationPortrait>
+    <StiPenStyleDash>خط تیره</StiPenStyleDash>
+    <StiPenStyleDashDot>خط چین</StiPenStyleDashDot>
+    <StiPenStyleDashDotDot>خط دو نقطه</StiPenStyleDashDotDot>
+    <StiPenStyleDot>نقطه</StiPenStyleDot>
+    <StiPenStyleNone>هیچ</StiPenStyleNone>
+    <StiPenStyleSolid>تو پر</StiPenStyleSolid>
+    <StiPlesseyCheckSumNone>هیچ</StiPlesseyCheckSumNone>
+    <StiPrintOnEvenOddPagesTypeIgnore>گذر کردن</StiPrintOnEvenOddPagesTypeIgnore>
+    <StiPrintOnEvenOddPagesTypePrintOnEvenPages>چاپ صفحات زوج</StiPrintOnEvenOddPagesTypePrintOnEvenPages>
+    <StiPrintOnEvenOddPagesTypePrintOnOddPages>چاپ صفحات فرد</StiPrintOnEvenOddPagesTypePrintOnOddPages>
+    <StiProcessingDuplicatesTypeHide>پنهان</StiProcessingDuplicatesTypeHide>
+    <StiProcessingDuplicatesTypeMerge>ادغام</StiProcessingDuplicatesTypeMerge>
+    <StiProcessingDuplicatesTypeNone>هیچ</StiProcessingDuplicatesTypeNone>
+    <StiReportUnitTypeCentimeters>سانتیمتر</StiReportUnitTypeCentimeters>
+    <StiReportUnitTypeHundredthsOfInch>یک صدم اینچ</StiReportUnitTypeHundredthsOfInch>
+    <StiReportUnitTypeInches>اینچ</StiReportUnitTypeInches>
+    <StiReportUnitTypeMillimeters>میلیمتر</StiReportUnitTypeMillimeters>
+    <StiReportUnitTypePixels>پیکسل</StiReportUnitTypePixels>
+    <StiSeriesSortAscending>صعودی</StiSeriesSortAscending>
+    <StiSeriesSortDescending>نزولی</StiSeriesSortDescending>
+    <StiSeriesSortNone>هیچ</StiSeriesSortNone>
+    <StiShapeDirectionDown>پایین</StiShapeDirectionDown>
+    <StiShapeDirectionLeft>چپ</StiShapeDirectionLeft>
+    <StiShapeDirectionRight>راست</StiShapeDirectionRight>
+    <StiShapeDirectionUp>بالا</StiShapeDirectionUp>
+    <StiShiftModeDecreasingSize>اندازه نزولی</StiShiftModeDecreasingSize>
+    <StiShiftModeIncreasingSize>اندازه صعودی</StiShiftModeIncreasingSize>
+    <StiShiftModeNone>هیچ</StiShiftModeNone>
+    <StiShiftModeOnlyInWidthOfComponent>فقط در عرض مولفه</StiShiftModeOnlyInWidthOfComponent>
+    <StiSortDirectionAsc>صعودی</StiSortDirectionAsc>
+    <StiSortDirectionDesc>نزولی</StiSortDirectionDesc>
+    <StiSortDirectionNone>هیچ</StiSortDirectionNone>
+    <StiSortType>بوسیله نمایش مقدار</StiSortType>
+    <StiSortTypeByDisplayValue>با نمایش مقدار</StiSortTypeByDisplayValue>
+    <StiSortTypeByValue>بوسیله مقدار</StiSortTypeByValue>
+    <StiTextHorAlignmentCenter>مرکز</StiTextHorAlignmentCenter>
+    <StiTextHorAlignmentLeft>چپ</StiTextHorAlignmentLeft>
+    <StiTextHorAlignmentRight>راست</StiTextHorAlignmentRight>
+    <StiTextHorAlignmentWidth>عرض</StiTextHorAlignmentWidth>
+    <StiVertAlignmentBottom>پایین</StiVertAlignmentBottom>
+    <StiVertAlignmentCenter>مرکز</StiVertAlignmentCenter>
+    <StiVertAlignmentTop>بالا</StiVertAlignmentTop>
+    <StiViewModeNormal>عادی</StiViewModeNormal>
+    <StiViewModePageBreakPreview>صفحه را در پیش نمایش جدا کنید</StiViewModePageBreakPreview>
+    <StringAlignmentCenter>مرکز</StringAlignmentCenter>
+    <StringAlignmentFar>دور</StringAlignmentFar>
+    <StringAlignmentNear>نزدیک</StringAlignmentNear>
+    <StringTrimmingCharacter>کاراکتر</StringTrimmingCharacter>
+    <StringTrimmingEllipsisCharacter>حذف کاراکتر</StringTrimmingEllipsisCharacter>
+    <StringTrimmingEllipsisPath>حذف مسیر</StringTrimmingEllipsisPath>
+    <StringTrimmingEllipsisWord>حذف کلمه</StringTrimmingEllipsisWord>
+    <StringTrimmingNone>هیچ</StringTrimmingNone>
+    <StringTrimmingWord>کلمه</StringTrimmingWord>
+  </PropertyEnum>
+  <PropertyEvents>
+    <AfterPrintEvent>بعد از چاپ</AfterPrintEvent>
+    <BeforePrintEvent>قبل از چاپ</BeforePrintEvent>
+    <BeginRenderEvent>شروع ارائه</BeginRenderEvent>
+    <CheckedChangedEvent>تغییر چک شده</CheckedChangedEvent>
+    <ClickEvent>کلیک</ClickEvent>
+    <ClosedFormEvent>فرم بسته شد</ClosedFormEvent>
+    <ClosingFormEvent>فرم در حال بسته شدن</ClosingFormEvent>
+    <ColumnBeginRenderEvent>ستون شروع ارائه</ColumnBeginRenderEvent>
+    <ColumnEndRenderEvent>ستون پایان ارائه</ColumnEndRenderEvent>
+    <EndRenderEvent>پایان ارائه</EndRenderEvent>
+    <EnterEvent>ورود</EnterEvent>
+    <GetBookmarkEvent>نشانواره را بده</GetBookmarkEvent>
+    <GetCrossValueEvent>مقدار تقاطع را بده</GetCrossValueEvent>
+    <GetDisplayCrossValueEvent>مقدار نمایش تقاطع را بده</GetDisplayCrossValueEvent>
+    <GetHyperlinkEvent>دادن ابر لینک</GetHyperlinkEvent>
+    <GetImageURLEvent> را بده URLتصویر </GetImageURLEvent>
+    <GetTagEvent>دادن نشانه</GetTagEvent>
+    <GetToolTipEvent>نکته ابزار را بده</GetToolTipEvent>
+    <GetValueEvent>دادن مقدار</GetValueEvent>
+    <LeaveEvent>ترک کردن</LeaveEvent>
+    <LoadFormEvent>بارکردن فرم</LoadFormEvent>
+    <MouseDownEvent>پایین آمدن موس</MouseDownEvent>
+    <MouseEnterEvent>ورود موس</MouseEnterEvent>
+    <MouseLeaveEvent>ترک موس</MouseLeaveEvent>
+    <MouseMoveEvent>حرکت موس</MouseMoveEvent>
+    <MouseUpEvent>بالا آمدن موس</MouseUpEvent>
+    <PositionChangedEvent>مکان تییر یافته</PositionChangedEvent>
+    <RenderingEvent>در حال ارائه</RenderingEvent>
+    <SelectedIndexChangedEvent>تغییر نشانه انتخاب شده</SelectedIndexChangedEvent>
+    <StateRestoreEvent>بازیابی حالت</StateRestoreEvent>
+    <StateSaveEvent>ذخیره حالت</StateSaveEvent>
+    <ValueChangedEvent>مقدار عوض شده</ValueChangedEvent>
+  </PropertyEvents>
+  <PropertyHatchStyle>
+    <BackwardDiagonal>قطری به عقب</BackwardDiagonal>
+    <Cross>پیوند</Cross>
+    <DarkDownwardDiagonal>قطری به عقب تیره</DarkDownwardDiagonal>
+    <DarkHorizontal>افقی تیره</DarkHorizontal>
+    <DarkUpwardDiagonal>قطری به طرف بالا تیره</DarkUpwardDiagonal>
+    <DarkVertical>عمودی تیره</DarkVertical>
+    <DashedDownwardDiagonal>قطری به سمت پایین خط تیره</DashedDownwardDiagonal>
+    <DashedHorizontal>افقی خط تیره</DashedHorizontal>
+    <DashedUpwardDiagonal>قطری به سمت بالا خط تیره</DashedUpwardDiagonal>
+    <DashedVertical>عمودی خط تیره</DashedVertical>
+    <DiagonalBrick>قطری گوشه گرد</DiagonalBrick>
+    <DiagonalCross>متقاطع قطری</DiagonalCross>
+    <Divot>Divot</Divot>
+    <DottedDiamond>لوزی نقطه ای</DottedDiamond>
+    <DottedGrid>پنجره ای نقطه ای</DottedGrid>
+    <ForwardDiagonal>قطری رو به جلو</ForwardDiagonal>
+    <Horizontal>افقی</Horizontal>
+    <HorizontalBrick>گوشه گرد افقی</HorizontalBrick>
+    <LargeCheckerBoard>تخته چک کننده بزرگ</LargeCheckerBoard>
+    <LargeConfetti>نقطه ای بزرگ</LargeConfetti>
+    <LargeGrid>پنجره ای بزرگ</LargeGrid>
+    <LightDownwardDiagonal>قطری رو به پایین روشن</LightDownwardDiagonal>
+    <LightHorizontal>افقی روشن</LightHorizontal>
+    <LightUpwardDiagonal>قطری رو به بالا روشن</LightUpwardDiagonal>
+    <LightVertical>عمودی روشن</LightVertical>
+    <NarrowHorizontal>افقی باریک</NarrowHorizontal>
+    <NarrowVertical>عمودی باریک</NarrowVertical>
+    <OutlinedDiamond>لوزی خلاصه شده</OutlinedDiamond>
+    <Percent05>درصد05</Percent05>
+    <Percent10>درصد10</Percent10>
+    <Percent20>درصد20</Percent20>
+    <Percent25>درصد25</Percent25>
+    <Percent30>درصد30</Percent30>
+    <Percent40>درصد40</Percent40>
+    <Percent50>درصد50</Percent50>
+    <Percent60>درصد60</Percent60>
+    <Percent70>درصد70</Percent70>
+    <Percent75>درصد75</Percent75>
+    <Percent80>درصد80</Percent80>
+    <Percent90>درصد90</Percent90>
+    <Plaid>شطرنجی</Plaid>
+    <Shingle>پوشاندن</Shingle>
+    <SmallCheckerBoard>تخته چک کننده کوچک</SmallCheckerBoard>
+    <SmallConfetti>نقلی کوچک</SmallConfetti>
+    <SmallGrid>پنجره کوچک</SmallGrid>
+    <SolidDiamond>لوزی تو پر</SolidDiamond>
+    <Sphere>کروی</Sphere>
+    <Trellis>شبکه ای</Trellis>
+    <Vertical>عمودی</Vertical>
+    <Weave>بافتنی</Weave>
+    <WideDownwardDiagonal>قطری رو به پایین پهن</WideDownwardDiagonal>
+    <WideUpwardDiagonal>قطری رو به بالا پهن</WideUpwardDiagonal>
+    <ZigZag>زیک زاک</ZigZag>
+  </PropertyHatchStyle>
+  <PropertyMain>
+    <AcceptsReturn>بازگشت قبول شد </AcceptsReturn>
+    <AcceptsTab>جدول بندی قبول شد</AcceptsTab>
+    <AggregateFunction>توابع متراکم</AggregateFunction>
+    <AggregateFunctions>توابع متراکم</AggregateFunctions>
+    <Alias>نام مستعار</Alias>
+    <Alignment>هم ترازی</Alignment>
+    <AllowSorting>اجازه مرتب سازی</AllowSorting>
+    <AlternatingBackColor>جایگزینی رنگ پیش زمینه</AlternatingBackColor>
+    <Angle>زاویه</Angle>
+    <Antialiasing>خوشنماسازی</Antialiasing>
+    <Area>محیط</Area>
+    <Argument>شناسه</Argument>
+    <ArgumentDataColumn>ستون داده شناسه</ArgumentDataColumn>
+    <ArrowHeight>ارتفاع پیکان</ArrowHeight>
+    <ArrowStyle>سبک پیکانی</ArrowStyle>
+    <ArrowWidth>عرض پیکان</ArrowWidth>
+    <AspectRatio>نسبت جنبی</AspectRatio>
+    <Author>مولف</Author>
+    <AutoDropDownWidth>عرض کشش به پایین اتوماتیک</AutoDropDownWidth>
+    <AutoRefresh>تازه شدن اتوماتیک</AutoRefresh>
+    <AutoRotate>چرخش اتوماتیک</AutoRotate>
+    <AutoWidth>عرض اتوماتیک</AutoWidth>
+    <BackColor>رنگ پیش</BackColor>
+    <Background>زمینه</Background>
+    <BackgroundColor>رنگ زمینه</BackgroundColor>
+    <BarCodeType>نوع کد میله ای</BarCodeType>
+    <Bold>پررنگ</Bold>
+    <Bookmark>نشانواره</Bookmark>
+    <Border>حاشیه</Border>
+    <BorderColor>رنگ حاشیه</BorderColor>
+    <Borders>حواشی</Borders>
+    <BorderStyle>سبک حاشیه</BorderStyle>
+    <Bottom>زیر</Bottom>
+    <Brush>قلم</Brush>
+    <CacheAllData>ذخیره همه داده ها</CacheAllData>
+    <CalcInvisible>Calc پنهان کردن</CalcInvisible>
+    <CanBreak>توانایی انفصال</CanBreak>
+    <Cancel>انصراف</Cancel>
+    <CanGrow>توانایی رشد</CanGrow>
+    <CanShrink>توانایی جمع شدن</CanShrink>
+    <Categories>دسته ها</Categories>
+    <Category>دسته</Category>
+    <CategoryDatabases>پایگاه داده</CategoryDatabases>
+    <ChartType>نوع نمودار</ChartType>
+    <Checked>چک شده</Checked>
+    <CheckOnClick>چک بوسیله کلیک</CheckOnClick>
+    <CheckStyle>سبک چک</CheckStyle>
+    <CheckSum>جمع چک</CheckSum>
+    <CheckSum1>جمع چک 1</CheckSum1>
+    <CheckSum2>جمع چک 2</CheckSum2>
+    <Child>فرزند</Child>
+    <ChildColumns>ستون های فرزند</ChildColumns>
+    <ChildSource>منبع داده فرزند</ChildSource>
+    <ClearFormat>قالب را پاک کن</ClearFormat>
+    <CloneContainer>تکثیر حامل ها</CloneContainer>
+    <Color>رنگ</Color>
+    <ColorEach>هر رنگ</ColorEach>
+    <Column>ستون</Column>
+    <ColumnDirection>جهت ستون</ColumnDirection>
+    <ColumnGaps>جای خالی ستون</ColumnGaps>
+    <ColumnHeadersVisible>نمایش ستون سرصفحه</ColumnHeadersVisible>
+    <Columns>ستون ها</Columns>
+    <ColumnWidth>عرض ستون</ColumnWidth>
+    <ComponentStyle>سبک مولفه</ComponentStyle>
+    <Condition>شرط</Condition>
+    <ConditionOptions>انتخاب شرط</ConditionOptions>
+    <ConnectOnStart>ارتباط شروع</ConnectOnStart>
+    <ContourColor>رنگ محدوده</ContourColor>
+    <Converting>تبدیل</Converting>
+    <ConvertNulls>تبدیل پوچ ها</ConvertNulls>
+    <CountData>شمارش داده ها </CountData>
+    <Create>ایجاد</Create>
+    <CreateFieldOnDoubleClick>ایجاد فیلد با دو کلیک</CreateFieldOnDoubleClick>
+    <CustomFormat>قالب سنتی</CustomFormat>
+    <Data>داده</Data>
+    <DataAdapter>وفق دهنده</DataAdapter>
+    <DataAdapters>وفق دهنده داده</DataAdapters>
+    <DataBindings>انقیاد داده</DataBindings>
+    <DataColumn>ستون داده</DataColumn>
+    <DataField>فیلد داده</DataField>
+    <DataName>نام داده</DataName>
+    <DataRelation>ارتباط داده</DataRelation>
+    <DataSource>منبع داده</DataSource>
+    <DataSources>منابع داده</DataSources>
+    <DataTextField>فیلد متن داده</DataTextField>
+    <DateInfo>اطلاعات داده</DateInfo>
+    <Default>پیش فرض</Default>
+    <DefaultNamespace>پیش فرضNamespace</DefaultNamespace>
+    <DeleteColumns>حذف ستون ها</DeleteColumns>
+    <DeleteRows>حذف ردیف ها</DeleteRows>
+    <Description>تعاریف</Description>
+    <DialogResult>نتیجه مکالکه</DialogResult>
+    <Direction>جهت</Direction>
+    <DisplayValue>نمایش مقدار</DisplayValue>
+    <Dock>جاخالی</Dock>
+    <DockStyle>سبک جاخالی</DockStyle>
+    <DrawLine>کشیدن خط</DrawLine>
+    <DropDownAlign>توازن کشش به پایین</DropDownAlign>
+    <DropDownStyle>سبک کشش به پایین</DropDownStyle>
+    <DropDownWidth>عرض کشش به پایین</DropDownWidth>
+    <DropShadow>سایه افتادن</DropShadow>
+    <Editable>قابل ویرایش</Editable>
+    <Enabled>فعال شده</Enabled>
+    <EnableLog>ثبت وقایع فعال شده</EnableLog>
+    <EndColor>رنگ انتها</EndColor>
+    <Expression>عبارت</Expression>
+    <FaqPage>Faq صفحه</FaqPage>
+    <FaqPageVisible>Faq نمایش صفحه</FaqPageVisible>
+    <File>فایل</File>
+    <Filter>فیلتر</Filter>
+    <FilterOn>روشن شدن</FilterOn>
+    <FirstPage>صفحه اول</FirstPage>
+    <Flat>یک سطح</Flat>
+    <FlatMode>حالت یک سطح</FlatMode>
+    <Focus>متمرکز شدن</Focus>
+    <Font>فونت</Font>
+    <FontBold>فونت پررنگ</FontBold>
+    <FontItalic>فونت حروف کج</FontItalic>
+    <FontName>نام فونت</FontName>
+    <FontSize>سایز فونت</FontSize>
+    <FontStrikeout>فونت باطل شدن</FontStrikeout>
+    <FontUnderline>فونت خط زیر</FontUnderline>
+    <FontUnit>واحد فونت</FontUnit>
+    <ForeColor>رنگ جلو</ForeColor>
+    <Format>قالب</Format>
+    <Function>تابع</Function>
+    <Functions>توابع</Functions>
+    <GlobalizedName>نام عمومی</GlobalizedName>
+    <GridLineColor>رنگ خط پنجره</GridLineColor>
+    <GridLinesHor>خطوط پنجره افقی</GridLinesHor>
+    <GridLineStyle>سبک خط پنجره</GridLineStyle>
+    <GridLinesVert>خطوط پنجره عمودی</GridLinesVert>
+    <GrowToHeight>افزایش تا ارتفاع</GrowToHeight>
+    <HeaderBackColor>رنگ پشت سرصفحه</HeaderBackColor>
+    <HeaderFont>فونت سرصفحه</HeaderFont>
+    <HeaderForeColor>رنگ جلو سرصفحه</HeaderForeColor>
+    <HeaderText>متن سرصفحه</HeaderText>
+    <Height>ارتفاع</Height>
+    <HideZeros>پنهان سازی صفرها</HideZeros>
+    <High>ارتفاع</High>
+    <HighlightCondition>جلوه سازی شرط</HighlightCondition>
+    <HorAlignment>توازن افقی</HorAlignment>
+    <HorSpacing>فضای افقی</HorSpacing>
+    <HotkeyPrefix>Hotkey پیشوند</HotkeyPrefix>
+    <Hyperlink>ابرلینک</Hyperlink>
+    <Idents>مشخصه ها</Idents>
+    <Image>تصویر</Image>
+    <ImageType>نوع تصویر</ImageType>
+    <ImageURL>تصویر URL</ImageURL>
+    <ImportRelations>ورود ارتباطات</ImportRelations>
+    <Increment>افزایش</Increment>
+    <Insert>الحاق</Insert>
+    <InsertColumnToTheLeft>الحاق ستون به چپ</InsertColumnToTheLeft>
+    <InsertColumnToTheRight>لحاق ستون به راست</InsertColumnToTheRight>
+    <InsertFreeSpaceAbove>الحاق فضای خالی به بالا</InsertFreeSpaceAbove>
+    <InsertFreeSpaceBelow>الحاق فضای خالی به پایین</InsertFreeSpaceBelow>
+    <InsertFreeSpaceToTheLeft>الحاق فضای خالی به چپ</InsertFreeSpaceToTheLeft>
+    <InsertFreeSpaceToTheRight>الحاق فضای خالی به راست</InsertFreeSpaceToTheRight>
+    <InsertRowAbove>الحاق ردیف به بالای مکان</InsertRowAbove>
+    <InsertRowBelow>الحاق ردیف به زیر</InsertRowBelow>
+    <InterlacedBrush>قلموی بافته شده</InterlacedBrush>
+    <InterlacingHor>بافته شده افقی</InterlacingHor>
+    <InterlacingVert>بافته شده عمودی</InterlacingVert>
+    <Italic>خط کج</Italic>
+    <ItemHeight>ارتفاع مورد</ItemHeight>
+    <Items>موارد</Items>
+    <KeepChildTogether>نگه داشتن فرزند ها با هم</KeepChildTogether>
+    <KeepFooterTogether>نگه داشتن زیرنویس با هم</KeepFooterTogether>
+    <KeepGroupTogether>نگه داشتن گروه با هم</KeepGroupTogether>
+    <KeepHeaderTogether>نگه داشتن سرصفحه با هم</KeepHeaderTogether>
+    <LabelColor>برچسب رنگ</LabelColor>
+    <Labels>برچسب ها</Labels>
+    <LabelsColor>رنگ برچسب ها</LabelsColor>
+    <Language>زبان</Language>
+    <LargeHeight>ارتفاع وسیع</LargeHeight>
+    <LargeHeightFactor>فاکتور ارتفاع بزرگ</LargeHeightFactor>
+    <Left>چپ</Left>
+    <Legend>فهرست علایم</Legend>
+    <Length>درازا</Length>
+    <Lighting>نورپردازی</Lighting>
+    <LineColor>رنگ خط</LineColor>
+    <LineLimit>محدود کردن خط</LineLimit>
+    <LinesOfUnderlining>خطوط زیرخط سازی</LinesOfUnderlining>
+    <LineStyle>سبک خط</LineStyle>
+    <LineWidth>عرض خط</LineWidth>
+    <Linked>مرتبط شده</Linked>
+    <ListOfArguments>لیست شناسه ها</ListOfArguments>
+    <ListOfValues>لیست مقادیر</ListOfValues>
+    <Localizable>محلی سازی</Localizable>
+    <Location>مکان</Location>
+    <Locked>قفل شده</Locked>
+    <LogPath>مسیرثبت</LogPath>
+    <Low>پایین</Low>
+    <Margins>حواشی</Margins>
+    <MarkerAlignment>توازن نشانه گذارها</MarkerAlignment>
+    <MarkerColor>رنگ نشانه گذار</MarkerColor>
+    <MarkerSize>سایزنشانه گذار</MarkerSize>
+    <MarkerVisible>مشاهده نشانه گذارها</MarkerVisible>
+    <MasterComponent>مولفه اصلی</MasterComponent>
+    <MaxDate>تاریخ بیشینخ</MaxDate>
+    <MaxDropDownItems>بیشترین موارد کشش به پایین</MaxDropDownItems>
+    <Maximum>بیشینه</Maximum>
+    <MaxLength>بیشترین طول</MaxLength>
+    <MaxNumberOfLines>بیشینه اعداد خطوط</MaxNumberOfLines>
+    <MaxSize>سایز بیشینه</MaxSize>
+    <MergeDuplicates>ادغام تکراری</MergeDuplicates>
+    <MinDate>تاریخ کمینه</MinDate>
+    <Minimum>کمینه</Minimum>
+    <MinimumFontSize>کمترین اندازه فونت</MinimumFontSize>
+    <MinorColor>رنگ کم</MinorColor>
+    <MinorCount>شمارش کم</MinorCount>
+    <MinorLength>طول کم</MinorLength>
+    <MinorStyle>سبک کم</MinorStyle>
+    <MinorVisible>مشاهده کم</MinorVisible>
+    <MinRowsInColumn>کمترین ردیف ها در ستون</MinRowsInColumn>
+    <MinSize>کمترین اندازه</MinSize>
+    <Module>ماژول</Module>
+    <Move>حرکت</Move>
+    <Multiline>چند خطی</Multiline>
+    <MultipleFactor>فاکتور چندتایی</MultipleFactor>
+    <Name>نام</Name>
+    <NameParent>نام والد</NameParent>
+    <Namespaces>Namespaces</Namespaces>
+    <NextPage>صفحه بعد</NextPage>
+    <NullText>متن پوچ</NullText>
+    <NumberOfColumns>عدد ستون ها</NumberOfColumns>
+    <OnlyText>فقط متن</OnlyText>
+    <Options>انتخاب</Options>
+    <Orientation>جهت یابی</Orientation>
+    <PageHeight>ارتفاع صفحه</PageHeight>
+    <PageWidth>عرض صفحه</PageWidth>
+    <Paper>صفحه</Paper>
+    <Parameter>پارامتر</Parameter>
+    <Parameters>پارامترها</Parameters>
+    <ParentColumns>ستون های والد</ParentColumns>
+    <ParentSource>منبع داده والد</ParentSource>
+    <PasswordChar>کارکتر کلمه رمز</PasswordChar>
+    <Placement>قراردادن</Placement>
+    <PlaceOnToolbox>جایگذاری با جعبه ابزار</PlaceOnToolbox>
+    <PreferredColumnWidth>عرض ستون ترجیح داده شده</PreferredColumnWidth>
+    <PreferredRowHeight>ارتفاع ستون ترجیح داده شده</PreferredRowHeight>
+    <Printable>قابل چاپ</Printable>
+    <PrintAtBottom>در پایین چاپ کن</PrintAtBottom>
+    <PrintIfDetailEmpty>چاپ کن اگر جزییات خالی است</PrintIfDetailEmpty>
+    <PrintIfEmpty>چاپ اگر خالی</PrintIfEmpty>
+    <PrintOnAllPages>چاپ در همه ی صفحه ها</PrintOnAllPages>
+    <PrintOnEvenOddPages>چاپ در صفحه های زوج فرد</PrintOnEvenOddPages>
+    <PrintOnFirstPage>چاپ در صفحهی اول</PrintOnFirstPage>
+    <PrintOnPreviousPage>چاپ در صفحه قبل</PrintOnPreviousPage>
+    <ProcessAtEnd>پردازش تا انتها</ProcessAtEnd>
+    <ProcessingDuplicates>پردازش دو نسخه ای</ProcessingDuplicates>
+    <ProductHomePage>تولید صفحه خانگی</ProductHomePage>
+    <ReadOnly>فقط خواندنی</ReadOnly>
+    <ReconnectOnEachRow>ارتباط دوباره در هر ردیف</ReconnectOnEachRow>
+    <ReferencedAssemblies>اسمبلی ارجاع داده شده</ReferencedAssemblies>
+    <Refresh>دباره نو شدن</Refresh>
+    <Relation>ارتباط</Relation>
+    <RelationName>نام ارتباط</RelationName>
+    <Relations>ارتباطات</Relations>
+    <RemoveUnusedDataBeforeStart>حذف داده های غیر قابل استفاده قبل از شروع</RemoveUnusedDataBeforeStart>
+    <RenderTo>ارائه به</RenderTo>
+    <ReportAlias>گزارش مستعار</ReportAlias>
+    <ReportAuthor>مولف گزارش</ReportAuthor>
+    <ReportDescription>تعریف گزارش</ReportDescription>
+    <ReportName>نام گزارش</ReportName>
+    <ReportUnit>واحد گزارش</ReportUnit>
+    <ResetDataSource>پاک کردن منبع داده</ResetDataSource>
+    <Resize>دوباره اندازه گیری</Resize>
+    <ReverseHor>معکوس افقی</ReverseHor>
+    <ReverseVert>معکوس عمودی</ReverseVert>
+    <Right>راست</Right>
+    <RightToLeft>راست به چپ</RightToLeft>
+    <Round>گرد کردن</Round>
+    <RowHeadersVisible>نمایش سرصفحه ردیف</RowHeadersVisible>
+    <RowHeaderWidth>عرض سرصفحه ردیف</RowHeaderWidth>
+    <Scale>برد</Scale>
+    <ScaleHor>برد افقی</ScaleHor>
+    <ScriptLanguage>زبان متن سند</ScriptLanguage>
+    <SegmentPerHeight>ارتفاع هر قسمت</SegmentPerHeight>
+    <SegmentPerWidth>عرض هر قسمت</SegmentPerWidth>
+    <SelectedIndex>ایندکس انتخاب شده</SelectedIndex>
+    <SelectedItem>مورد انتخاب شده</SelectedItem>
+    <SelectedValue>مقدار انتخاب شده</SelectedValue>
+    <SelectionBackColor>انتخاب رنگ پشتی</SelectionBackColor>
+    <SelectionForeColor>انتخاب رنگ جلویی</SelectionForeColor>
+    <SelectionMode>حالت انتخاب</SelectionMode>
+    <Series>سری ها</Series>
+    <SeriesLabels>برچسب های سری ها</SeriesLabels>
+    <ServiceEnable>سرویس فعال است</ServiceEnable>
+    <ServiceEnabled>سرویس فعال شده است</ServiceEnabled>
+    <Shadow>سایه</Shadow>
+    <ShadowBrush>قلم سایه</ShadowBrush>
+    <ShadowSize>سایز سایه</ShadowSize>
+    <ShapeType>نوع شکل</ShapeType>
+    <Shift>انتقال</Shift>
+    <ShiftMode>حالت انتقال</ShiftMode>
+    <ShowBehind>نمایش پشت</ShowBehind>
+    <ShowInLegend>نمایش در فهرست علایم</ShowInLegend>
+    <ShowMarker>نمایش نشان گذار</ShowMarker>
+    <ShowShadow>نمایش سایه</ShowShadow>
+    <ShowTotal>نمایش جمع</ShowTotal>
+    <ShowUpDown>نمایش بالا به پایین</ShowUpDown>
+    <Side>طرف</Side>
+    <Size>سایز</Size>
+    <SizeMode>حالت سایز</SizeMode>
+    <Smoothing>هموارسازی</Smoothing>
+    <Sort>مرتب کردن</Sort>
+    <SortDirection>مرتب سازی جهت</SortDirection>
+    <Sorted>مرتب شده</Sorted>
+    <SortType>نوع مرتب سازی</SortType>
+    <Space>فضای خالی</Space>
+    <SqlCommand>Sql دستور</SqlCommand>
+    <StartAngle>نمایش زاویه</StartAngle>
+    <StartColor>رنگ شروع</StartColor>
+    <StartNewPage>شروع صفحه جدید</StartNewPage>
+    <StartNewPageIfLessThan>صفحه جدید را شروع کن اگر کمتر از</StartNewPageIfLessThan>
+    <StartPosition>مکان شروع</StartPosition>
+    <Stop>توقف</Stop>
+    <StopBeforePage>توقف قبل از صفحه</StopBeforePage>
+    <StopBeforePrint>توقف قبل از چاپ</StopBeforePrint>
+    <StopFactor>فاکتور توقف</StopFactor>
+    <Stretch>کشش</Stretch>
+    <StretchToPrintArea>کشش به محوطه چاپ</StretchToPrintArea>
+    <Style>سبک</Style>
+    <Styles>سبک ها</Styles>
+    <Summary>خلاصه</Summary>
+    <SystemVariable>متغیر سیستم</SystemVariable>
+    <SystemVariables>متغیرهای سیستم</SystemVariables>
+    <Tag>برچسب</Tag>
+    <TagValue>مقدار برچسب</TagValue>
+    <Tension>کشش</Tension>
+    <Text>متن</Text>
+    <TextAfter>متن بعد از</TextAfter>
+    <TextAlign>توازن متن</TextAlign>
+    <TextBefore>متن قبل از</TextBefore>
+    <TextBrush>قلم متن</TextBrush>
+    <TextColor>رنگ متن</TextColor>
+    <TextFormat>قالب متن</TextFormat>
+    <TextOnly>فقط متن</TextOnly>
+    <TextOptions>انتخاب متن</TextOptions>
+    <Ticks>تیک ها</Ticks>
+    <Title>عنوان</Title>
+    <TitleBeforeHeader>عنوان قبل از سرصفحه</TitleBeforeHeader>
+    <TitleColor>رنگ عنوان</TitleColor>
+    <TitleFont>فونت عنوان</TitleFont>
+    <Today>امروز</Today>
+    <ToolTip>تیپ ابزار</ToolTip>
+    <Top>بالا</Top>
+    <TransparentColor>رنگ شفاف</TransparentColor>
+    <Trimming>مرتب کردن</Trimming>
+    <Type>نوع</Type>
+    <Types>انواع</Types>
+    <Underline>خط زیر</Underline>
+    <UndoLimit>بازگرداندن محدودیت</UndoLimit>
+    <Unit>واحد</Unit>
+    <UnlimitedBreakable>جداسازی نامحدود</UnlimitedBreakable>
+    <UnlimitedHeight>ارتفاع نامحدود</UnlimitedHeight>
+    <UnlimitedWidth>عرض نامحدود</UnlimitedWidth>
+    <Value>مقدار</Value>
+    <ValueDataColumn>مقدار ستون داده</ValueDataColumn>
+    <Variable>متغیر</Variable>
+    <Variables>متغیرها</Variables>
+    <Version>نسخه</Version>
+    <VertAlignment>توازن عمودی</VertAlignment>
+    <VertSpacing>فضای عمودی</VertSpacing>
+    <ViewMode>حالت دید</ViewMode>
+    <Visible>قابل مشاهده</Visible>
+    <Watermark>سایه دار کردن</Watermark>
+    <Width>عرض</Width>
+    <WindowState>حالت پنجره</WindowState>
+    <WordWrap>پنهان سازی کلمه</WordWrap>
+    <XAxis>X محور</XAxis>
+    <XTopAxis>X محور بالا</XTopAxis>
+    <YAxis>Y محور</YAxis>
+    <YRightAxis>Y محور راست</YRightAxis>
+    <Zoom>زوم</Zoom>
+  </PropertyMain>
+  <PropertySystemColors>
+    <ActiveBorder>فعال کردن حاشیه</ActiveBorder>
+    <ActiveCaption>فعال کردن عنوان</ActiveCaption>
+    <ActiveCaptionText>فعال کردن متن عنوان</ActiveCaptionText>
+    <AppWorkspace>فضای کاری برنامه</AppWorkspace>
+    <Control>کنترل</Control>
+    <ControlDark>کنترل تیره</ControlDark>
+    <ControlDarkDark>کنترل تیره تیره</ControlDarkDark>
+    <ControlLight>کنترل روشن</ControlLight>
+    <ControlLightLight>کنترل روشن روشن</ControlLightLight>
+    <ControlText>متن کنترل</ControlText>
+    <Desktop>میز کار</Desktop>
+    <GrayText>متن خاکستری</GrayText>
+    <Highlight>جلوه دادن</Highlight>
+    <HighlightText>جلوه دادن متن</HighlightText>
+    <HotTrack>شیار تند</HotTrack>
+    <InactiveBorder>حاشیه غیر فعال</InactiveBorder>
+    <InactiveCaption>عنوان غیر فعال</InactiveCaption>
+    <InactiveCaptionText>متن عنوان غیرفعال</InactiveCaptionText>
+    <Info>اطلاعات</Info>
+    <InfoText>متن اطلاعات</InfoText>
+    <Menu>منو</Menu>
+    <MenuText>متن منو</MenuText>
+    <ScrollBar>نوار طومار</ScrollBar>
+    <Window>پنجره</Window>
+    <WindowFrame>قاب پنجره</WindowFrame>
+    <WindowText>متن پنجره</WindowText>
+  </PropertySystemColors>
+  <Questions>
+    <qnDictionaryNew>آیا می خواهید دیکشنری جدید ایجاد کنید؟</qnDictionaryNew>
+    <qnGenerateNewCode>آیا می خواهید کد گزارش جدید تولید کنید؟</qnGenerateNewCode>
+    <qnLanguageNew>شما زبان گزارش را تغییر دادید.این منتهی به تولید کد گزارش جدید می شود.ایا شما مطمئنید که میخواهید زبان جدید را ذخیره کنید؟</qnLanguageNew>
+    <qnPageDelete>آیا می خواهید صفحه را حذف کنید؟</qnPageDelete>
+    <qnRemove>آیا میخواهید صفحه را پاک کنید؟</qnRemove>
+    <qnRemoveService>آیا میخواهید سرویس را پاک کنید؟</qnRemoveService>
+    <qnRemoveServiceCategory>آیا میخواهید دسته را پاک کنید؟</qnRemoveServiceCategory>
+    <qnRemoveUnused>آیا میخواهید استفاده نشده ها را پاک کنید؟</qnRemoveUnused>
+    <qnRestoreDefault>بازیابی پیش فرض ها؟</qnRestoreDefault>
+    <qnSaveChanges>ذخیره تغییرات در {0}?</qnSaveChanges>
+    <qnSaveChangesToPreviewPage>آیا می خواهید تغییرت صفحه را ذخیره کنید؟</qnSaveChangesToPreviewPage>
+    <qnSynchronize>محتویات انبار داده و محتویات دیکشنری را همسان می کنید؟</qnSynchronize>
+    <qnSynchronizeServices>سرویس ها همزمان شوند؟</qnSynchronizeServices>
+  </Questions>
+  <Report>
+    <Bands>مرزها</Bands>
+    <Charts>نمودارها</Charts>
+    <CollapseAll>خراب کردن همه</CollapseAll>
+    <Components>مولفات</Components>
+    <CrossBands>پیوند نوار)مرز( ها</CrossBands>
+    <EditStyles>[ویرایش سبک ها]</EditStyles>
+    <EventsTab>برچسب وقایع</EventsTab>
+    <ExpandAll>گسترش همه</ExpandAll>
+    <GenerateNewCode>کد جدید را تولید کنید</GenerateNewCode>
+    <LabelAlias>نام مستعار:</LabelAlias>
+    <LabelAuthor>مولف:</LabelAuthor>
+    <LabelBackground>پیش زمینه:</LabelBackground>
+    <LabelCategory>دسته بندی:</LabelCategory>
+    <LabelCentimeters>سانتی متر:</LabelCentimeters>
+    <LabelColor>رنگ:</LabelColor>
+    <LabelCountData>شمارش داده:</LabelCountData>
+    <LabelDataBand>متحد کردن داده:</LabelDataBand>
+    <LabelDataColumn>ستون دیتا</LabelDataColumn>
+    <LabelDataName>نام داده</LabelDataName>
+    <LabelDefaultValue>مقدار پیش فرض:</LabelDefaultValue>
+    <LabelFilterInfo>عبارت فیلتر را وارد کنید برا مثال: {Customers.Name == "AAA"}</LabelFilterInfo>
+    <LabelFontName>نام فونت:</LabelFontName>
+    <LabelFunction>تابع:</LabelFunction>
+    <LabelHundredthsOfInch>یک صدم اینچ:</LabelHundredthsOfInch>
+    <LabelInches>اینچ:</LabelInches>
+    <LabelMillimeters>میلیمتر:</LabelMillimeters>
+    <LabelName>نام:</LabelName>
+    <LabelPixels>پیکسل:</LabelPixels>
+    <LabelSystemVariable>متغیر سیستم:</LabelSystemVariable>
+    <LabelType>تایپ:</LabelType>
+    <LabelValue>ارزش:</LabelValue>
+    <nameAssembly>اسمبلی</nameAssembly>
+    <No>نه</No>
+    <NotAssigned>انتساب داده نشده</NotAssigned>
+    <PageNofM>صفحه {0} از {1}</PageNofM>
+    <PreparingReport>آماده کردن گزارش</PreparingReport>
+    <PropertiesTab>برچسب خصوصیات</PropertiesTab>
+    <RangeAll>همه</RangeAll>
+    <RangeCurrentPage>صفحه جاری</RangeCurrentPage>
+    <RangeInfo>شماره صفحه و/یا محدوده صفحات که بوسیله کاما جدا شدهرا وارد کنید.برای مثال 1و3و5-12</RangeInfo>
+    <RangePage>برد صفحه</RangePage>
+    <RangePages>صفحات:</RangePages>
+    <ReportControls>کنترل های گزارش</ReportControls>
+    <StiEmptyBrush>خالی</StiEmptyBrush>
+    <StiGlareBrush>درخشش</StiGlareBrush>
+    <StiGradientBrush>متحرک</StiGradientBrush>
+    <StiHatchBrush>هاشور زدن</StiHatchBrush>
+    <StiSolidBrush>توپر</StiSolidBrush>
+  </Report>
+  <Services>
+    <categoryContextTools>ابزار متن</categoryContextTools>
+    <categoryDesigner>طراح</categoryDesigner>
+    <categoryDictionary>دیکشنری</categoryDictionary>
+    <categoryExport>صادرات</categoryExport>
+    <categoryImageTypes>تبدیل کننده تصاویر</categoryImageTypes>
+    <categoryLanguages>زبان ها</categoryLanguages>
+    <categoryPanels>تابلو</categoryPanels>
+    <categoryRender>ارائه</categoryRender>
+    <categoryShapes>پیکرها</categoryShapes>
+    <categorySL>ذخیره یا بارکردن</categorySL>
+    <categorySystem>سیستم</categorySystem>
+    <categoryTextFormat>قالب متن</categoryTextFormat>
+  </Services>
+  <Shapes>
+    <Arrow>پیکان</Arrow>
+    <DiagonalDownLine>خط قطری پایین</DiagonalDownLine>
+    <DiagonalUpLine>خط قطری بالا</DiagonalUpLine>
+    <HorizontalLine>خط افقی</HorizontalLine>
+    <LeftAndRightLine>خط راست و چپ</LeftAndRightLine>
+    <Oval>بیضی</Oval>
+    <Rectangle>مستطیل</Rectangle>
+    <RoundedRectangle>مستطیل خمیده شده</RoundedRectangle>
+    <ServiceCategory>پیکرها</ServiceCategory>
+    <TopAndBottomLine>خط پایین به بالا</TopAndBottomLine>
+    <Triangle>مثلث</Triangle>
+    <VerticalLine>خط عمودی</VerticalLine>
+  </Shapes>
+  <SystemVariables>
+    <Column>{ستون}</Column>
+    <Line>{خط}</Line>
+    <LineThrough>{خط میانی}</LineThrough>
+    <PageNofM>صفحه {شماره صفحه} تا {جمع شماره صفحات}</PageNofM>
+    <PageNumber>{شماره صفحه}</PageNumber>
+    <ReportAlias>{نام مستعار گزارش}</ReportAlias>
+    <ReportAuthor>{مولف گزارش}</ReportAuthor>
+    <ReportChanged>{گزارش تغییر یافت}</ReportChanged>
+    <ReportCreated>{گزارش ایجاد شد}</ReportCreated>
+    <ReportDescription>{تعریف گزارش}</ReportDescription>
+    <ReportName>{نام گزارش}</ReportName>
+    <Time>{زمان}</Time>
+    <Today>{امروز}</Today>
+    <TotalPageCount>{جمع شماره صفحات}</TotalPageCount>
+  </SystemVariables>
+  <TipOfTheDays>
+    <Tip01>با استفاده از کلیدهای جهتی شما می توانید یک مولفه به دیگری حرکت کنید</Tip01>
+    <Tip02>.وقتی شما یک مولفه را از جعبه ابزار انتخاب کنید و کلید شیفت را هم همزمان نگه دارید بعد از اینکه مولفه ایجاد شد همچنان در جعبه ابزار فعال است و میتوانید هر چند تا که خواستید ایجاد کنید. </Tip02>
+    <Tip03>شاید شما بخواهید صدا کردن طراح را بعد از ایجاد مولفه کنترل کنید.برای این کار پارامترهای پنجره را از مسیر طراح "ابزار|انتخاب"انتخاب کنید سپس جعبه چک ویرایش بعد از الحاق را خاموش یا روشن کنید.</Tip03>
+    <Tip04>برای اجرای پیش نمایش گزارش می توانید کتید اف 5 را فشار دهید. </Tip04>
+    <Tip05>اگر شما تصویر سازی اضافی را خاموش کنید می توانید سرعت طراح را بالا ببرید.برای این کار پارامترهای پنجره را از مسیر طراح "ابزار|انتخاب"انتخاب کنید سپس بوک مارک طارحی را انتخاب کنید و جعبه چک های روبرو را خاموش کنید."پرگردن نوارها"و پرکردن نوارهای متقاطع"و پرکردن حامل ها"و "پر کردن مولفه ها".</Tip05>
+    <Tip06>برا انتخاب همزمان همه شیی ها کلیدهای کنترل و آ را فشار دهید.</Tip06>
+    <Tip07>از کلید شیفت برای اضافه کردن مولف ها به انتخاب یا حذف استفاده کنید.</Tip07>
+    <Tip08>برای کپی کردن مولفه های قالب طراحی استفاده از ابزار "قالب" پیشنهاد می شود.</Tip08>
+    <Tip09>شای بخواهید ترتیب مولفه ها در پرینت را مشخص کنید.برای این هدف پارامتر "دید|نمایش سفارش" را انتخاب کنید.</Tip09>
+    <Tip10> .با فشار دادن کلید شیفت و استفاده از جهت ها می توانید سایز مولفه را تغییر دهید.هر افزایش سایز برابر است با یک درجه پنجره .اگر کلید آلت را فشار دهید افزایش سایز به اندازه مینیمم اندازه ی واحد است</Tip10>
+    <Tip11>برای استفاده از خط کش "دید|نمایش خط کش" را انتخاب کنید</Tip11>
+    <Tip12>اگر بر روی یک مولفه 2 تا کلیک کنید خصوصیات آن می آید. </Tip12>
+    <Tip13>.با فشار دادن کلید کنترل و استفاده از جهت ها می توانید سایز مولفه را تغییر دهید.هر افزایش سایز برابر است با یک درجه پنجره .اگر کلید آلت را فشار دهید افزایش سایز به اندازه مینیمم اندازه ی واحد است</Tip13>
+    <Tip14>اگر می خواهید ویرایشگر متن را برای یک مولفه انتخاب کنید کلیدهای کنترل و اینتر را فشار دهید برای بستن ویرایشگر هم همین کار را کنید.</Tip14>
+    <Tip15>میتوانید از دستور "clear content" برای پاک کردن محتوای مولفه های گروه متنی استفاده کنید.</Tip15>
+    <Tip16>میتوانید از "ابزار ویرایشگر متن"برای ویرایش متن مولفه ها استفاده کنید.</Tip16>
+    <Tip17>شاید بخواهید رنگ طراحی در طراح را عوض کنید برای این کار منوی انتخاب را انتخاب کنید سپس"ابزا|انتخاب" را انتخاب و بوک مارک رنگ را انتخاب کنید.</Tip17>
+    <Tip18>میتوانید چهره ی زبان را تغییر دهید.جعبه دیالوگ را صدا زده و در منو "ابزار|انتخاب" را انتخاب کرده در بوک مارک "UILanguage".</Tip18>
+    <Tip19> می توانید محلی سازی را خامو ش یا روشن کنید برای این کار برروی پنجره خصوصیات کلیک راست کرده و تیک گزین مورد نظر را بردارید.</Tip19>
+    <Tip20>برای زوم میتوانید از چرخ اسکرول موس به همراه فشار دادن کلید کنترل استفاده کنید. </Tip20>
+    <Tip21>اگر می خواهید یک متن را مستقیما در صفحه ویرایش کنید.کلید اینتر را برروی مولفه انتخاب شده فشار دهید.و اگر خواستید ویرایش را متوقف کنیئ کلید اسکیپ را فشار دهید.</Tip21>
+    <Tip22>می توانید سرصفحه نئار طراخی را بردارید.برای این کار از "دید|نمایش سرصفحه" استفاده کنید.</Tip22>
+    <Tip23>اگر می خواهید فقط مولفه های انتخاب شده کپی شوند کلید کنترل را فشار دهید و مولفه های انتخاب شده را بکشید.</Tip23>
+    <Tip24>اگر موقعی که یک مولفه را حرکت می دهید یا تغییر سایز.کلید آلت را فشار دهید سپس توازن با پنجره از بین می رود.</Tip24>
+  </TipOfTheDays>
+  <Toolbars>
+    <AlignBottom>توازن پایینی</AlignBottom>
+    <AlignCenter>توازن مرکزی</AlignCenter>
+    <AlignLeft>توازن چپ</AlignLeft>
+    <AlignMiddle>توازن میانی</AlignMiddle>
+    <AlignRight>توازن راست</AlignRight>
+    <AlignToGrid>توازن با پنچره</AlignToGrid>
+    <AlignTop>توازن بالا</AlignTop>
+    <AlignWidth>شایسته</AlignWidth>
+    <BringToFront>بیار به جلو</BringToFront>
+    <CenterHorizontally>تمرکز افقی</CenterHorizontally>
+    <CenterVertically>تمرکز عمودی</CenterVertically>
+    <FontName>نام قالب</FontName>
+    <FontSize>اندازه فونت</FontSize>
+    <FontStyleBold>سبک فونت پررنگ</FontStyleBold>
+    <FontStyleItalic>سبک فونت کج</FontStyleItalic>
+    <FontStyleUnderline>سبک فونت خط زیر</FontStyleUnderline>
+    <HighlightCondition>جلوه دادن شرط</HighlightCondition>
+    <Link>ارتباط</Link>
+    <Lock>قفل</Lock>
+    <MakeHorizontalSpacingEqual>فضای افقی را برابر کن</MakeHorizontalSpacingEqual>
+    <MakeSameHeight>ارتباط را برابر کن با {0}</MakeSameHeight>
+    <MakeSameSize>اندازه را برابر کن با {0}</MakeSameSize>
+    <MakeSameWidth>عرض را برابر کن با {0}</MakeSameWidth>
+    <MakeVerticalSpacingEqual>فاصله های عمودی را برابر کن</MakeVerticalSpacingEqual>
+    <MoveBackward>حرکت به عقب</MoveBackward>
+    <MoveForward>حرکت به جلو</MoveForward>
+    <SendToBack>بفرست به عقب</SendToBack>
+    <StyleDesigner>طراح سبک</StyleDesigner>
+    <StyleGet>گرفتن سبک از مولفه های انتخاب شده</StyleGet>
+    <Styles>لیست سبک ها</Styles>
+    <StyleSet>گردآوری سبک مولفه های انتخاب شده</StyleSet>
+    <TextBrush>قلم متن</TextBrush>
+    <ToolbarFormatting>قالب بندی</ToolbarFormatting>
+    <ToolbarLayout>طرح بندی</ToolbarLayout>
+    <ToolbarStandard>استاندارد</ToolbarStandard>
+    <ToolbarStyle>سبک</ToolbarStyle>
+    <ToolbarTools>ابزارها</ToolbarTools>
+  </Toolbars>
+  <Toolbox>
+    <Create>ایجاد مولفه ها</Create>
+    <Hand>دست</Hand>
+    <Select>انتخاب</Select>
+    <Style>سبک کپی</Style>
+    <TextEditor>ویرایشگر متن</TextEditor>
+    <title>جعبه ابزار</title>
+  </Toolbox>
+  <Wizards>
+    <ButtonBack>&lt; &amp;پشتی</ButtonBack>
+    <ButtonCancel>حذف</ButtonCancel>
+    <ButtonFinish>&amp;پایان</ButtonFinish>
+    <ButtonNext>&amp;بعدی &gt;</ButtonNext>
+    <ColumnsOrder>نظم ستون ها</ColumnsOrder>
+    <DataSource>منبع داده</DataSource>
+    <Groups>گروه ها</Groups>
+    <infoColumnsOrder>.ترکیب ستون ها در نظم لازم </infoColumnsOrder>
+    <infoDataSource>.انتخاب یک منبه داده از موجودی</infoDataSource>
+    <infoGroups>.ستون هایی را که برای گروه بندی لازم است انتخاب کنید.</infoGroups>
+    <infoSelectColumns>ستون های را که می خواهید اطلاعاتش را ببینید انتخاب کنید.</infoSelectColumns>
+    <infoSort>.گردآوری مرتب سازی داده.شما می توانید مرتب کنید فورا در چند ستون</infoSort>
+    <infoTotals>اضافه کردن اطلاعات خلاصه به گزارش</infoTotals>
+    <MarkAll>همه &amp;مشخص کردن</MarkAll>
+    <NoFunction>[هیچ]</NoFunction>
+    <Reset>پاک کردن</Reset>
+    <SelectColumns>انتخاب ستون ها</SelectColumns>
+    <Sort>مرتب سازی</Sort>
+    <title>گزارش جدید</title>
+    <Totals>جمع ها</Totals>
+  </Wizards>
+  <Zoom>
+    <MultiplePages>چند صفحه</MultiplePages>
+    <OnePage>یک صفحه</OnePage>
+    <PageHeight>ارتفاع صفحه</PageHeight>
+    <PageWidth>عرض صفحه</PageWidth>
+    <TwoPages>2 صفحه</TwoPages>
+    <ZoomTo100>زوم به 100 درصد</ZoomTo100>
+  </Zoom>
+</Localization>

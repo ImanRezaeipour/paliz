@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="1">
+      <CalculatedItems Ref="2" type="DataTableSource" isKey="true">
+        <Alias>CalculatedItems</Alias>
+        <Columns isList="true" count="55">
+          <value>PersonnelCode,System.Int32</value>
+          <value>CalculationDate,System.DateTime</value>
+          <value>Presence,System.Int32</value>
+          <value>Early_x0020_Lack,System.Int32</value>
+          <value>Middle_x0020_Lack,System.Int32</value>
+          <value>Final_x0020_Lack,System.Int32</value>
+          <value>Total_x0020_Lack,System.Int32</value>
+          <value>Early_x0020_OverTime,System.Int32</value>
+          <value>Middle_x0020_OverTime,System.Int32</value>
+          <value>Final_x0020_OverTime,System.Int32</value>
+          <value>Total_x0020_OverTime,System.Int32</value>
+          <value>Authorized_x0020_Early_x0020_OverTime,System.Int32</value>
+          <value>Authorized_x0020_Middle_x0020_OverTime,System.Int32</value>
+          <value>Authorized_x0020_Final_x0020_OverTime,System.Int32</value>
+          <value>Authorized_x0020_Total_x0020_OverTime,System.Int32</value>
+          <value>Hourly_x0020_Duty_x0020_In_x0020_Shift,System.Int32</value>
+          <value>Hourly_x0020_Duty_x0020_Out_x0020_Of_x0020_Shift,System.Int32</value>
+          <value>Hourly_x0020_Leave,System.Int32</value>
+          <value>NightWork_x0020_In_x0020_Shift,System.Int32</value>
+          <value>NightWork_x0020_Out_x0020_Of_x0020_Shift,System.Int32</value>
+          <value>State,System.String</value>
+          <value>WorkingPeriod,System.String</value>
+          <value>Card_x0020_Number,System.String</value>
+          <value>WorkGroup,System.String</value>
+          <value>Traffick_x0020_Count,System.Int32</value>
+          <value>In,System.Int32</value>
+          <value>Out,System.Int32</value>
+          <value>Hourly_x0020_Duty,System.Int32</value>
+          <value>Day,System.String</value>
+          <value>Name,System.String</value>
+          <value>Personnel_x0020_Number,System.String</value>
+          <value>Shift_x0020_Length,System.Int32</value>
+          <value>Earning,System.Int32</value>
+          <value>Daily_x0020_Leave_x0020_Name,System.String</value>
+          <value>Daily_x0020_Duty_x0020_Name,System.String</value>
+          <value>Traffic_x0020_1,System.Int32</value>
+          <value>Traffic_x0020_2,System.Int32</value>
+          <value>Traffic_x0020_3,System.Int32</value>
+          <value>Traffic_x0020_4,System.Int32</value>
+          <value>Daily_x0020_Leave_x0020_Count,System.Int32</value>
+          <value>Daily_x0020_Mission_x0020_Count,System.Int32</value>
+          <value>WorkingPeriod_x0020_Lengths_x0020_in_x0020_Day,System.Int32</value>
+          <value>WorkingPeriod_x0020_Changed,System.Int32</value>
+          <value>Vacation_x0020_Calculation_x0020_Mode,System.Int32</value>
+          <value>Work_x0020_On_x0020_Vacation,System.Int32</value>
+          <value>LeaveCalculationMode,System.Int32</value>
+          <value>Daily_x0020_Leave_x0020_Equivalent_x0020__x0020_In_x0020_Hour_x0020_Calculation_x0020_Mode,System.Int32</value>
+          <value>Daily_x0020_Leave_x0020_Equivalent_x0020_In_x0020__x0020_Hour,System.Int32</value>
+          <value>Hourly_x0020_Leave_x0020_Equivalent_x0020_In_x0020_Day,System.Int32</value>
+          <value>WorkingPeriod_x0020_Type,System.String</value>
+          <value>Overtime_x0020_On_x0020_Vacation,System.Int32</value>
+          <value>Type_x0020_Of_x0020_Offday,System.Int32</value>
+          <value>Work_x0020_On_x0020_Offday,System.Int32</value>
+          <value>Overtime_x0020_On_x0020_Offday,System.Int32</value>
+          <value>Overtime_x0020_By_x0020_Force,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>CalculatedItems</Name>
+        <NameInSource>NewDataSet.CalculatedItems</NameInSource>
+      </CalculatedItems>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="2">
+      <value>,Adjust,Adjust,System.Nullable`1[System.Boolean],false,False,False</value>
+      <value>,Round,Round,System.Nullable`1[System.Boolean],false,False,False</value>
+    </Variables>
+  </Dictionary>
+  <GlobalizationStrings isList="true" count="0" />
+  <Pages isList="true" count="2">
+    <Page1 Ref="3" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="5">
+        <PageFooterBand Ref="4" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,25.9,19.6,1.8</ClientRectangle>
+          <Components isList="true" count="8">
+            <txtSuplier Ref="5" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.3,1.1,2.3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>txtSuplier</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>تهیه کننده </Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="6" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </txtSuplier>
+            <txtCorroborant Ref="7" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.9,1.1,2.3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>txtCorroborant</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>تائید کننده</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="8" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </txtCorroborant>
+            <txtManager Ref="9" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.6,1.1,2.3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>txtManager</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>مدیر بخش </Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="10" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </txtManager>
+            <SystemText1 Ref="11" type="SystemText" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.4,1.1,0.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>SystemText1</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>{PageNumber}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="12" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </SystemText1>
+            <SystemText2 Ref="13" type="SystemText" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,1.1,0.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>SystemText2</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>{TotalPageCount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="14" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </SystemText2>
+            <txtFrom Ref="15" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1,1.1,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>txtFrom</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>از</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="16" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </txtFrom>
+            <txtConditions Ref="17" type="Text" isKey="true">
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>0,0,19.6,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Regular,Point,False,178</Font>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>txtConditions</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="18" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </txtConditions>
+            <HorizontalLine1 Ref="19" type="Stimulsoft.Report.Components.StiHorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0,1.1,19.6,0.0254</ClientRectangle>
+              <Color>Gray</Color>
+              <Name>HorizontalLine1</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+            </HorizontalLine1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageFooterBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </PageFooterBand>
+        <HeaderBand Ref="20" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,0.4,19.6,1.7</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>HeaderBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </HeaderBand>
+        <GroupHeaderBand Ref="21" type="GroupHeaderBand" isKey="true">
+          <Border>All;Black;2;Solid;False;4;Black</Border>
+          <Brush>Wheat</Brush>
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,2.9,19.6,0.7</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Condition>{CalculatedItems.PersonnelCode}</Condition>
+          <Conditions isList="true" count="0" />
+          <Name>GroupHeaderBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <PrintOnAllPages>True</PrintOnAllPages>
+          <StartNewPage>True</StartNewPage>
+        </GroupHeaderBand>
+        <DataBand Ref="22" type="DataBand" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,4.4,19.6,0.7</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName />
+          <DataSourceName>CalculatedItems</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="6">
+            <value>ASC</value>
+            <value>PersonnelCode</value>
+            <value>ASC</value>
+            <value>Card_Number</value>
+            <value>ASC</value>
+            <value>CalculationDate</value>
+          </Sort>
+        </DataBand>
+        <GroupFooterBand Ref="23" type="GroupFooterBand" isKey="true">
+          <Border>All;Black;2;Solid;False;4;Black</Border>
+          <Brush>Wheat</Brush>
+          <ClientRectangle>0,5.9,19.6,0.7</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>GroupFooterBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </GroupFooterBand>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>be26f62600ab404b9640c648f3c361ba</Guid>
+      <Margins>0.7,0.7,1,1</Margins>
+      <Name>Page1</Name>
+      <Page isRef="3" />
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="24" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+    <Form1 Ref="25" type="Stimulsoft.Report.ReportControls.StiForm" isKey="true">
+      <BackColor>Control</BackColor>
+      <Components isList="true" count="2">
+        <chkAdjust Ref="26" type="Stimulsoft.Report.ReportControls.StiCheckBoxControl" isKey="true">
+          <BackColor>Control</BackColor>
+          <ClientRectangle>8,8,272,24</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Font>Microsoft Sans Serif,8</Font>
+          <ForeColor>Black</ForeColor>
+          <Location>8, 8</Location>
+          <Name>chkAdjust</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <RightToLeft>Yes</RightToLeft>
+          <Size>272, 24</Size>
+          <Text>کسر کار با اضافه کار تعدیل شود </Text>
+        </chkAdjust>
+        <btnOk Ref="27" type="Stimulsoft.Report.ReportControls.StiButtonControl" isKey="true">
+          <ClientRectangle>96,56,96,24</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Default>True</Default>
+          <DialogResult>OK</DialogResult>
+          <Font>Microsoft Sans Serif,8</Font>
+          <ForeColor>Black</ForeColor>
+          <Location>96, 56</Location>
+          <Name>btnOk</Name>
+          <Page isRef="25" />
+          <Parent isRef="25" />
+          <RightToLeft>Yes</RightToLeft>
+          <Size>96, 24</Size>
+          <Text>تایید</Text>
+        </btnOk>
+      </Components>
+      <Font>Microsoft Sans Serif,8</Font>
+      <Guid>08d9c94a450b472f89d9348308cdc18f</Guid>
+      <Location>0, 0</Location>
+      <Name>Form1</Name>
+      <Page isRef="25" />
+      <Report isRef="0" />
+      <Size>296, 112</Size>
+      <Text>                                         گزارش دوره ای</Text>
+    </Form1>
+  </Pages>
+  <PrinterSettings Ref="28" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="9">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+    <value>ReportHelper.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>11/2/2010 12:00:24 PM</ReportChanged>
+  <ReportCreated>7/29/2008 8:39:17 AM</ReportCreated>
+  <ReportGuid>78285560bfac4fc3aba02b373cb16126</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2008.1.129</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+using ReportHelper;
+
+namespace Reports
+{
+    
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

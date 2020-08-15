@@ -1,0 +1,61 @@
+[Version]
+Signature="$CHICAGO$"
+Class=USB
+provider=%MB%
+LayoutFile=layout.inf
+
+[Manufacturer]
+%MfgName%=ManshoorSiminCompanyLtd
+
+[ManshoorSiminCompanyLtd]
+%USB\VID_03EB&PID_0004.DeviceDesc%=Tiny.Dev, USB\VID_03EB&PID_0004
+%USB\VID_03EB&PID_0003.DeviceDesc%=Tiny.Dev, USB\VID_03EB&PID_0003
+
+[PreCopySection]
+HKR,,NoSetupUI,,1
+
+[DestinationDirs]
+Tiny.Files.Ext = 10,System32\Drivers
+Tiny.Files.Inf = 10,INF
+
+[Tiny.Dev]
+CopyFiles=Tiny.Files.Ext, Tiny.Files.Inf
+AddReg=Tiny.AddReg
+
+[Tiny.Dev.NT]
+CopyFiles=Tiny.Files.Ext, Tiny.Files.Inf
+AddReg=Tiny.AddReg
+
+[Tiny.Dev.NT.Services]
+Addservice = Tiny, 0x00000002, Tiny.AddService
+
+[Tiny.AddService]
+DisplayName    = %Tiny.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\Tiny.sys
+LoadOrderGroup = Base
+
+[Tiny.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,Tiny.sys
+HKLM,"System\Currentcontrolset\Services\Tiny\Parameters","MaximumTransferSize",0x10001,256
+HKLM,"System\Currentcontrolset\Services\Tiny\Parameters","DebugLevel",0x10001,2
+
+
+[Tiny.Files.Ext]
+Tiny.sys
+
+[Tiny.Files.Inf]
+Tiny.inf
+
+
+;---------------------------------------------------------------;
+
+[Strings]
+MB="MSCo (c) 2005"
+MfgName="ManshoorSiminCompanyLtd"
+USB\VID_03EB&PID_0004.DeviceDesc="Tiny Dongle Version 2.0"
+USB\VID_03EB&PID_0003.DeviceDesc="Tiny Dongle Version 2.0"
+Tiny.SvcDesc="Tiny Dongle Version 2.0"

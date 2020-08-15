@@ -1,0 +1,1300 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="8">
+      <Personnel_x0020_List Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Personnel List</Alias>
+        <Columns isList="true" count="14">
+          <value>PersonnelCode,System.Int32</value>
+          <value>Name,System.String</value>
+          <value>Family,System.String</value>
+          <value>EmploymentDate,System.DateTime</value>
+          <value>EndOfEmployment,System.DateTime</value>
+          <value>WorkingPlaceCode,System.Int32</value>
+          <value>WorkGroupCode,System.Int32</value>
+          <value>InOutCard,System.String</value>
+          <value>PersonnelNumber,System.String</value>
+          <value>WorkGroupName,System.String</value>
+          <value>WorkingPlaceName,System.String</value>
+          <value>EmploymentTypeCode,System.Int32</value>
+          <value>EmploymentTypeName,System.String</value>
+          <value>CardingTypeCode,System.Byte</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Personnel List</Name>
+        <NameInSource>داده های گزارش.Personnel List</NameInSource>
+      </Personnel_x0020_List>
+      <MaskanDemandableLeaves Ref="3" type="DataTableSource" isKey="true">
+        <Alias>MaskanDemandableLeaves</Alias>
+        <Columns isList="true" count="20">
+          <value>PersonnelCode,System.Int32</value>
+          <value>InOutCard,System.String</value>
+          <value>PersonalNumber,System.String</value>
+          <value>Name,System.String</value>
+          <value>Family,System.String</value>
+          <value>LeaveCode,System.Int32</value>
+          <value>Leave_x0020_Name,System.String</value>
+          <value>EffectEarning,System.Boolean</value>
+          <value>MonthlyUseCeil,System.Int32</value>
+          <value>YearlyUseCeil,System.Int32</value>
+          <value>LetLeaveMoreThanMonthCeil,System.Boolean</value>
+          <value>HasRemain,System.Boolean</value>
+          <value>IsTransmittable,System.Boolean</value>
+          <value>IsRedempable,System.Boolean</value>
+          <value>TransmittedYearCeil,System.Int32</value>
+          <value>MonthlyTransmissionCeil,System.Int32</value>
+          <value>YearlyTransmissionCeil,System.Int32</value>
+          <value>UsedLeaveInYear,System.Int32</value>
+          <value>UsedLeaveInMonth,System.Int32</value>
+          <value>DemandableLeave,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>MaskanDemandableLeaves</Name>
+        <NameInSource>داده های گزارش.MaskanDemandableLeaves</NameInSource>
+      </MaskanDemandableLeaves>
+      <CalculatedLeavesAndPenalties Ref="4" type="DataTableSource" isKey="true">
+        <Alias>CalculatedLeavesAndPenalties</Alias>
+        <Columns isList="true" count="17">
+          <value>PersonnelCode,System.Int32</value>
+          <value>Date,System.DateTime</value>
+          <value>HourlyLeave,System.Int16</value>
+          <value>HLeaveCount,System.Byte</value>
+          <value>EarlyLack,System.Int16</value>
+          <value>MiddleLack,System.Int16</value>
+          <value>MiddleLackCount,System.Byte</value>
+          <value>FinalLack,System.Int16</value>
+          <value>DailyLeaveCountForBeyondYearlyHourlyLeaveCeil,System.Byte</value>
+          <value>DailyLeaveCountForBeyondMonthlyHourlyLeaveCeil,System.Byte</value>
+          <value>DailyLeaveCountForBeyondHourlyLevaeCeilInDay,System.Byte</value>
+          <value>DailyLeaveCountForBeyondHourlyLeaveNumber,System.Byte</value>
+          <value>NumberOfDailyLeave,System.Byte</value>
+          <value>NumberOfDailyLeaveWithoutCash,System.Byte</value>
+          <value>EarlyLackPenaltyAmount,System.Int16</value>
+          <value>LackCounter,System.Int16</value>
+          <value>LackBeyondYearlyLeaveCeil,System.Int16</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>CalculatedLeavesAndPenalties</Name>
+        <NameInSource>داده های گزارش.CalculatedLeavesAndPenalties</NameInSource>
+      </CalculatedLeavesAndPenalties>
+      <CalculatedLeaves Ref="5" type="DataTableSource" isKey="true">
+        <Alias>CalculatedLeaves</Alias>
+        <Columns isList="true" count="7">
+          <value>کد_x0020_پرسنلی,System.Int32</value>
+          <value>تاریخ,System.DateTime</value>
+          <value>کد_x0020_مرخصی,System.Int32</value>
+          <value>نام_x0020_مرخصی,System.String</value>
+          <value>مقدار_x0020_مرخصی_x0020_ساعتی,System.Int32</value>
+          <value>مقدار_x0020_مرخصی_x0020_روزانه,System.Int32</value>
+          <value>مرخصی_x0020_روزانه_x0020_است_x0020__x061F_,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>CalculatedLeaves</Name>
+        <NameInSource>داده های گزارش.CalculatedLeaves</NameInSource>
+      </CalculatedLeaves>
+      <EstehghaghiLeaveCeil Ref="6" type="DataTableSource" isKey="true">
+        <Alias>EstehghaghiLeaveCeil</Alias>
+        <Columns isList="true" count="13">
+          <value>PersonnelCode,System.Int32</value>
+          <value>LeaveCode,System.Int32</value>
+          <value>MonthlyUseCeil,System.Int32</value>
+          <value>YearlyUseCeil,System.Int32</value>
+          <value>LetLeaveMoreThanMonthCeil,System.Boolean</value>
+          <value>Used,System.Int32</value>
+          <value>HasRemain,System.Boolean</value>
+          <value>IsTransmittable,System.Boolean</value>
+          <value>IsRedempable,System.Boolean</value>
+          <value>TransmittedYearCeil,System.Int32</value>
+          <value>MonthlyTransmissionCeil,System.Int32</value>
+          <value>YearlyTransmissionCeil,System.Int32</value>
+          <value>LastChanged,System.Byte[]</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>EstehghaghiLeaveCeil</Name>
+        <NameInSource>داده های گزارش.EstehghaghiLeaveCeil</NameInSource>
+      </EstehghaghiLeaveCeil>
+      <WorkGroupExtraParameterValue Ref="7" type="DataTableSource" isKey="true">
+        <Alias>WorkGroupExtraParameterValue</Alias>
+        <Columns isList="true" count="55">
+          <value>VacationCalculationMode,System.Int32</value>
+          <value>WorkOnVacationCalculationMode,System.Int32</value>
+          <value>MinimumWorkOnVacation,System.Int32</value>
+          <value>MaximumWorkOnVacation,System.Int32</value>
+          <value>CalculateFreeDaysAsVacation,System.Int32</value>
+          <value>CoefOfOveralLack,System.Double</value>
+          <value>CoefOfOveralOver,System.Double</value>
+          <value>NightWorkOutOfShiftCalculationMode,System.Int32</value>
+          <value>LeaveCalculationMode,System.Int32</value>
+          <value>DailyLeaveEquivalentInHourCalculationMode,System.Int32</value>
+          <value>DailyLeaveToHourlyLeaveConvertionValue,System.Int32</value>
+          <value>HourlyLeaveToDailyLeaveConvertionValue,System.Int32</value>
+          <value>LackOfWorkAdjustmentMode,System.Int32</value>
+          <value>MonthlyLackOfWorkAdjustmentMode,System.Int32</value>
+          <value>PresenceCalculationMode,System.Int32</value>
+          <value>MissionAfterShiftCalculationMode,System.Int32</value>
+          <value>MissionInShiftCalculationMode,System.Int32</value>
+          <value>PresenceInMissionCalculationMode,System.Int32</value>
+          <value>NightWorkInShiftCalculationMode,System.Int32</value>
+          <value>IncompleteCardingCalculationMode,System.Int32</value>
+          <value>PresenceInLeaveCalculationMode,System.Int32</value>
+          <value>HourlyCardingTypeLeavesAndMissionsCalculationMode,System.Int32</value>
+          <value>ConversionUsed,System.Int32</value>
+          <value>CoefOfWorkOnVacation,System.Double</value>
+          <value>MinimumVacationOverTime,System.Int32</value>
+          <value>MaximumVacationOverTime,System.Int32</value>
+          <value>OverTimeOnVacationCalculationMode,System.Int32</value>
+          <value>CoefOfWorkOnFreeDay,System.Double</value>
+          <value>CoefOfWorkOnThursday,System.Double</value>
+          <value>CoefOfWorkOnFriday,System.Double</value>
+          <value>OverTimeOnFreeDayCalculationMode,System.Int32</value>
+          <value>OverTimeOnThursdayCalculationMode,System.Int32</value>
+          <value>OverTimeOnThursdayCalculationMode1,System.Int32</value>
+          <value>WorkOnFreeDayCalculationMode,System.Int32</value>
+          <value>WorkOnThursdayCalculationMode,System.Int32</value>
+          <value>WorkOnThursdayCalculationMode1,System.Int32</value>
+          <value>MinimumFreeDayOverTime,System.Int32</value>
+          <value>MaximumFreeDayOverTime,System.Int32</value>
+          <value>MinimumThursDayOverTime,System.Int32</value>
+          <value>MaximumThursDayOverTime,System.Int32</value>
+          <value>MinimumFriDayOverTime,System.Int32</value>
+          <value>MaximumFriDayOverTime,System.Int32</value>
+          <value>MinimumWorkOnFreeDay,System.Int32</value>
+          <value>MaximumWorkOnFreeDay,System.Int32</value>
+          <value>MinimumWorkOnThursDay,System.Int32</value>
+          <value>MaximumWorkOnThursDay,System.Int32</value>
+          <value>MinimumWorkOnFriDay,System.Int32</value>
+          <value>MaximumWorkOnFriDay,System.Int32</value>
+          <value>HourlyLeaveInPresenceCalculationMode,System.Int32</value>
+          <value>HourlyCardingDutyCalculationMode,System.Int32</value>
+          <value>HourlyCardingNightworkCalculationMode,System.Int32</value>
+          <value>HourlyCardingWorkAmountCalculationMode,System.Int32</value>
+          <value>HourlyCardingWorkAmount,System.Int32</value>
+          <value>WorkGroupCode,System.Int32</value>
+          <value>WorkGroupName,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>WorkGroupExtraParameterValue</Name>
+        <NameInSource>داده های گزارش.WorkGroupExtraParameterValue</NameInSource>
+      </WorkGroupExtraParameterValue>
+      <SumOFMaskanUsedLeavesAndPenalties Ref="8" type="DataTableSource" isKey="true">
+        <Alias>SumOFMaskanUsedLeavesAndPenalties</Alias>
+        <Columns isList="true" count="16">
+          <value>PersonnelCode,System.Int32</value>
+          <value>SumHourlyLeave,System.Int32</value>
+          <value>SumHLeaveCount,System.Int32</value>
+          <value>SumEarlyLack,System.Int32</value>
+          <value>SumMiddleLack,System.Int32</value>
+          <value>SumFinalLack,System.Int32</value>
+          <value>SumMiddleLackCount,System.Int32</value>
+          <value>SumDailyLeaveCountForBeyondHourlyLeaveNumber,System.Int32</value>
+          <value>SumDailyLeaveCountForBeyondHourlyLevaeCeilInDay,System.Int32</value>
+          <value>SumDailyLeaveCountForBeyondMonthlyHourlyLeaveCeil,System.Int32</value>
+          <value>SumDailyLeaveCountForBeyondYearlyHourlyLeaveCeil,System.Int32</value>
+          <value>SumNumberOfDailyLeave,System.Int32</value>
+          <value>SumNumberOfDailyLeaveWithoutCash,System.Int32</value>
+          <value>SumEarlyLackPenaltyAmount,System.Int32</value>
+          <value>SumLackCounter,System.Int32</value>
+          <value>SumLackBeyondYearlyLeaveCeil,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>SumOFMaskanUsedLeavesAndPenalties</Name>
+        <NameInSource>داده های گزارش.SumOFMaskanUsedLeavesAndPenalties</NameInSource>
+      </SumOFMaskanUsedLeavesAndPenalties>
+      <SandooghLeaves Ref="9" type="DataTableSource" isKey="true">
+        <Alias>SandooghLeaves</Alias>
+        <Columns isList="true" count="8">
+          <value>PersonnelCode,System.Int32</value>
+          <value>RequestDate,System.DateTime</value>
+          <value>RequestAmount,System.Int32</value>
+          <value>ApplyedByUser,System.String</value>
+          <value>InOutCard,System.String</value>
+          <value>Name,System.String</value>
+          <value>Family,System.String</value>
+          <value>PersonalNumber,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>SandooghLeaves</Name>
+        <NameInSource>داده های گزارش.SandooghLeaves</NameInSource>
+      </SandooghLeaves>
+    </DataSources>
+    <Relations isList="true" count="11">
+      <MaskanDemandableLeaves Ref="10" type="DataRelation" isKey="true">
+        <Alias>MaskanDemandableLeaves</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>کد پرسنلی</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>MaskanDemandableLeaves</Name>
+        <NameInSource>RemainedLeave</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>PersonnelCode</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </MaskanDemandableLeaves>
+      <EstehghaghiLeaveCeil Ref="11" type="DataRelation" isKey="true">
+        <Alias>EstehghaghiLeaveCeil</Alias>
+        <ChildColumns isList="true" count="2">
+          <value>کد پرسنلی</value>
+          <value>کد مرخصی</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>EstehghaghiLeaveCeil</Name>
+        <NameInSource>LeaveCeil</NameInSource>
+        <ParentColumns isList="true" count="2">
+          <value>PersonnelCode</value>
+          <value>LeaveCode</value>
+        </ParentColumns>
+        <ParentSource isRef="6" />
+      </EstehghaghiLeaveCeil>
+      <CalcLeave Ref="12" type="DataRelation" isKey="true">
+        <Alias>CalcLeave</Alias>
+        <ChildColumns isList="true" count="2">
+          <value>PersonnelCode</value>
+          <value>Date</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>CalcLeave</Name>
+        <NameInSource>CalcLeave</NameInSource>
+        <ParentColumns isList="true" count="2">
+          <value>کد پرسنلی</value>
+          <value>تاریخ</value>
+        </ParentColumns>
+        <ParentSource isRef="5" />
+      </CalcLeave>
+      <PersonnelList Ref="13" type="DataRelation" isKey="true">
+        <Alias>PersonnelList</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>PersonnelCode</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>PersonnelList</Name>
+        <NameInSource>PersonnelList</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>PersonnelCode</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </PersonnelList>
+      <MaskanDemandableLeaves Ref="14" type="DataRelation" isKey="true">
+        <Alias>MaskanDemandableLeaves</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>PersonnelCode</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>MaskanDemandableLeaves</Name>
+        <NameInSource>Demandable</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>PersonnelCode</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </MaskanDemandableLeaves>
+      <WGParam Ref="15" type="DataRelation" isKey="true">
+        <Alias>WGParam</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>WorkGroupCode</value>
+        </ChildColumns>
+        <ChildSource isRef="2" />
+        <Dictionary isRef="1" />
+        <Name>WGParam</Name>
+        <NameInSource>WGParam</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>WorkGroupCode</value>
+        </ParentColumns>
+        <ParentSource isRef="7" />
+      </WGParam>
+      <ForCeil Ref="16" type="DataRelation" isKey="true">
+        <Alias>ForCeil</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>PersonnelCode</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>ForCeil</Name>
+        <NameInSource>ForCeil</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>کد پرسنلی</value>
+        </ParentColumns>
+        <ParentSource isRef="5" />
+      </ForCeil>
+      <WorkGroupExtraParameterValue Ref="17" type="DataRelation" isKey="true">
+        <Alias>WorkGroupExtraParameterValue</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>WorkGroupName</value>
+        </ChildColumns>
+        <ChildSource isRef="2" />
+        <Dictionary isRef="1" />
+        <Name>WorkGroupExtraParameterValue</Name>
+        <NameInSource>WGParams</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>WorkGroupName</value>
+        </ParentColumns>
+        <ParentSource isRef="7" />
+      </WorkGroupExtraParameterValue>
+      <Estehghaghi Ref="18" type="DataRelation" isKey="true">
+        <Alias>Estehghaghi</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>PersonnelCode</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>Estehghaghi</Name>
+        <NameInSource>Estehghaghi</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>PersonnelCode</value>
+        </ParentColumns>
+        <ParentSource isRef="6" />
+      </Estehghaghi>
+      <EstehghaghiLeaveCeil Ref="19" type="DataRelation" isKey="true">
+        <Alias>EstehghaghiLeaveCeil</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>PersonnelCode</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>EstehghaghiLeaveCeil</Name>
+        <NameInSource>Estehghagi</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>PersonnelCode</value>
+        </ParentColumns>
+        <ParentSource isRef="6" />
+      </EstehghaghiLeaveCeil>
+      <sandoogh Ref="20" type="DataRelation" isKey="true">
+        <Alias>sandoogh</Alias>
+        <ChildColumns isList="true" count="2">
+          <value>PersonnelCode</value>
+          <value>Date</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>sandoogh</Name>
+        <NameInSource>SandooghLeave</NameInSource>
+        <ParentColumns isList="true" count="2">
+          <value>PersonnelCode</value>
+          <value>RequestDate</value>
+        </ParentColumns>
+        <ParentSource isRef="9" />
+      </sandoogh>
+    </Relations>
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <GlobalizationStrings isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="21" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="5">
+        <PageHeaderBand1 Ref="22" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,27.7,1.9</ClientRectangle>
+          <Components isList="true" count="6">
+            <Text1 Ref="23" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.9,0.1,2.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,12,Bold</Font>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="21" />
+              <Parent isRef="22" />
+              <Text>بانک مسکن
+</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="24" type="GeneralFormat" isKey="true" />
+              <Type>Expression</Type>
+            </Text1>
+            <Text2 Ref="25" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.5,0.9,7.3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,12,Bold</Font>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="21" />
+              <Parent isRef="22" />
+              <Text>لیست مرخصی روزانه - بانک مسکن</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="26" type="GeneralFormat" isKey="true" />
+              <Type>Expression</Type>
+            </Text2>
+            <Text3 Ref="27" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>26.2,1.2,1.5,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="21" />
+              <Parent isRef="22" />
+              <Text>از تاریخ</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="28" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <txtFromDate Ref="29" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>23.8,1.2,2.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>txtFromDate</Name>
+              <Page isRef="21" />
+              <Parent isRef="22" />
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="30" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </txtFromDate>
+            <Text5 Ref="31" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>22.3,1.2,1.5,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="21" />
+              <Parent isRef="22" />
+              <Text>تا تاریخ</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="32" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+            <txtToDate Ref="33" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>19.8,1.2,2.5,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>txtToDate</Name>
+              <Page isRef="21" />
+              <Parent isRef="22" />
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="34" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </txtToDate>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="21" />
+          <Parent isRef="21" />
+        </PageHeaderBand1>
+        <PageFooter1 Ref="35" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,18.2,27.7,0.8</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>PageFooter1</Name>
+          <Page isRef="21" />
+          <Parent isRef="21" />
+        </PageFooter1>
+        <GroupHeader1 Ref="36" type="GroupHeaderBand" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Wheat</Brush>
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,3.1,27.7,0.8</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Condition>{CalculatedLeavesAndPenalties.PersonnelList.WorkingPlaceName}</Condition>
+          <Conditions isList="true" count="0" />
+          <Name>GroupHeader1</Name>
+          <Page isRef="21" />
+          <Parent isRef="21" />
+        </GroupHeader1>
+        <Header1 Ref="37" type="HeaderBand" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Wheat</Brush>
+          <ClientRectangle>0,4.7,27.7,2</ClientRectangle>
+          <Components isList="true" count="19">
+            <Text6 Ref="38" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>25.1,0.8,1.6,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>شماره پرسنلی</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="39" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+            <Text8 Ref="40" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>22,0.8,3.1,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>نام و نام خانوادگی</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="41" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text12 Ref="42" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>18,0.8,2.1,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>مرخصی انتقال یافته از سال قبل</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="43" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text14 Ref="44" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.5,0.8,1.5,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>سقف سال</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="45" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text16 Ref="46" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15,0.8,1.5,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>استحقاقی روزانه</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="47" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+            <Text20 Ref="48" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.7,0.8,1.3,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>بیش از 4 ساعت</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="49" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text22 Ref="50" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.3,0.8,1.4,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>خارج از حد مجاز</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="51" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text22>
+            <Text24 Ref="52" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.8,0.8,1.5,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>مرخصی مازاد 48ساعت
+</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="53" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text24>
+            <Text9 Ref="54" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.3,0.8,1.5,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>مرخصی صندوق ذخیره</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="55" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+            <Text10 Ref="56" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.8,0.8,1.5,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>مرخصی بدون حقوق</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="57" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text27 Ref="58" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.2,0.8,1.6,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>مرخصی تحصیلی</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="59" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text27>
+            <Text28 Ref="60" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,0.8,1.6,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text28</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>مرخصی استعلاجی</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="61" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text28>
+            <Text29 Ref="62" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3,0.8,1.6,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text29</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>استعلاجی زایمان</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="63" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text29>
+            <Text30 Ref="64" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.5,0.8,1.5,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text30</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>مرخصی ازدواج</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="65" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text30>
+            <Text31 Ref="66" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.8,1.5,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text31</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>مرخصی معذوریت</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="67" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text31>
+            <Text39 Ref="68" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>20.1,0.8,1.9,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text39</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>تاریخ</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="69" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text39>
+            <متن1 Ref="70" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.3,0,8.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>متن1</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>{CalculatedLeavesAndPenalties.PersonnelList.WorkingPlaceName}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="71" type="GeneralFormat" isKey="true" />
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </متن1>
+            <متن2 Ref="72" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>25.7,0,2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>متن2</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>محل خدمت</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="73" type="GeneralFormat" isKey="true" />
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </متن2>
+            <متن3 Ref="74" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>26.7,0.8,1,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>متن3</Name>
+              <Page isRef="21" />
+              <Parent isRef="37" />
+              <Text>ردیف</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="75" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </متن3>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>Header1</Name>
+          <Page isRef="21" />
+          <Parent isRef="21" />
+        </Header1>
+        <Data1 Ref="76" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,7.5,27.7,0.8</ClientRectangle>
+          <Components isList="true" count="17">
+            <Text7 Ref="77" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>25.1,0,1.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{Helper.GetPersonnelNumber(CalculatedLeavesAndPenalties.PersonnelList.PersonnelNumber)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="78" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text4 Ref="79" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>22,0,3.1,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{ CalculatedLeavesAndPenalties.PersonnelList.Name+ " " +CalculatedLeavesAndPenalties.PersonnelList.Family}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="80" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text13 Ref="81" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>18,0,2.1,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{CalculatedLeavesAndPenalties.Estehghaghi.TransmittedYearCeil/Personnel_List.WGParam.HourlyLeaveToDailyLeaveConvertionValue}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="82" type="NumberFormat" isKey="true">
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <Text11 Ref="83" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.5,0,1.5,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{CalculatedLeavesAndPenalties.Estehghaghi.YearlyUseCeil /Personnel_List.WGParam.HourlyLeaveToDailyLeaveConvertionValue}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="84" type="NumberFormat" isKey="true">
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text17 Ref="85" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15,0,1.5,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{(//CalculatedLeavesAndPenalties.NumberOfDailyLeave + 
+((CalculatedLeavesAndPenalties.CalcLeave.کد_مرخصی== 1 &amp;&amp;CalculatedLeavesAndPenalties.CalcLeave.مرخصی_روزانه_است__ == 1)?1 : 0))}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="86" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text17>
+            <Text15 Ref="87" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.7,0,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{CalculatedLeavesAndPenalties.DailyLeaveCountForBeyondHourlyLevaeCeilInDay}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="88" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text15>
+            <Text18 Ref="89" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.3,0,1.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{CalculatedLeavesAndPenalties.DailyLeaveCountForBeyondHourlyLeaveNumber}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="90" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text18>
+            <Text19 Ref="91" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.8,0,1.5,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{CalculatedLeavesAndPenalties.DailyLeaveCountForBeyondYearlyHourlyLeaveCeil}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="92" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text19>
+            <Text25 Ref="93" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.8,0,1.5,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text25</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{(( CalculatedLeavesAndPenalties.CalcLeave.کد_مرخصی== 200 &amp;&amp;CalculatedLeavesAndPenalties.CalcLeave.مرخصی_روزانه_است__ == 1)?1:0 ) +CalculatedLeavesAndPenalties.NumberOfDailyLeaveWithoutCash }</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="94" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text25>
+            <Text32 Ref="95" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.2,0,1.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{(CalculatedLeavesAndPenalties.CalcLeave.کد_مرخصی== 206 &amp;&amp; CalculatedLeavesAndPenalties.CalcLeave.مرخصی_روزانه_است__== 1)?1:0 }</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="96" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text32>
+            <Text33 Ref="97" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,0,1.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text33</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{(CalculatedLeavesAndPenalties.CalcLeave.کد_مرخصی == 2 &amp;&amp;CalculatedLeavesAndPenalties.CalcLeave.مرخصی_روزانه_است__ == 1)?1:0 }</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="98" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text33>
+            <Text35 Ref="99" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3,0,1.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text35</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{(CalculatedLeavesAndPenalties.CalcLeave.کد_مرخصی == 204 &amp;&amp;CalculatedLeavesAndPenalties.CalcLeave.مرخصی_روزانه_است__ == 1)?1:0 }</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="100" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text35>
+            <Text36 Ref="101" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.5,0,1.5,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text36</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{(CalculatedLeavesAndPenalties.CalcLeave.کد_مرخصی == 201 &amp;&amp; CalculatedLeavesAndPenalties.CalcLeave.مرخصی_روزانه_است__== 1)?1:0 }</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="102" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text36>
+            <Text37 Ref="103" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,1.5,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text37</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{(CalculatedLeavesAndPenalties.CalcLeave.کد_مرخصی == 202 &amp;&amp;CalculatedLeavesAndPenalties.CalcLeave.مرخصی_روزانه_است__== 1)?1:0 }</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="104" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text37>
+            <Text38 Ref="105" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>20.1,0,1.9,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text38</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{Helper.ToPersianDate(CalculatedLeavesAndPenalties.Date )}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="106" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text38>
+            <متن4 Ref="107" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>26.7,0,1,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>متن4</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{Line}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="108" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </متن4>
+            <Text34 Ref="109" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.3,0,1.5,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text34</Name>
+              <Page isRef="21" />
+              <Parent isRef="76" />
+              <Text>{CalculatedLeavesAndPenalties.sandoogh.RequestAmount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="110" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text34>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName />
+          <DataSourceName>CalculatedLeavesAndPenalties</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>Data1</Name>
+          <Page isRef="21" />
+          <Parent isRef="21" />
+          <Sort isList="true" count="2">
+            <value>ASC</value>
+            <value>Date</value>
+          </Sort>
+        </Data1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>792bc8f1c6de45739d2de483733f5992</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <Orientation>Landscape</Orientation>
+      <Page isRef="21" />
+      <PageHeight>21</PageHeight>
+      <PageWidth>29.7</PageWidth>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="111" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="112" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="9">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+    <value>ReportHelper.dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>3/6/2010 8:33:53 AM</ReportChanged>
+  <ReportCreated>11/26/2008 9:59:15 AM</ReportCreated>
+  <ReportGuid>3b31e79b87f24e40969a2f9d07f6143f</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2008.1.129</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.ReportControls;
+using Stimulsoft.Report.Components;
+using ReportHelper;
+
+namespace Reports
+{
+    
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

@@ -1,0 +1,1484 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="4">
+      <CalculatedItems Ref="2" type="DataTableSource" isKey="true">
+        <Alias>CalculatedItems</Alias>
+        <Columns isList="true" count="64">
+          <value>تاریخ_x0020_محاسبه,System.DateTime</value>
+          <value>کد_x0020_پرسنلی,System.Int32</value>
+          <value>حضور,System.Int16</value>
+          <value>کسر_x0020_اولیه,System.Int16</value>
+          <value>کسر_x0020_وسط,System.Int16</value>
+          <value>کسر_x0020_آخر,System.Int16</value>
+          <value>کل_x0020_کسر_x0020_کار,System.Int16</value>
+          <value>اضافه_x0020_اول,System.Int16</value>
+          <value>اضافه_x0020_وسط,System.Int16</value>
+          <value>اضافه_x0020_آخر,System.Int16</value>
+          <value>کل_x0020_اضافه_x0020_کاری,System.Int16</value>
+          <value>اضافه_x0020_اول_x0020_مجاز,System.Int16</value>
+          <value>اضافه_x0020_وسط_x0020_مجاز,System.Int16</value>
+          <value>اضافه_x0020_آخر_x0020_مجاز,System.Int16</value>
+          <value>اضافه_x0020_کل_x0020_مجاز,System.Int16</value>
+          <value>ماموریت_x0020_ساعتی_x0020_داخل_x0020_شیفت,System.Int16</value>
+          <value>ماموریت_x0020_ساعتی_x0020_خارج_x0020_شیفت,System.Int16</value>
+          <value>مرخصی_x0020_ساعتی,System.Int16</value>
+          <value>شبکاری_x0020_داخل_x0020_شیفت,System.Int16</value>
+          <value>شبکاری_x0020_خارج_x0020_شیفت,System.Int16</value>
+          <value>وضعیت,System.String</value>
+          <value>شیفت,System.String</value>
+          <value>شماره_x0020_کارت,System.String</value>
+          <value>گروه_x0020_کاری,System.String</value>
+          <value>تعداد_x0020_تردد,System.Byte</value>
+          <value>ورود,System.Int16</value>
+          <value>خروج,System.Int16</value>
+          <value>ماموریت_x0020_ساعتی,System.Int16</value>
+          <value>روز,System.String</value>
+          <value>نام,System.String</value>
+          <value>شماره_x0020_پرسنلی,System.String</value>
+          <value>طول_x0020_شیفت,System.Int16</value>
+          <value>کارکرد,System.Int16</value>
+          <value>نام_x0020_مرخصی_x0020_روزانه,System.String</value>
+          <value>نام_x0020_ماموریت_x0020_روزانه,System.String</value>
+          <value>تردد_x0020_1,System.Int16</value>
+          <value>تردد_x0020_2,System.Int16</value>
+          <value>تردد_x0020_3,System.Int16</value>
+          <value>تردد_x0020_4,System.Int16</value>
+          <value>تعداد_x0020_مرخصی_x0020_روزانه,System.Int16</value>
+          <value>تعداد_x0020_ماموریت_x0020_روزانه,System.Int16</value>
+          <value>طول_x0020_دوره_x0020_کاری_x0020_به_x0020_روز,System.Byte</value>
+          <value>تغییر_x0020_شیفت,System.Byte</value>
+          <value>نام_x0020_دستگاه_x0020_تردد_x0020_1,System.String</value>
+          <value>نام_x0020_دستگاه_x0020_تردد_x0020_2,System.String</value>
+          <value>نام_x0020_دستگاه_x0020_تردد_x0020_3,System.String</value>
+          <value>نام_x0020_دستگاه_x0020_تردد_x0020_4,System.String</value>
+          <value>نوع_x0020_محاسبه_x0020_تعطیلکاری,System.Byte</value>
+          <value>تعطیلکاری,System.Int32</value>
+          <value>نحوه_x0020_محاسبه_x0020_مرخصی,System.Byte</value>
+          <value>نحوه_x0020_محاسبه_x0020_معادل_x0020_مرخصی_x0020_ساعتی_x0020_برای_x0020_مرخصی_x0020_روزانه,System.Byte</value>
+          <value>معادل_x0020_مرخصی_x0020_روزانه_x0020_به_x0020_ساعت,System.Int16</value>
+          <value>مقدار_x0020_مرخصی_x0020_ساعتی_x0020_معادل_x0020_یک_x0020_روز,System.Int16</value>
+          <value>نوع_x0020_نوبت_x0020_کاری,System.String</value>
+          <value>اضافه_x0020_کاری_x0020_تعطیل,System.Int32</value>
+          <value>نوع_x0020_روز_x0020_غیر_x0020_کاری,System.Byte</value>
+          <value>کارکرد_x0020_غیر_x0020_کاری,System.Int32</value>
+          <value>اضافه_x0020_کار_x0020_غیر_x0020_کاری,System.Int32</value>
+          <value>اضافه_x0020_کار_x0020_اجباری,System.Int16</value>
+          <value>شماره_x0020_دستگاه_x0020_تردد1,System.Int32</value>
+          <value>شماره_x0020_دستگاه_x0020_تردد2,System.Int32</value>
+          <value>شماره_x0020_دستگاه_x0020_تردد3,System.Int32</value>
+          <value>شماره_x0020_دستگاه_x0020_تردد4,System.Int32</value>
+          <value>اضافه_x0020_کار_x0020_اجباري,System.Int16</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>CalculatedItems</Name>
+        <NameInSource>داده های گزارش.CalculatedItems</NameInSource>
+      </CalculatedItems>
+      <Personnel_x0020_List Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Personnel List</Alias>
+        <Columns isList="true" count="14">
+          <value>PersonnelCode,System.Int32</value>
+          <value>Name,System.String</value>
+          <value>Family,System.String</value>
+          <value>EmploymentDate,System.DateTime</value>
+          <value>EndOfEmployment,System.DateTime</value>
+          <value>WorkingPlaceCode,System.Int32</value>
+          <value>WorkGroupCode,System.Int32</value>
+          <value>InOutCard,System.String</value>
+          <value>PersonnelNumber,System.String</value>
+          <value>WorkGroupName,System.String</value>
+          <value>WorkingPlaceName,System.String</value>
+          <value>EmploymentTypeCode,System.Int32</value>
+          <value>EmploymentTypeName,System.String</value>
+          <value>CardingTypeCode,System.Byte</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Personnel List</Name>
+        <NameInSource>داده های گزارش.Personnel List</NameInSource>
+      </Personnel_x0020_List>
+      <tblPersonnelTraffics Ref="4" type="DataTableSource" isKey="true">
+        <Alias>tblPersonnelTraffics</Alias>
+        <Columns isList="true" count="6">
+          <value>PersonnelCode,System.Int32</value>
+          <value>InOutCard,System.String</value>
+          <value>InOutDate,System.DateTime</value>
+          <value>InOutTime,System.Int32</value>
+          <value>InOutType,System.Byte</value>
+          <value>UseConvert,System.Byte</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>tblPersonnelTraffics</Name>
+        <NameInSource>داده های گزارش.tblPersonnelTraffics</NameInSource>
+      </tblPersonnelTraffics>
+      <TrafficReport Ref="5" type="DataTableSource" isKey="true">
+        <Alias>TrafficReport</Alias>
+        <Columns isList="true" count="97">
+          <value>PersonnelCode,System.Int32</value>
+          <value>InOutCard,System.String</value>
+          <value>PersonnelNumber,System.String</value>
+          <value>In1,System.Int32</value>
+          <value>Out1,System.Int32</value>
+          <value>In2,System.Int32</value>
+          <value>Out2,System.Int32</value>
+          <value>In3,System.Int32</value>
+          <value>Out3,System.Int32</value>
+          <value>In4,System.Int32</value>
+          <value>Out4,System.Int32</value>
+          <value>In5,System.Int32</value>
+          <value>Out5,System.Int32</value>
+          <value>In6,System.Int32</value>
+          <value>Out6,System.Int32</value>
+          <value>In7,System.Int32</value>
+          <value>Out7,System.Int32</value>
+          <value>In8,System.Int32</value>
+          <value>Out8,System.Int32</value>
+          <value>In9,System.Int32</value>
+          <value>Out9,System.Int32</value>
+          <value>In10,System.Int32</value>
+          <value>Out10,System.Int32</value>
+          <value>In11,System.Int32</value>
+          <value>Out11,System.Int32</value>
+          <value>In12,System.Int32</value>
+          <value>Out12,System.Int32</value>
+          <value>In13,System.Int32</value>
+          <value>Out13,System.Int32</value>
+          <value>In14,System.Int32</value>
+          <value>Out14,System.Int32</value>
+          <value>In15,System.Int32</value>
+          <value>Out15,System.Int32</value>
+          <value>In16,System.Int32</value>
+          <value>Out16,System.Int32</value>
+          <value>In17,System.Int32</value>
+          <value>Out17,System.Int32</value>
+          <value>In18,System.Int32</value>
+          <value>Out18,System.Int32</value>
+          <value>In19,System.Int32</value>
+          <value>Out19,System.Int32</value>
+          <value>In20,System.Int32</value>
+          <value>Out20,System.Int32</value>
+          <value>In21,System.Int32</value>
+          <value>Out21,System.Int32</value>
+          <value>In22,System.Int32</value>
+          <value>Out22,System.Int32</value>
+          <value>In23,System.Int32</value>
+          <value>Out23,System.Int32</value>
+          <value>In24,System.Int32</value>
+          <value>Out24,System.Int32</value>
+          <value>In25,System.Int32</value>
+          <value>Out25,System.Int32</value>
+          <value>In26,System.Int32</value>
+          <value>Out26,System.Int32</value>
+          <value>In27,System.Int32</value>
+          <value>Out27,System.Int32</value>
+          <value>In28,System.Int32</value>
+          <value>Out28,System.Int32</value>
+          <value>In29,System.Int32</value>
+          <value>Out29,System.Int32</value>
+          <value>In30,System.Int32</value>
+          <value>Out30,System.Int32</value>
+          <value>In31,System.Int32</value>
+          <value>Out31,System.Int32</value>
+          <value>State1,System.String</value>
+          <value>State2,System.String</value>
+          <value>State3,System.String</value>
+          <value>State4,System.String</value>
+          <value>State5,System.String</value>
+          <value>State6,System.String</value>
+          <value>State7,System.String</value>
+          <value>State8,System.String</value>
+          <value>State9,System.String</value>
+          <value>State10,System.String</value>
+          <value>State11,System.String</value>
+          <value>State12,System.String</value>
+          <value>State13,System.String</value>
+          <value>State14,System.String</value>
+          <value>State15,System.String</value>
+          <value>State16,System.String</value>
+          <value>State17,System.String</value>
+          <value>State18,System.String</value>
+          <value>State19,System.String</value>
+          <value>State20,System.String</value>
+          <value>State21,System.String</value>
+          <value>State22,System.String</value>
+          <value>State23,System.String</value>
+          <value>State24,System.String</value>
+          <value>State25,System.String</value>
+          <value>State26,System.String</value>
+          <value>State27,System.String</value>
+          <value>State28,System.String</value>
+          <value>State29,System.String</value>
+          <value>State30,System.String</value>
+          <value>State31,System.String</value>
+          <value>Name,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>TrafficReport</Name>
+        <NameInSource>داده های گزارش.TrafficReport</NameInSource>
+      </TrafficReport>
+    </DataSources>
+    <Relations isList="true" count="2">
+      <Personnel_Traffic Ref="6" type="DataRelation" isKey="true">
+        <Alias>Personnel_Traffic</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>PersonnelCode</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>Personnel_Traffic</Name>
+        <NameInSource>Personnel</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>PersonnelCode</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </Personnel_Traffic>
+      <Personnel_calcItema Ref="7" type="DataRelation" isKey="true">
+        <Alias>Personnel_calcItema</Alias>
+        <ChildColumns isList="true" count="2">
+          <value>PersonnelCode</value>
+          <value>InOutDate</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>Personnel_calcItema</Name>
+        <NameInSource>CalcItems</NameInSource>
+        <ParentColumns isList="true" count="2">
+          <value>کد پرسنلی</value>
+          <value>تاریخ محاسبه</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </Personnel_calcItema>
+    </Relations>
+    <Report isRef="0" />
+    <Variables isList="true" count="16">
+      <value>,In1,In1,System.String,,False,False</value>
+      <value>,Out1,Out1,System.String,,False,False</value>
+      <value>,In2,In2,System.String,,False,False</value>
+      <value>,Out2,Out2,System.String,,False,False</value>
+      <value>,In3,In3,System.String,,False,False</value>
+      <value>,Out3,Out3,System.String,,False,False</value>
+      <value>,In4,In4,System.String,,False,False</value>
+      <value>,Out4,Out4,System.String,,False,False</value>
+      <value>,In5,In5,System.String,,False,False</value>
+      <value>,Out5,Out5,System.String,,False,False</value>
+      <value>,In6,In6,System.String,,False,False</value>
+      <value>,Out7,Out7,System.String,,False,False</value>
+      <value>,Out6,Out6,System.String,,False,False</value>
+      <value>,In7,In7,System.String,,False,False</value>
+      <value>,In8,In8,System.String,,False,False</value>
+      <value>,Out8,Out8,System.String,,False,False</value>
+    </Variables>
+  </Dictionary>
+  <GlobalizationStrings isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="8" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="7">
+        <PageHeaderBand1 Ref="9" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,28.1,1.2</ClientRectangle>
+          <Components isList="true" count="1">
+            <متن1 Ref="10" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.6,0,8.3,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,12,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>متن1</Name>
+              <Page isRef="8" />
+              <Parent isRef="9" />
+              <Text>گزارش ترددها</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="11" type="GeneralFormat" isKey="true" />
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </متن1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="8" />
+          <Parent isRef="8" />
+        </PageHeaderBand1>
+        <زیرنویسصفحه1 Ref="12" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,17.8,28.1,1.2</ClientRectangle>
+          <Components isList="true" count="7">
+            <متن2 Ref="13" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>26.2,0.6,2.3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>متن2</Name>
+              <Page isRef="8" />
+              <Parent isRef="12" />
+              <Text>تهیه کننده :</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="14" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </متن2>
+            <متن3 Ref="15" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.8,0.6,2.3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>متن3</Name>
+              <Page isRef="8" />
+              <Parent isRef="12" />
+              <Text>تایید کننده :</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="16" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </متن3>
+            <متن4 Ref="17" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.7,0.6,2.3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>متن4</Name>
+              <Page isRef="8" />
+              <Parent isRef="12" />
+              <Text>مدیر واحد :</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="18" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </متن4>
+            <متنسیستم1 Ref="19" type="SystemText" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.9,0.6,0.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>متنسیستم1</Name>
+              <Page isRef="8" />
+              <Parent isRef="12" />
+              <Text>{PageNumber}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="20" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </متنسیستم1>
+            <متنسیستم2 Ref="21" type="SystemText" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.7,0.6,0.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>متنسیستم2</Name>
+              <Page isRef="8" />
+              <Parent isRef="12" />
+              <Text>{TotalPageCount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="22" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </متنسیستم2>
+            <متن5 Ref="23" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.5,0.6,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>متن5</Name>
+              <Page isRef="8" />
+              <Parent isRef="12" />
+              <Text>از</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="24" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </متن5>
+            <متن6 Ref="25" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,28,0.7</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold,Point,False,178</Font>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>متن6</Name>
+              <Page isRef="8" />
+              <Parent isRef="12" />
+              <Text>ح = حضور	,	غ = غایب	,	مخ = مرخصی روزانه	,	مم = ماموریت روزانه	,	ت = تعطیل	,	آز = غیر کاری	,	ن = حضور ناقص	,	وخ = ورود و خروج غلط	 	,	اس = مرخصی استحقاقی	,	لج= مرخصی استعلاجی	,	بد = مرخصی بدون حقوق	,	مو = مرخصی ویژه	,	کا = خزای نوع کارتزنی	,		اط = خطا در یافتن اطلاعات پرسنل</Text>
+              <TextBrush>Gray</TextBrush>
+              <TextFormat Ref="26" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </متن6>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>زیرنویسصفحه1</Name>
+          <Page isRef="8" />
+          <Parent isRef="8" />
+        </زیرنویسصفحه1>
+        <GroupHeader1 Ref="27" type="GroupHeaderBand" isKey="true">
+          <BeginRenderEvent>In1="";Out1="";
+In2="";Out2="";
+In3="";Out3="";
+In4="";Out4="";
+In5="";Out5="";
+In6="";Out6="";
+In7="";Out7="";
+In8="";Out8="";</BeginRenderEvent>
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Wheat</Brush>
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,2.4,28.1,1.7</ClientRectangle>
+          <Components isList="true" count="25">
+            <Text2 Ref="28" type="Text" isKey="true">
+              <Border>None;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>26.4,0,1.7,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>نام:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="29" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text1 Ref="30" type="Text" isKey="true">
+              <Border>None;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>22.4,0,4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>{tblPersonnelTraffics.Personnel_Traffic.Name + " " + tblPersonnelTraffics.Personnel_Traffic.Family}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="31" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text37 Ref="32" type="Text" isKey="true">
+              <Border>None;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>17.4,0,3.1,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text37</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>{Helper.GetCardNumber(tblPersonnelTraffics.InOutCard)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="33" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text37>
+            <Text38 Ref="34" type="Text" isKey="true">
+              <Border>None;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>20.5,0,1.9,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text38</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>شماره کارت:</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="35" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text38>
+            <Text4 Ref="36" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>26.3,0.9,1.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>تاریخ</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="37" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text6 Ref="38" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>22.3,0.9,1.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>روز</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="39" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+            <Text8 Ref="40" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>19.9,0.9,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>ورود1</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="41" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text10 Ref="42" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>18.6,0.9,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>خروج1</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="43" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text12 Ref="44" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>17.4,0.9,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>ورود2</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="45" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text14 Ref="46" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>16.1,0.9,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>خروج2</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="47" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text16 Ref="48" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>14.9,0.9,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>ورود3</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="49" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+            <Text18 Ref="50" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>12.4,0.9,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>ورود4</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="51" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text18>
+            <Text20 Ref="52" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>11.1,0.9,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>خروج4</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="53" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text22 Ref="54" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>9.9,0.9,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>ورود5</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="55" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text22>
+            <Text24 Ref="56" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>7.4,0.9,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>ورود6</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="57" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text24>
+            <Text26 Ref="58" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>3.6,0.9,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text26</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>خروج7</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="59" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text26>
+            <Text28 Ref="60" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>6.1,0.9,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text28</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>خروج6</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="61" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text28>
+            <Text30 Ref="62" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>8.7,0.9,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text30</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>خروج5</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="63" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text30>
+            <Text32 Ref="64" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>4.9,0.9,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>ورود7</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="65" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text32>
+            <Text34 Ref="66" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>2.4,0.9,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text34</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>ورود8</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="67" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text34>
+            <Text36 Ref="68" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>1.2,0.9,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text36</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>خروج8</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="69" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text36>
+            <Text39 Ref="70" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>Wheat</Brush>
+              <ClientRectangle>23.7,0.9,2.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text39</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>وضعیت</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="71" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text39>
+            <Text41 Ref="72" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>13.7,0.9,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text41</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>خروج3</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="73" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text41>
+            <Text44 Ref="74" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>21.1,0.9,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text44</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>اولین ورود</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="75" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text44>
+            <Text45 Ref="76" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>0,0.9,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text45</Name>
+              <Page isRef="8" />
+              <Parent isRef="27" />
+              <Text>آخرین خروج</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="77" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text45>
+          </Components>
+          <Condition>{tblPersonnelTraffics.InOutCard}</Condition>
+          <Conditions isList="true" count="0" />
+          <Name>GroupHeader1</Name>
+          <Page isRef="8" />
+          <Parent isRef="8" />
+        </GroupHeader1>
+        <GroupHeader2 Ref="78" type="GroupHeaderBand" isKey="true">
+          <BeginRenderEvent>In1="";Out1="";
+In2="";Out2="";
+In3="";Out3="";
+In4="";Out4="";
+In5="";Out5="";
+In6="";Out6="";
+In7="";Out7="";
+In8="";Out8="";</BeginRenderEvent>
+          <Brush>Transparent</Brush>
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,4.9,28.1,0.8</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Condition>{tblPersonnelTraffics.InOutDate}</Condition>
+          <Conditions isList="true" count="0" />
+          <Name>GroupHeader2</Name>
+          <Page isRef="8" />
+          <Parent isRef="8" />
+        </GroupHeader2>
+        <Data1 Ref="79" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,6.5,28.1,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName />
+          <DataSourceName>tblPersonnelTraffics</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>Data1</Name>
+          <Page isRef="8" />
+          <Parent isRef="8" />
+          <RenderingEvent>switch (Line)
+{
+	case 1:
+		In1 =Helper.ToShortHourString(tblPersonnelTraffics.InOutTime);
+	break;
+	case 2:
+		Out1 =Helper.ToShortHourString(tblPersonnelTraffics.InOutTime);
+	break;
+	case 3:
+		In2 =Helper.ToShortHourString(tblPersonnelTraffics.InOutTime);
+	break;
+	case 4:
+		Out2 =Helper.ToShortHourString(tblPersonnelTraffics.InOutTime);
+	break;
+	case 5:
+		In3 =Helper.ToShortHourString(tblPersonnelTraffics.InOutTime);
+	break;
+	case 6:
+		Out3 =Helper.ToShortHourString(tblPersonnelTraffics.InOutTime);
+	break;
+	case 7:
+		In4 =Helper.ToShortHourString(tblPersonnelTraffics.InOutTime);
+	break;
+	case 8:
+		Out4 =Helper.ToShortHourString(tblPersonnelTraffics.InOutTime);
+	break;
+	case 9:
+		In5 =Helper.ToShortHourString(tblPersonnelTraffics.InOutTime);
+	break;
+	case 10:
+		Out5 =Helper.ToShortHourString(tblPersonnelTraffics.InOutTime);
+	break;
+	case 11:
+		In6 =Helper.ToShortHourString(tblPersonnelTraffics.InOutTime);
+	break;
+	case 12:
+		Out6 =Helper.ToShortHourString(tblPersonnelTraffics.InOutTime);
+	break;
+	case 13:
+		In7 =Helper.ToShortHourString(tblPersonnelTraffics.InOutTime);
+	break;
+	case 14:
+		Out7 =Helper.ToShortHourString(tblPersonnelTraffics.InOutTime);
+	break;
+	case 15:
+		In8 =Helper.ToShortHourString(tblPersonnelTraffics.InOutTime);
+	break;
+	case 16:
+		Out8 =Helper.ToShortHourString(tblPersonnelTraffics.InOutTime);
+	break;	
+}</RenderingEvent>
+          <Sort isList="true" count="4">
+            <value>ASC</value>
+            <value>InOutDate</value>
+            <value>ASC</value>
+            <value>InOutTime</value>
+          </Sort>
+        </Data1>
+        <GroupFooter2 Ref="80" type="GroupFooterBand" isKey="true">
+          <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,7.3,28.1,0.8</ClientRectangle>
+          <Components isList="true" count="21">
+            <Text5 Ref="81" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>22.3,0,1.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{tblPersonnelTraffics.Personnel_calcItema.روز}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="82" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+            <Text7 Ref="83" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>19.9,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{In1}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="84" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text9 Ref="85" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>18.6,0,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{Out1}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="86" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+            <Text11 Ref="87" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>17.4,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{In2}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="88" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text13 Ref="89" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>16.1,0,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{Out2}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="90" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <Text15 Ref="91" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>14.9,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{In3}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="92" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text15>
+            <Text17 Ref="93" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>12.4,0,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{In4}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="94" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text17>
+            <Text19 Ref="95" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>11.1,0,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{Out4}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="96" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text19>
+            <Text21 Ref="97" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>9.9,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{In5}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="98" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text21>
+            <Text23 Ref="99" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>7.4,0,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{In6}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="100" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text25 Ref="101" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>3.6,0,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text25</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{Out7}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="102" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text25>
+            <Text27 Ref="103" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>6.1,0,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{Out6}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="104" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text27>
+            <Text29 Ref="105" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>8.7,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text29</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{Out5}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="106" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text29>
+            <Text31 Ref="107" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>4.9,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text31</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{In7}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="108" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text31>
+            <Text33 Ref="109" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>2.4,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text33</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{In8}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="110" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text33>
+            <Text35 Ref="111" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>1.2,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text35</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{Out8}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="112" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text35>
+            <Text40 Ref="113" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>23.7,0,2.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text40</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{Helper.GetStateDescription(tblPersonnelTraffics.Personnel_calcItema.وضعیت,"","","fa")}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="114" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text40>
+            <Text3 Ref="115" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>26.3,0,1.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.ToPersianDate(tblPersonnelTraffics.InOutDate)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="116" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text42 Ref="117" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>13.7,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text42</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{Out3}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="118" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text42>
+            <Text43 Ref="119" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>21.1,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text43</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{Helper.ToShortHourString(tblPersonnelTraffics.Personnel_calcItema.ورود)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="120" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text43>
+            <Text46 Ref="121" type="Text" isKey="true">
+              <Border>All;Black;2;Solid;False;4;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>0,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text46</Name>
+              <Page isRef="8" />
+              <Parent isRef="80" />
+              <Text>{Helper.ToShortHourString(tblPersonnelTraffics.Personnel_calcItema.خروج)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="122" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text46>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>GroupFooter2</Name>
+          <Page isRef="8" />
+          <Parent isRef="8" />
+        </GroupFooter2>
+        <GroupFooter1 Ref="123" type="GroupFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,8.9,28.1,0.8</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>GroupFooter1</Name>
+          <Page isRef="8" />
+          <Parent isRef="8" />
+        </GroupFooter1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>88f2774c577e41c4905ef6ff50d7b282</Guid>
+      <Margins>0.8,0.8,1,1</Margins>
+      <Name>Page1</Name>
+      <Orientation>Landscape</Orientation>
+      <Page isRef="8" />
+      <PageHeight>21</PageHeight>
+      <PageWidth>29.7</PageWidth>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="124" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="125" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="9">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+    <value>ReportHelper.dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>7/24/2010 5:24:50 PM</ReportChanged>
+  <ReportCreated>9/17/2008 2:25:32 PM</ReportCreated>
+  <ReportGuid>36f0bd0c9d5a407a9de7dfd46985c41b</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2008.1.129</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+using ReportHelper;
+
+namespace Reports
+{
+    
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

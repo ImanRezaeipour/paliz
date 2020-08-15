@@ -1,0 +1,1321 @@
+((ERROR))       [Level1] At [5/21/2013 5:58:30 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [5/22/2013 8:17:57 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((INFORMATION)) [Level2] At [5/22/2013 11:30:04 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [5/22/2013 3:50:34 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [5/23/2013 8:17:14 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [5/23/2013 12:21:34 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [5/23/2013 3:37:53 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((INFORMATION)) [Level2] At [5/23/2013 6:14:41 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [5/23/2013 6:16:37 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [5/25/2013 8:26:58 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [5/25/2013 5:05:09 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [5/26/2013 8:29:07 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [5/26/2013 4:18:10 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [5/27/2013 8:27:53 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [5/27/2013 4:30:30 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [5/28/2013 8:30:17 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [5/28/2013 5:18:59 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [5/29/2013 8:28:47 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [5/29/2013 4:28:22 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [5/30/2013 8:36:13 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((INFORMATION)) [Level2] At [5/30/2013 9:14:04 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((INFORMATION)) [Level2] At [5/30/2013 9:26:07 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [5/30/2013 1:09:35 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/1/2013 8:30:12 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/1/2013 5:26:38 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/2/2013 8:25:33 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/2/2013 9:51:09 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/2/2013 9:53:01 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/2/2013 3:51:49 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/3/2013 8:23:15 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/3/2013 4:24:05 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/8/2013 8:58:06 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((INFORMATION)) [Level2] At [6/8/2013 10:16:31 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/8/2013 5:05:56 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/9/2013 8:27:29 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/9/2013 9:10:08 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service has been stopped more than time interval, trying to restart Paliz Afzar Devices Commander Service ... {Technical Detail}: 
+((INFORMATION)) [Level1] At [6/9/2013 9:10:13 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service has been restarted successfully. {Technical Detail}: 
+((ERROR))       [Level1] At [6/9/2013 4:18:49 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/10/2013 8:29:20 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/10/2013 5:09:21 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/11/2013 8:39:47 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/12/2013 4:59:45 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/13/2013 9:16:16 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/13/2013 1:51:56 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/15/2013 12:59:23 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((WARNING))     [Level2] At [6/15/2013 3:19:31 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped. {Technical Detail}: 
+((INFORMATION)) [Level2] At [6/15/2013 3:19:32 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((INFORMATION)) [Level2] At [6/15/2013 3:55:21 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((WARNING))     [Level2] At [6/15/2013 4:17:15 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped. {Technical Detail}: 
+((INFORMATION)) [Level2] At [6/15/2013 4:17:17 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/15/2013 4:54:46 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/16/2013 8:41:19 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/16/2013 3:09:24 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/17/2013 8:10:54 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/17/2013 8:16:00 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service has been stopped more than time interval, trying to restart Paliz Afzar Devices Commander Service ... {Technical Detail}: 
+((INFORMATION)) [Level1] At [6/17/2013 8:16:04 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service has been restarted successfully. {Technical Detail}: 
+((ERROR))       [Level1] At [6/18/2013 5:48:39 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/19/2013 8:30:13 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/19/2013 4:24:58 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/20/2013 8:31:36 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/20/2013 10:00:46 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/22/2013 8:27:32 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/22/2013 4:22:37 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/23/2013 8:31:13 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/23/2013 4:33:48 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/25/2013 9:46:14 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((INFORMATION)) [Level2] At [6/26/2013 8:34:26 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/26/2013 6:08:59 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [6/27/2013 8:07:10 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [6/27/2013 12:30:41 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/1/2013 8:38:11 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/1/2013 6:15:00 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/2/2013 8:30:26 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((INFORMATION)) [Level2] At [7/2/2013 3:20:55 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/2/2013 4:20:35 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/3/2013 8:37:04 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/3/2013 4:48:04 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/4/2013 8:29:42 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/4/2013 1:35:40 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/6/2013 8:29:41 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/6/2013 5:02:55 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/7/2013 8:32:08 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/7/2013 6:04:03 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/8/2013 8:29:01 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/8/2013 4:18:46 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/9/2013 8:41:08 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/9/2013 4:19:46 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/10/2013 8:25:31 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/10/2013 3:05:38 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/11/2013 8:46:48 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/11/2013 11:20:28 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/13/2013 8:33:09 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/13/2013 3:49:07 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/14/2013 8:26:21 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/14/2013 3:04:31 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/16/2013 8:40:55 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/16/2013 4:23:09 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/17/2013 8:28:54 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/17/2013 6:47:16 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/18/2013 8:30:02 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/18/2013 3:16:54 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/20/2013 8:42:18 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/20/2013 3:28:59 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/21/2013 8:27:42 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/21/2013 4:20:26 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/22/2013 8:54:50 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/22/2013 3:12:30 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/22/2013 3:13:33 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/22/2013 3:21:18 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/23/2013 9:45:20 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/23/2013 3:36:45 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/24/2013 8:40:15 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/24/2013 3:09:06 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/25/2013 8:43:54 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/25/2013 12:57:19 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/27/2013 8:38:44 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/27/2013 3:40:33 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/28/2013 8:45:19 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/28/2013 3:21:14 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/29/2013 8:54:34 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/29/2013 3:05:30 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [7/31/2013 8:40:08 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [7/31/2013 3:27:36 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/1/2013 7:58:12 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/1/2013 2:06:08 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/3/2013 8:26:10 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/3/2013 4:43:10 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/4/2013 9:02:02 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/4/2013 3:52:32 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/5/2013 8:26:12 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/5/2013 5:27:46 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/6/2013 9:25:39 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/6/2013 4:32:13 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/7/2013 9:01:11 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/7/2013 4:38:46 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/8/2013 8:28:21 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/8/2013 10:29:21 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/8/2013 10:30:19 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/8/2013 2:24:05 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/11/2013 9:04:21 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/11/2013 4:07:20 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/12/2013 11:38:52 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/12/2013 5:35:53 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/13/2013 8:49:03 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/13/2013 4:30:45 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/14/2013 8:30:52 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/14/2013 5:21:36 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/15/2013 8:47:50 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/15/2013 12:09:03 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/17/2013 9:59:18 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((INFORMATION)) [Level2] At [8/17/2013 2:48:34 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/17/2013 4:44:21 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/18/2013 8:33:58 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/18/2013 4:39:57 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/19/2013 8:23:09 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/19/2013 3:21:32 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/20/2013 10:51:22 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/20/2013 5:01:06 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/21/2013 8:20:00 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/21/2013 4:24:49 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/22/2013 8:32:38 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/22/2013 1:21:47 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/24/2013 8:28:37 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/24/2013 5:46:47 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/25/2013 8:30:14 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((WARNING))     [Level2] At [8/25/2013 5:27:02 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped. {Technical Detail}: 
+((INFORMATION)) [Level2] At [8/26/2013 9:23:17 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/26/2013 4:13:50 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/27/2013 8:25:05 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((INFORMATION)) [Level2] At [8/27/2013 11:21:18 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/27/2013 2:09:03 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/27/2013 2:54:17 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/27/2013 3:39:46 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/27/2013 3:40:31 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((INFORMATION)) [Level2] At [8/28/2013 8:41:42 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/28/2013 4:26:09 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/29/2013 8:41:43 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/29/2013 2:19:03 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [8/31/2013 9:34:23 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [8/31/2013 4:12:27 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/1/2013 9:00:26 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/1/2013 4:23:20 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/3/2013 8:37:27 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/3/2013 4:52:43 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/4/2013 8:39:17 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/4/2013 4:33:12 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/5/2013 8:16:02 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/5/2013 12:13:10 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/7/2013 8:42:34 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/7/2013 6:21:12 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/8/2013 9:15:39 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/8/2013 5:31:23 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/9/2013 8:11:38 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/9/2013 3:43:02 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/9/2013 3:53:22 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/9/2013 11:04:24 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/10/2013 8:48:23 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/10/2013 4:30:59 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/10/2013 4:32:26 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/11/2013 5:45:57 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/12/2013 8:55:01 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/12/2013 12:08:10 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/14/2013 4:52:37 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/14/2013 5:43:40 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/17/2013 8:35:14 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((INFORMATION)) [Level2] At [9/17/2013 11:04:58 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((INFORMATION)) [Level2] At [9/17/2013 11:19:28 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/17/2013 12:00:37 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/17/2013 12:01:20 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((INFORMATION)) [Level2] At [9/17/2013 1:53:52 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/17/2013 5:21:47 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/18/2013 8:24:37 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/18/2013 4:41:40 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/19/2013 7:53:47 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/19/2013 11:33:08 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/21/2013 8:49:09 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/21/2013 4:48:09 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/22/2013 9:46:18 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/22/2013 1:52:34 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/22/2013 1:53:38 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/22/2013 2:03:31 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/22/2013 2:04:12 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/22/2013 6:13:37 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/23/2013 8:56:30 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/23/2013 4:44:05 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/24/2013 8:51:44 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/24/2013 4:53:40 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/25/2013 8:40:29 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/25/2013 4:05:39 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/26/2013 8:40:45 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/28/2013 3:58:19 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/29/2013 8:38:50 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/29/2013 4:12:12 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [9/30/2013 8:41:03 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [9/30/2013 4:37:15 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/1/2013 8:20:53 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/1/2013 4:08:36 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/2/2013 8:38:37 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/2/2013 3:09:28 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/2/2013 3:21:45 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/2/2013 6:12:37 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/5/2013 9:04:22 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/5/2013 5:49:49 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/6/2013 8:40:04 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/6/2013 5:04:25 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/7/2013 8:38:00 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/7/2013 10:35:19 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/7/2013 11:22:50 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/7/2013 4:01:28 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/8/2013 9:09:43 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/8/2013 4:27:27 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/9/2013 8:53:15 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((INFORMATION)) [Level2] At [10/9/2013 10:46:05 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/9/2013 2:09:24 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/10/2013 9:04:58 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/10/2013 11:53:45 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/12/2013 8:39:02 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/12/2013 6:22:28 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/13/2013 11:14:27 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/13/2013 4:08:18 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/14/2013 8:54:34 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/14/2013 4:19:29 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/26/2013 8:53:48 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/26/2013 4:25:37 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/27/2013 8:23:51 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/27/2013 4:52:17 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/28/2013 8:29:41 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/28/2013 5:07:37 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/29/2013 9:16:14 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/29/2013 4:02:24 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/30/2013 8:47:21 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/30/2013 5:29:19 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [10/31/2013 8:30:05 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [10/31/2013 12:51:06 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/2/2013 8:50:05 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/2/2013 5:23:07 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/3/2013 8:29:34 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/3/2013 4:13:58 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/4/2013 8:20:26 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/4/2013 5:19:23 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/5/2013 8:27:13 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/5/2013 6:07:34 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/6/2013 8:12:02 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/6/2013 5:43:05 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/7/2013 8:33:32 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/7/2013 1:26:44 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/9/2013 9:34:53 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/9/2013 4:13:56 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/10/2013 8:38:36 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/10/2013 5:57:25 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/11/2013 8:50:05 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/11/2013 3:45:49 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/12/2013 8:21:19 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/12/2013 4:00:53 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/16/2013 8:48:51 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/16/2013 6:22:05 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/17/2013 8:15:51 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/17/2013 6:32:38 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/18/2013 2:57:18 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/18/2013 5:27:31 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/19/2013 8:54:41 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/19/2013 5:01:04 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/20/2013 9:01:21 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/20/2013 6:01:14 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/21/2013 8:43:43 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/21/2013 12:04:08 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/23/2013 8:43:30 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/23/2013 4:04:29 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/24/2013 8:58:52 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/24/2013 5:22:04 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/25/2013 8:26:51 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/25/2013 4:10:44 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/26/2013 9:12:14 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/26/2013 3:28:24 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/26/2013 3:51:57 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/26/2013 4:29:25 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/27/2013 8:44:33 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/27/2013 4:11:58 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/28/2013 8:36:31 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/28/2013 12:18:27 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [11/30/2013 8:46:03 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [11/30/2013 4:16:51 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [12/1/2013 8:10:11 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [12/1/2013 5:36:55 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [12/2/2013 8:39:28 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [12/2/2013 4:25:43 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [12/3/2013 8:31:32 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [12/3/2013 4:31:51 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [12/4/2013 8:47:00 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [12/4/2013 3:37:37 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [12/4/2013 4:03:19 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [12/4/2013 4:57:24 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [12/5/2013 9:07:03 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [12/5/2013 10:03:15 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [12/5/2013 10:04:00 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [12/5/2013 12:48:36 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [12/7/2013 8:39:27 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [12/7/2013 1:22:41 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [12/7/2013 1:23:41 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [12/7/2013 4:56:08 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [12/8/2013 8:37:01 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [12/8/2013 4:24:12 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [12/9/2013 9:00:32 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [12/9/2013 4:34:05 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [12/10/2013 8:41:55 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [12/10/2013 4:31:34 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [12/12/2013 7:59:33 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 
+((ERROR))       [Level1] At [12/12/2013 1:56:47 PM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been stopped unexpectedly. Please start service manually or restart the system. {Technical Detail}: System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: A system shutdown is in progress
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(String machineName, Int32 serviceControlManaqerAccess)
+   at System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(String machineName)
+   at System.ServiceProcess.ServiceController.GetServicesOfType(String machineName, Int32 serviceType)
+   at System.ServiceProcess.ServiceController.GetServices()
+   at AgentService.CAgent.AgentJob()
+((INFORMATION)) [Level2] At [12/14/2013 8:35:30 AM]{Paliz Afzar Devices Commander Service Agent reported this message}: Paliz Afzar Devices Commander Service Agent has been started. {Technical Detail}: 

@@ -1,0 +1,2862 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Reports>
+<Category Name ="IndividualReport" ReportGroupID="1">
+  <Columns>
+    <Column Name="Presence" ID="1">
+      <DataBand>
+        <en>{Helper.GetPresence(CalculatedItems.Presence ,CalculatedItems.WorkGroupParam.PresenceCalculationMode )}</en>
+        <fa>{Helper.GetPresence(CalculatedItems.Presence ,CalculatedItems.WorkGroupParam.PresenceCalculationMode )}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.GetPresence((short)Helper.AdjustAndRound((int)SumI(CalculatedItems.Presence),1,"en"), WorkGroupExtraParameterValue.PresenceCalculationMode)}</en>
+        <fa>{Helper.GetPresence((short)Helper.AdjustAndRound((int)SumI(CalculatedItems.Presence),1,"fa"), WorkGroupExtraParameterValue.PresenceCalculationMode)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Early Lack" ID="2">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Early_Lack)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Early_Lack)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Early_Lack),2,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Early_Lack),2,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Middle Lack" ID="3">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Middle_Lack)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Middle_Lack)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Middle_Lack),3,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Middle_Lack),3,"en"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Final Lack" ID="4">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Final_Lack)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Final_Lack)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Final_Lack),4,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Final_Lack),4,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Total Lack" ID="5">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Total_Lack)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Total_Lack)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound(Helper.GetFirstValueAdjustedWithSecondValue((int)SumI(CalculatedItems.Total_Lack),(int)SumI(CalculatedItems.Authorized_Total_OverTime),chkAdjust.Checked),5,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound(Helper.GetFirstValueAdjustedWithSecondValue((int)SumI(CalculatedItems.Total_Lack),(int)SumI(CalculatedItems.Authorized_Total_OverTime),chkAdjust.Checked),5,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Authorized Early OverTime" ID="6">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Authorized_Early_OverTime)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Authorized_Early_OverTime)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Authorized_Early_OverTime),6,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Authorized_Early_OverTime),6,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Authorized Middle OverTime" ID="7">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Authorized_Middle_OverTime)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Authorized_Middle_OverTime)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Authorized_Middle_OverTime),7,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Authorized_Middle_OverTime),7,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Authorized Final OverTime" ID="8">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Authorized_Final_OverTime)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Authorized_Final_OverTime)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Authorized_Final_OverTime),8","en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Authorized_Final_OverTime),8,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Authorized Total OverTime" ID="9">
+      <DataBand>      
+        <en>{Helper.ToShortHourString(CalculatedItems.Authorized_Total_OverTime)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Authorized_Total_OverTime)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound(Helper.GetFirstValueAdjustedWithSecondValue((int)SumI(CalculatedItems.Authorized_Total_OverTime),(int)SumI(CalculatedItems.Total_Lack),chkAdjust.Checked),9,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound(Helper.GetFirstValueAdjustedWithSecondValue((int)SumI(CalculatedItems.Authorized_Total_OverTime),(int)SumI(CalculatedItems.Total_Lack),chkAdjust.Checked),9,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Hourly Duty In Shift" ID="10">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty_In_Shift)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty_In_Shift)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString((int)SumI(CalculatedItems.Hourly_Duty_In_Shift))}</en>
+        <fa>{Helper.ToHourString((int)SumI(CalculatedItems.Hourly_Duty_In_Shift))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Hourly Duty Out Of Shift" ID="11">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty_Out_Of_Shift)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty_Out_Of_Shift)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString((int)SumI(CalculatedItems.Hourly_Duty_Out_Of_Shift))}</en>
+        <fa>{Helper.ToHourString((int)SumI(CalculatedItems.Hourly_Duty_Out_Of_Shift))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Hourly Leave" ID="12">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Hourly_Leave)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Hourly_Leave)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Hourly_Leave),12,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Hourly_Leave),12,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="NightWork In Shift" ID="13">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.NightWork_In_Shift)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.NightWork_In_Shift)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString((int)SumI(CalculatedItems.NightWork_In_Shift))}</en>
+        <fa>{Helper.ToHourString((int)SumI(CalculatedItems.NightWork_In_Shift))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="NightWork Out Of Shift" ID="14">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.NightWork_Out_Of_Shift)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.NightWork_Out_Of_Shift)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString((int)SumI(CalculatedItems.NightWork_Out_Of_Shift))}</en>
+        <fa>{Helper.ToHourString((int)SumI(CalculatedItems.NightWork_Out_Of_Shift))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="State" ID="15">
+      <DataBand>
+        <en>{Helper.GetStateDescription(CalculatedItems.State,CalculatedItems.Daily_Leave_Name ,CalculatedItems.Daily_Duty_Name ,"en")}</en>
+        <fa>{Helper.GetStateDescription(CalculatedItems.State,CalculatedItems.Daily_Leave_Name ,CalculatedItems.Daily_Duty_Name ,"fa")}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkingPeriod" ID="16">
+      <DataBand>
+        <en>{CalculatedItems.WorkingPeriod}</en>
+        <fa>{CalculatedItems.WorkingPeriod}</fa>
+      </DataBand>
+      <GroupBand>
+        <en> </en>
+        <fa></fa> 
+      </GroupBand>
+    </Column>
+    <Column Name="Card Number" ID="17">
+      <DataBand>
+        <en>{Helper.GetCardNumber(CalculatedItems.Card_Number)}</en>
+        <fa>{Helper.GetCardNumber(CalculatedItems.Card_Number)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkGroup" ID="18">
+      <DataBand>
+        <en>{CalculatedItems.WorkGroup}</en>
+        <fa>{CalculatedItems.WorkGroup}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Traffick Count" ID="19">
+      <DataBand>
+        <en>{CalculatedItems.Traffick_Count}</en>
+        <fa>{CalculatedItems.Traffick_Count}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(CalculatedItems.Traffick_Count)}</en>
+        <fa>{SumI(CalculatedItems.Traffick_Count)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="In" ID="20">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.In)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.In)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Out" ID="21">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Out)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Out)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Hourly Duty" ID="22">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Hourly_Duty),22,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Hourly_Duty),22,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Day" ID="23">
+      <DataBand>
+        <en>{CalculatedItems.Day}</en>
+        <fa>{CalculatedItems.Day}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Name" ID="24">
+      <DataBand>
+        <en>{CalculatedItems.Name}</en>
+        <fa>{CalculatedItems.Name}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Personnel Number" ID="25">
+      <DataBand>
+        <en>{Helper.GetPersonnelNumber(CalculatedItems.Personnel_Number)}</en>
+        <fa>{Helper.GetPersonnelNumber(CalculatedItems.Personnel_Number)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Shift Length" ID="26">
+      <DataBand>
+        <en>{Helper.ToHourString(CalculatedItems.Shift_Length)}</en>
+        <fa>{Helper.ToHourString(CalculatedItems.Shift_Length)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Earning" ID="27">
+      <DataBand>
+        <en>{CalculatedItems.Earning}</en>
+        <fa>{CalculatedItems.Earning}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(CalculatedItems.Earning)}</en>
+        <fa>{SumI(CalculatedItems.Earning)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Daily Leave Name" ID="28">
+      <DataBand>
+        <en>{CalculatedItems.Daily_Leave_Name}</en>
+        <fa>{CalculatedItems.Daily_Leave_Name}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Daily Duty Name" ID="29">
+      <DataBand>
+        <en>{CalculatedItems.Daily_Duty_Name}</en>
+        <fa>{CalculatedItems.Daily_Duty_Name}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Traffic 1" ID="30">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Traffic_1)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Traffic_1)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Traffic 2" ID="31">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Traffic_2)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Traffic_2)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Traffic 3" ID="32">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Traffic_3)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Traffic_3)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Traffic 4" ID="33">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Traffic_4)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Traffic_4)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Daily Leave Count" ID="34">
+      <DataBand>
+        <en>{CalculatedItems.Daily_Leave_Count}</en>
+        <fa>{CalculatedItems.Daily_Leave_Count}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(CalculatedItems.Daily_Leave_Count)}</en>
+        <fa>{SumI(CalculatedItems.Daily_Leave_Count)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Daily Mission Count" ID="35">
+      <DataBand>
+        <en>{CalculatedItems.Daily_Mission_Count}</en>
+        <fa>{CalculatedItems.Daily_Mission_Count}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(CalculatedItems.Daily_Mission_Count)}</en>
+        <fa>{SumI(CalculatedItems.Daily_Mission_Count)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkingPeriod Lengths in Day" ID="36">
+      <DataBand>
+        <en>{CalculatedItems.WorkingPeriod_Lengths_in_Day}</en>
+        <fa>{CalculatedItems.WorkingPeriod_Lengths_in_Day}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkingPeriod Changed" ID="37">
+      <DataBand>
+        <en>{((int)CalculatedItems.WorkingPeriod_Changed == 1) ? "True" : "False"}</en>
+        <fa>{((int)CalculatedItems.WorkingPeriod_Changed == 1) ? "بله" : "خیر"}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(System.Convert.ToInt32(CalculatedItems.WorkingPeriod_Changed))}</en>
+        <fa>{SumI(System.Convert.ToInt32(CalculatedItems.WorkingPeriod_Changed))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="38">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Work On Vacation" ID="39">
+      <DataBand>
+        <en>{Helper.CalculateVacation((byte)CalculatedItems.WorkGroupParam.VacationCalculationMode , (int)(CalculatedItems.Work_On_Vacation + CalculatedItems.Overtime_On_Vacation), true)}</en>
+        <fa>{Helper.CalculateVacation((byte)CalculatedItems.WorkGroupParam.VacationCalculationMode , (int)(CalculatedItems.Work_On_Vacation + CalculatedItems.Overtime_On_Vacation), true)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.CalculateVacation((byte)CalculatedItems.WorkGroupParam.VacationCalculationMode ,Helper.AdjustAndRound((int)SumI(CalculatedItems.Work_On_Vacation + CalculatedItems.Overtime_On_Vacation),47,"en"), false)}
+        </en>
+        <fa>
+          {Helper.CalculateVacation((byte)CalculatedItems.WorkGroupParam.VacationCalculationMode ,Helper.AdjustAndRound((int)SumI(CalculatedItems.Work_On_Vacation + CalculatedItems.Overtime_On_Vacation),47,"fa"), false)}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="40">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="41">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Daily Leave Equivalent In  Hour" ID="42">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Hourly Leave Equivalent In Day" ID="43">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkingPeriod Type" ID="44">
+      <DataBand>
+        <en>{CalculatedItems.WorkingPeriod_Type}</en>
+        <fa>{CalculatedItems.WorkingPeriod_Type}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Overtime On Vacation" ID="45">
+      <DataBand>
+        <en>{Helper.CalculateVacation((byte)CalculatedItems.WorkGroupParam.VacationCalculationMode , (int)CalculatedItems.Overtime_On_Vacation, true)}</en>
+        <fa>{Helper.CalculateVacation((byte)CalculatedItems.WorkGroupParam.VacationCalculationMode ,  (int)CalculatedItems.Overtime_On_Vacation, true)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.CalculateVacation((byte)CalculatedItems.WorkGroupParam.VacationCalculationMode ,Helper.AdjustAndRound((int)SumI( CalculatedItems.Overtime_On_Vacation),53,"en"), true)}</en>
+        <fa>{Helper.CalculateVacation((byte)CalculatedItems.WorkGroupParam.VacationCalculationMode ,Helper.AdjustAndRound((int)SumI( CalculatedItems.Overtime_On_Vacation),53,"en"), true)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Type Of Offday" ID="46">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>    
+    <Column Name="NightWork" ID="60">
+      <DataBand>
+        <en>
+          {Helper.ToHourString((int)
+          Helper.AdjustAndRound(CalculatedItems.NightWork_In_Shift,17,"en") +
+          Helper.AdjustAndRound(CalculatedItems.NightWork_Out_Of_Shift,18,"en")) }
+        </en>
+        <fa>
+          {Helper.ToHourString((int)
+          Helper.AdjustAndRound(CalculatedItems.NightWork_In_Shift,17,"fa") +
+          Helper.AdjustAndRound(CalculatedItems.NightWork_Out_Of_Shift,18,"fa")) }
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString((int)
+          SumI(Helper.AdjustAndRound(CalculatedItems.NightWork_In_Shift,17,"en")) +
+          (int)SumI(Helper.AdjustAndRound(CalculatedItems.NightWork_Out_Of_Shift,18,"en"))) }
+        </en>
+        <fa>
+          {Helper.ToHourString((int)
+          SumI(Helper.AdjustAndRound(CalculatedItems.NightWork_In_Shift,17,"fa")) +
+          (int)SumI(Helper.AdjustAndRound(CalculatedItems.NightWork_Out_Of_Shift,18,"fa"))) }
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkOnThursday" ID="61">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Overtime On Thursday" ID="62">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkOnFriday" ID="63">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Overtime On Friday" ID="64">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkOnOffday" ID="65">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Overtime On Offday" ID="66">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Personnel_Name" ID="67">
+      <DataBand>
+        <en>
+          {CalculatedItems.Personnels.Personnel_Name.Trim()}
+        </en>
+        <fa>
+           {CalculatedItems.Personnels.Personnel_Name.Trim()}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>          
+        </en>
+        <fa>          
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Personnel_Family" ID="68">
+	<DataBand>
+        <en>
+          {CalculatedItems.Personnels.Personnel_Family.Trim()}
+        </en>
+        <fa>
+           {CalculatedItems.Personnels.Personnel_Family.Trim()}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+        </en>
+        <fa>
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="47">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="48">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="49">
+      <DataBand>
+        <en>{CalculatedItems.CalculationDate}</en>
+        <fa>{Helper.ToPersianDate(CalculatedItems.CalculationDate)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="50">
+      <DataBand>
+        <en>{Helper.ToHourString((int)CalculatedItems.Overtime_By_Force)}</en>
+        <fa>{Helper.ToHourString((int)CalculatedItems.Overtime_By_Force)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString((int)Helper.AdjustAndRound((int)SumI(CalculatedItems.Overtime_By_Force),"Overtime By Force","fa"))}</en>
+        <fa>{Helper.ToHourString((int)Helper.AdjustAndRound((int)SumI(CalculatedItems.Overtime_By_Force),"اضافه کار اجباری","fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1000">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut1)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut1)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1001">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut2)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut2)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1002">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut3)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut3)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1003">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut4)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut4)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1004">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut5)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut5)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1005">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut6)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut6)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1006">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut7)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut7)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1007">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut8)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut8)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1008">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut9)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut9)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1009">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut10)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut10)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1010">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut11)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut11)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1011">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut12)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut12)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1012">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut13)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut13)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1013">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut14)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut14)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1014">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut15)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut15)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1015">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut16)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut16)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Rank" ID="69">
+      <DataBand>
+        <en>{Line}</en>
+        <fa>{Line}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkingPlaceName" ID="70">
+      <DataBand>
+        <en>{CalculatedItems.Personnels.WorkingPlaceName}</en>
+        <fa>{CalculatedItems.Personnels.WorkingPlaceName}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="EmploymentTypeName" ID="71">
+      <DataBand>
+        <en>{CalculatedItems.Personnels.EmploymentTypeName}</en>
+        <fa>{CalculatedItems.Personnels.EmploymentTypeName}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Absence" ID="72">
+      <DataBand>
+        <en>{(CalculatedItems.State.ToString().ToLower().Trim() == "absence") ? (int)CalculatedItems.WorkingPeriod_Lengths_in_Day : 0}</en>
+        <fa>{(CalculatedItems.State.ToString().ToLower().Trim() == "absence") ? (int)CalculatedItems.WorkingPeriod_Lengths_in_Day : 0}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(DataBand,((CalculatedItems.State.ToString().ToLower().Trim() == "absence") ? (int)CalculatedItems.WorkingPeriod_Lengths_in_Day : 0))}</en>
+        <fa>{SumI(DataBand,((CalculatedItems.State.ToString().ToLower().Trim() == "absence") ? (int)CalculatedItems.WorkingPeriod_Lengths_in_Day : 0))}</fa>
+      </GroupBand>
+    </Column>
+	<Column Name="Description" ID="73">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+  </Columns>
+  <Relations>
+    <Relation NameInSource="WorkGroupExtraParameters" Name="WorkGroupParam" Alias="WorkGroupParam" ParentSource="WorkGroupExtraParameterValue" ChildSource="CalculatedItems">
+      <ParentColumns>WorkGroupName</ParentColumns>
+      <ChildColumns>WorkGroup</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelTrraficks" Name="Trafficks" Alias="Trafficks" ParentSource="PersonnelTrafficks" ChildSource="CalculatedItems">
+      <ParentColumns>InOutCard|InOutDate</ParentColumns>
+      <ChildColumns>Card Number|CalculationDate</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelDailyLeaves" Name="DailyLeaves" Alias="DailyLeaves" ParentSource="CalculatedDailyLeaves" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode|Date</ParentColumns>
+      <ChildColumns>PersonnelCode|CalculationDate</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelHourlyLeaves" Name="HourlyLeaves" Alias="HourlyLeaves" ParentSource="CalculatedHourlyLeaves" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode|Date</ParentColumns>
+      <ChildColumns>PersonnelCode|CalculationDate</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelHourlyDuties" Name="HourlyDuties" Alias="HourlyDuties" ParentSource="CalculatedHourlyDuties" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode|Date</ParentColumns>
+      <ChildColumns>PersonnelCode|CalculationDate</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelDailyDuties" Name="DailyDuties" Alias="DailyDuties" ParentSource="CalculatedDailyDuties" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode|Date</ParentColumns>
+      <ChildColumns>PersonnelCode|CalculationDate</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelLeaveCeil" Name="Ceil" Alias="Ceil" ParentSource="LeaveCeil" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode|CeilDate</ParentColumns>
+      <ChildColumns>PersonnelCode|CalculationDate</ChildColumns>
+    </Relation>
+   <Relation NameInSource="CalculatedItemsFromLeaveCeil" Name="CeilToCalc" Alias="CeilToCalc" ParentSource="CalculatedItems" ChildSource="LeaveCeil">
+      <ParentColumns>PersonnelCode|CalculationDate</ParentColumns>
+      <ChildColumns>PersonnelCode|CeilDate</ChildColumns>
+    </Relation> 
+    <Relation NameInSource="PersonnelDataList" Name="Personnels" Alias="Personnels" ParentSource="PersonnelList" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode</ParentColumns>
+      <ChildColumns>PersonnelCode</ChildColumns>
+    </Relation>
+  </Relations>
+</Category>
+<Category Name ="DailyReport" ReportGroupID="2">
+  <Columns>
+    <Column Name="Presence" ID="1">
+      <DataBand>
+        <en>{Helper.GetPresence(CalculatedItems.Presence ,CalculatedItems.WorkGroupParam.PresenceCalculationMode )}</en>
+        <fa>{Helper.GetPresence(CalculatedItems.Presence ,CalculatedItems.WorkGroupParam.PresenceCalculationMode )}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.GetPresence((short)Helper.AdjustAndRound((int)SumI(CalculatedItems.Presence),1,"en"), WorkGroupExtraParameterValue.PresenceCalculationMode)}</en>
+        <fa>{Helper.GetPresence((short)Helper.AdjustAndRound((int)SumI(CalculatedItems.Presence),1,"fa"), WorkGroupExtraParameterValue.PresenceCalculationMode)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Early Lack" ID="2">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Early_Lack)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Early_Lack)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Early_Lack),2,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Early_Lack),2,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Middle Lack" ID="3">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Middle_Lack)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Middle_Lack)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Middle_Lack),3,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Middle_Lack),3,"en"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Final Lack" ID="4">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Final_Lack)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Final_Lack)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Final_Lack),4,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Final_Lack),4,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Total Lack" ID="5">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Total_Lack)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Total_Lack)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound(Helper.GetFirstValueAdjustedWithSecondValue((int)SumI(CalculatedItems.Total_Lack),(int)SumI(CalculatedItems.Authorized_Total_OverTime),chkAdjust.Checked),5,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound(Helper.GetFirstValueAdjustedWithSecondValue((int)SumI(CalculatedItems.Total_Lack),(int)SumI(CalculatedItems.Authorized_Total_OverTime),chkAdjust.Checked),5,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Authorized Early OverTime" ID="6">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Authorized_Early_OverTime)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Authorized_Early_OverTime)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Authorized_Early_OverTime),6,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Authorized_Early_OverTime),6,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Authorized Middle OverTime" ID="7">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Authorized_Middle_OverTime)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Authorized_Middle_OverTime)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Authorized_Middle_OverTime),7,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Authorized_Middle_OverTime),7,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Authorized Final OverTime" ID="8">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Authorized_Final_OverTime)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Authorized_Final_OverTime)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Authorized_Final_OverTime),8","en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Authorized_Final_OverTime),8,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Authorized Total OverTime" ID="9">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Authorized_Total_OverTime)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Authorized_Total_OverTime)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound(Helper.GetFirstValueAdjustedWithSecondValue((int)SumI(CalculatedItems.Authorized_Total_OverTime),(int)SumI(CalculatedItems.Total_Lack),chkAdjust.Checked),9,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound(Helper.GetFirstValueAdjustedWithSecondValue((int)SumI(CalculatedItems.Authorized_Total_OverTime),(int)SumI(CalculatedItems.Total_Lack),chkAdjust.Checked),9,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Hourly Duty In Shift" ID="10">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty_In_Shift)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty_In_Shift)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString((int)SumI(CalculatedItems.Hourly_Duty_In_Shift))}</en>
+        <fa>{Helper.ToHourString((int)SumI(CalculatedItems.Hourly_Duty_In_Shift))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Hourly Duty Out Of Shift" ID="11">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty_Out_Of_Shift)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty_Out_Of_Shift)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString((int)SumI(CalculatedItems.Hourly_Duty_Out_Of_Shift))}</en>
+        <fa>{Helper.ToHourString((int)SumI(CalculatedItems.Hourly_Duty_Out_Of_Shift))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Hourly Leave" ID="12">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Hourly_Leave)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Hourly_Leave)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Hourly_Leave),12,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Hourly_Leave),12,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="NightWork In Shift" ID="13">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.NightWork_In_Shift)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.NightWork_In_Shift)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString((int)SumI(CalculatedItems.NightWork_In_Shift))}</en>
+        <fa>{Helper.ToHourString((int)SumI(CalculatedItems.NightWork_In_Shift))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="NightWork Out Of Shift" ID="14">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.NightWork_Out_Of_Shift)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.NightWork_Out_Of_Shift)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString((int)SumI(CalculatedItems.NightWork_Out_Of_Shift))}</en>
+        <fa>{Helper.ToHourString((int)SumI(CalculatedItems.NightWork_Out_Of_Shift))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="State" ID="15">
+      <DataBand>
+        <en>{Helper.GetStateDescription(CalculatedItems.State,CalculatedItems.Daily_Leave_Name ,CalculatedItems.Daily_Duty_Name ,"en")}</en>
+        <fa>{Helper.GetStateDescription(CalculatedItems.State,CalculatedItems.Daily_Leave_Name ,CalculatedItems.Daily_Duty_Name ,"fa")}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkingPeriod" ID="16">
+      <DataBand>
+        <en>{CalculatedItems.WorkingPeriod}</en>
+        <fa>{CalculatedItems.WorkingPeriod}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Card Number" ID="17">
+      <DataBand>
+        <en>{Helper.GetCardNumber(CalculatedItems.Card_Number)}</en>
+        <fa>{Helper.GetCardNumber(CalculatedItems.Card_Number)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkGroup" ID="18">
+      <DataBand>
+        <en>{CalculatedItems.WorkGroup}</en>
+        <fa>{CalculatedItems.WorkGroup}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Traffick Count" ID="19">
+      <DataBand>
+        <en>{CalculatedItems.Traffick_Count}</en>
+        <fa>{CalculatedItems.Traffick_Count}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(CalculatedItems.Traffick_Count)}</en>
+        <fa>{SumI(CalculatedItems.Traffick_Count)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="In" ID="20">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.In)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.In)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Out" ID="21">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Out)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Out)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Hourly Duty" ID="22">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Hourly_Duty),22,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Hourly_Duty),22,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Day" ID="23">
+      <DataBand>
+        <en>{CalculatedItems.Day}</en>
+        <fa>{CalculatedItems.Day}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Name" ID="24">
+      <DataBand>
+        <en>{CalculatedItems.Name}</en>
+        <fa>{CalculatedItems.Name}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Personnel Number" ID="25">
+      <DataBand>
+        <en>{Helper.GetPersonnelNumber(CalculatedItems.Personnel_Number)}</en>
+        <fa>{Helper.GetPersonnelNumber(CalculatedItems.Personnel_Number)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Shift Length" ID="26">
+      <DataBand>
+        <en>{Helper.ToHourString(CalculatedItems.Shift_Length)}</en>
+        <fa>{Helper.ToHourString(CalculatedItems.Shift_Length)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(CalculatedItems.Shift_Length)}</en>
+        <fa>{Helper.ToHourString(CalculatedItems.Shift_Length)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Earning" ID="27">
+      <DataBand>
+        <en>{CalculatedItems.Earning}</en>
+        <fa>{CalculatedItems.Earning}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(CalculatedItems.Earning)}</en>
+        <fa>{SumI(CalculatedItems.Earning)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Daily Leave Name" ID="28">
+      <DataBand>
+        <en>{CalculatedItems.Daily_Leave_Name}</en>
+        <fa>{CalculatedItems.Daily_Leave_Name}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Daily Duty Name" ID="29">
+      <DataBand>
+        <en>{CalculatedItems.Daily_Duty_Name}</en>
+        <fa>{CalculatedItems.Daily_Duty_Name}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Traffic 1" ID="30">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Traffic_1)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Traffic_1)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Traffic 2" ID="31">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Traffic_2)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Traffic_2)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Traffic 3" ID="32">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Traffic_3)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Traffic_3)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Traffic 4" ID="33">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Traffic_4)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Traffic_4)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Daily Leave Count" ID="34">
+      <DataBand>
+        <en>{CalculatedItems.Daily_Leave_Count}</en>
+        <fa>{CalculatedItems.Daily_Leave_Count}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(CalculatedItems.Daily_Leave_Count)}</en>
+        <fa>{SumI(CalculatedItems.Daily_Leave_Count)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Daily Mission Count" ID="35">
+      <DataBand>
+        <en>{CalculatedItems.Daily_Mission_Count}</en>
+        <fa>{CalculatedItems.Daily_Mission_Count}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(CalculatedItems.Daily_Mission_Count)}</en>
+        <fa>{SumI(CalculatedItems.Daily_Mission_Count)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkingPeriod Lengths in Day" ID="36">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkingPeriod Changed" ID="37">
+      <DataBand>
+        <en>{((int)CalculatedItems.WorkingPeriod_Changed == 1) ? "True" : "False"}</en>
+        <fa>{((int)CalculatedItems.WorkingPeriod_Changed == 1) ? "بله" : "خیر"}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(System.Convert.ToInt32(CalculatedItems.WorkingPeriod_Changed))}</en>
+        <fa>{SumI(System.Convert.ToInt32(CalculatedItems.WorkingPeriod_Changed))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="38">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Work On Vacation" ID="39">
+      <DataBand>
+        <en>{Helper.CalculateVacation((byte)CalculatedItems.WorkGroupParam.VacationCalculationMode , (int)(CalculatedItems.Work_On_Vacation + CalculatedItems.Overtime_On_Vacation), true)}</en>
+        <fa>{Helper.CalculateVacation((byte)CalculatedItems.WorkGroupParam.VacationCalculationMode , (int)(CalculatedItems.Work_On_Vacation + CalculatedItems.Overtime_On_Vacation), true)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.CalculateVacation((byte)CalculatedItems.WorkGroupParam.VacationCalculationMode ,Helper.AdjustAndRound((int)SumI(CalculatedItems.Work_On_Vacation + CalculatedItems.Overtime_On_Vacation),47,"en"), false)}
+        </en>
+        <fa>
+          {Helper.CalculateVacation((byte)CalculatedItems.WorkGroupParam.VacationCalculationMode ,Helper.AdjustAndRound((int)SumI(CalculatedItems.Work_On_Vacation + CalculatedItems.Overtime_On_Vacation),47,"fa"), false)}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="40">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="41">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Daily Leave Equivalent In  Hour" ID="42">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Hourly Leave Equivalent In Day" ID="43">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkingPeriod Type" ID="44">
+      <DataBand>
+        <en>{CalculatedItems.WorkingPeriod_Type}</en>
+        <fa>{CalculatedItems.WorkingPeriod_Type}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Overtime On Vacation" ID="45">
+      <DataBand>
+        <en>{Helper.CalculateVacation((byte)CalculatedItems.Type_Of_Offday , CalculatedItems.Overtime_On_Vacation, true)}</en>
+        <fa>{Helper.CalculateVacation((byte)CalculatedItems.Type_Of_Offday ,  CalculatedItems.Overtime_On_Vacation, true)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.CalculateVacation((byte)CalculatedItems.Type_Of_Offday ,Helper.AdjustAndRound((int)SumI( CalculatedItems.Overtime_On_Vacation),53,"en"), true)}</en>
+        <fa>{Helper.CalculateVacation((byte)CalculatedItems.Type_Of_Offday ,Helper.AdjustAndRound((int)SumI( CalculatedItems.Overtime_On_Vacation),53,"en"), true)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Type Of Offday" ID="46">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="47">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="48">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="49">
+      <DataBand>
+        <en>{CalculatedItems.CalculationDate}</en>
+        <fa>{Helper.ToPersianDate(CalculatedItems.CalculationDate)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{CalculatedItems.CalculationDate}</en>
+        <fa>{Helper.ToPersianDate(CalculatedItems.CalculationDate)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="50">
+      <DataBand>
+        <en>{Helper.ToHourString((int)CalculatedItems.Overtime_By_Force)}</en>
+        <fa>{Helper.ToHourString((int)CalculatedItems.Overtime_By_Force)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString((int)Helper.AdjustAndRound((int)SumI(CalculatedItems.Overtime_By_Force),"Overtime By Force","fa"))}</en>
+        <fa>{Helper.ToHourString((int)Helper.AdjustAndRound((int)SumI(CalculatedItems.Overtime_By_Force),"اضافه کار اجباری","fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="NightWork" ID="60">
+      <DataBand>
+        <en>
+          {Helper.ToHourString((int)
+          Helper.AdjustAndRound(CalculatedItems.NightWork_In_Shift,17,"en") +
+          Helper.AdjustAndRound(CalculatedItems.NightWork_Out_Of_Shift,18,"en")) }
+        </en>
+        <fa>
+          {Helper.ToHourString((int)
+          Helper.AdjustAndRound(CalculatedItems.NightWork_In_Shift,17,"fa") +
+          Helper.AdjustAndRound(CalculatedItems.NightWork_Out_Of_Shift,18,"fa")) }
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString((int)
+          SumI(Helper.AdjustAndRound(CalculatedItems.NightWork_In_Shift,17,"en")) +
+          (int)SumI(Helper.AdjustAndRound(CalculatedItems.NightWork_Out_Of_Shift,18,"en"))) }
+        </en>
+        <fa>
+          {Helper.ToHourString((int)
+          SumI(Helper.AdjustAndRound(CalculatedItems.NightWork_In_Shift,17,"fa")) +
+          (int)SumI(Helper.AdjustAndRound(CalculatedItems.NightWork_Out_Of_Shift,18,"fa"))) }
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkOnThursday" ID="61">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Overtime On Thursday" ID="62">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkOnFriday" ID="63">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Overtime On Friday" ID="64">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkOnOffday" ID="65">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Overtime On Offday" ID="66">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Personnel_Name" ID="67">
+      <DataBand>
+        <en>
+          {CalculatedItems.Personnels.Personnel_Name.Trim()}
+        </en>
+        <fa>
+          {CalculatedItems.Personnels.Personnel_Name.Trim()}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+        </en>
+        <fa>
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Personnel_Family" ID="68">
+      <DataBand>
+        <en>
+          {CalculatedItems.Personnels.Personnel_Family.Trim()}
+        </en>
+        <fa>
+          {CalculatedItems.Personnels.Personnel_Family.Trim()}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+        </en>
+        <fa>
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1000">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut1)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut1)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1001">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut2)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut2)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1002">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut3)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut3)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1003">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut4)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut4)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1004">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut5)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut5)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1005">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut6)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut6)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1006">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut7)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut7)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1007">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut8)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut8)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1008">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut9)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut9)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1009">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut10)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut10)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1010">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut11)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut11)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1011">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut12)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut12)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1012">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut13)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut13)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1013">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut14)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut14)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1014">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut15)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut15)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1015">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut16)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut16)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Rank" ID="69">
+      <DataBand>
+        <en>{Line}</en>
+        <fa>{Line}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkingPlaceName" ID="70">
+      <DataBand>
+        <en>{CalculatedItems.Personnels.WorkingPlaceName}</en>
+        <fa>{CalculatedItems.Personnels.WorkingPlaceName}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="EmploymentTypeName" ID="71">
+      <DataBand>
+        <en>{CalculatedItems.Personnels.EmploymentTypeName}</en>
+        <fa>{CalculatedItems.Personnels.EmploymentTypeName}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Absence" ID="72">
+      <DataBand>
+        <en>{(CalculatedItems.State.ToString().ToLower().Trim() == "absence") ? (int)CalculatedItems.WorkingPeriod_Lengths_in_Day : 0}</en>
+        <fa>{(CalculatedItems.State.ToString().ToLower().Trim() == "absence") ? (int)CalculatedItems.WorkingPeriod_Lengths_in_Day : 0}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(DataBand,((CalculatedItems.State.ToString().ToLower().Trim() == "absence") ? (int)CalculatedItems.WorkingPeriod_Lengths_in_Day : 0))}</en>
+        <fa>{SumI(DataBand,((CalculatedItems.State.ToString().ToLower().Trim() == "absence") ? (int)CalculatedItems.WorkingPeriod_Lengths_in_Day : 0))}</fa>
+      </GroupBand>
+    </Column>
+	<Column Name="Description" ID="73">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+  </Columns>
+  <Relations>
+    <Relation NameInSource="WorkGroupExtraParameters" Name="WorkGroupParam" Alias="WorkGroupParam" ParentSource="WorkGroupExtraParameterValue" ChildSource="CalculatedItems">
+      <ParentColumns>WorkGroupName</ParentColumns>
+      <ChildColumns>WorkGroup</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelTrraficks" Name="Trafficks" Alias="Trafficks" ParentSource="PersonnelTrafficks" ChildSource="CalculatedItems">
+      <ParentColumns>InOutCard|InOutDate</ParentColumns>
+      <ChildColumns>Card Number|CalculationDate</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelDailyLeaves" Name="DailyLeaves" Alias="DailyLeaves" ParentSource="CalculatedDailyLeaves" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode|Date</ParentColumns>
+      <ChildColumns>PersonnelCode|CalculationDate</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelHourlyLeaves" Name="HourlyLeaves" Alias="HourlyLeaves" ParentSource="CalculatedHourlyLeaves" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode|Date</ParentColumns>
+      <ChildColumns>PersonnelCode|CalculationDate</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelHourlyDuties" Name="HourlyDuties" Alias="HourlyDuties" ParentSource="CalculatedHourlyDuties" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode|Date</ParentColumns>
+      <ChildColumns>PersonnelCode|CalculationDate</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelDailyDuties" Name="DailyDuties" Alias="DailyDuties" ParentSource="CalculatedDailyDuties" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode|Date</ParentColumns>
+      <ChildColumns>PersonnelCode|CalculationDate</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelLeaveCeil" Name="Ceil" Alias="Ceil" ParentSource="LeaveCeil" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode</ParentColumns>
+      <ChildColumns>PersonnelCode</ChildColumns>      
+    </Relation>
+   <Relation NameInSource="CalculatedItemsFromLeaveCeil" Name="CeilToCalc" Alias="CeilToCalc" ParentSource="CalculatedItems" ChildSource="LeaveCeil">
+      <ParentColumns>PersonnelCode|CalculationDate</ParentColumns>
+      <ChildColumns>PersonnelCode|CeilDate</ChildColumns>
+    </Relation> 
+    <Relation NameInSource="PersonnelDataList" Name="Personnels" Alias="Personnels" ParentSource="PersonnelList" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode</ParentColumns>
+      <ChildColumns>PersonnelCode</ChildColumns>
+    </Relation>
+  </Relations>
+  </Category>
+<Category Name ="DateToDateReport" ReportGroupID="3">
+  <Columns>
+    <Column Name="Presence" ID="1">
+      <DataBand>
+        <en>{Helper.GetPresence(CalculatedItems.Presence ,CalculatedItems.WorkGroupParam.PresenceCalculationMode )}</en>
+        <fa>{Helper.GetPresence(CalculatedItems.Presence ,CalculatedItems.WorkGroupParam.PresenceCalculationMode )}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.GetPresence((short)Helper.AdjustAndRound((int)SumI(CalculatedItems.Presence),1,"en"), WorkGroupExtraParameterValue.PresenceCalculationMode)}</en>
+        <fa>{Helper.GetPresence((short)Helper.AdjustAndRound((int)SumI(CalculatedItems.Presence),1,"fa"), WorkGroupExtraParameterValue.PresenceCalculationMode)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Early Lack" ID="2">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Early_Lack)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Early_Lack)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Early_Lack),2,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Early_Lack),2,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Middle Lack" ID="3">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Middle_Lack)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Middle_Lack)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Middle_Lack),3,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Middle_Lack),3,"en"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Final Lack" ID="4">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Final_Lack)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Final_Lack)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Final_Lack),4,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Final_Lack),4,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Total Lack" ID="5">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Total_Lack)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Total_Lack)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound(Helper.GetFirstValueAdjustedWithSecondValue((int)SumI(CalculatedItems.Total_Lack),(int)SumI(CalculatedItems.Authorized_Total_OverTime),chkAdjust.Checked),5,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound(Helper.GetFirstValueAdjustedWithSecondValue((int)SumI(CalculatedItems.Total_Lack),(int)SumI(CalculatedItems.Authorized_Total_OverTime),chkAdjust.Checked),5,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Authorized Early OverTime" ID="6">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Authorized_Early_OverTime)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Authorized_Early_OverTime)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Authorized_Early_OverTime),6,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Authorized_Early_OverTime),6,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Authorized Middle OverTime" ID="7">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Authorized_Middle_OverTime)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Authorized_Middle_OverTime)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Authorized_Middle_OverTime),7,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Authorized_Middle_OverTime),7,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Authorized Final OverTime" ID="8">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Authorized_Final_OverTime)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Authorized_Final_OverTime)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound(Helper.GetFirstValueAdjustedWithSecondValue((int)SumI(CalculatedItems.Authorized_Final_OverTime),(int)SumI(CalculatedItems.Total_Lack),chkAdjust.Checked),8,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound(Helper.GetFirstValueAdjustedWithSecondValue((int)SumI(CalculatedItems.Authorized_Final_OverTime),(int)SumI(CalculatedItems.Total_Lack),chkAdjust.Checked),8,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Authorized Total OverTime" ID="9">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Authorized_Total_OverTime)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Authorized_Total_OverTime)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.CalculatePeriodicOverTime(
+          (int)SumI(CalculatedItems.Authorized_Total_OverTime),
+          (int)SumI(CalculatedItems.Total_Lack),
+          (int)SumI(CalculatedItems.Presence),
+          (byte)CalculatedItems.Personnels.CardingTypeCode,
+          CalculatedItems.WorkGroupParam.HourlyCardingWorkAmount,
+          (byte)CalculatedItems.WorkGroupParam.HourlyCardingWorkAmountCalculationMode,
+          chkAdjust.Checked ,
+          "اضافه کل مجاز","fa")}</en>
+            <fa>
+              {Helper.CalculatePeriodicOverTime(
+              (int)SumI(CalculatedItems.Authorized_Total_OverTime),
+              (int)SumI(CalculatedItems.Total_Lack),
+              (int)SumI(CalculatedItems.Presence),
+              (byte)CalculatedItems.Personnels.CardingTypeCode,
+              CalculatedItems.WorkGroupParam.HourlyCardingWorkAmount,
+              (byte)CalculatedItems.WorkGroupParam.HourlyCardingWorkAmountCalculationMode,
+              chkAdjust.Checked ,
+              "اضافه کل مجاز","fa")}</fa>        
+        
+      </GroupBand>
+    </Column>
+    <Column Name="Hourly Duty In Shift" ID="10">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty_In_Shift)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty_In_Shift)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString((int)SumI(CalculatedItems.Hourly_Duty_In_Shift))}</en>
+        <fa>{Helper.ToHourString((int)SumI(CalculatedItems.Hourly_Duty_In_Shift))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Hourly Duty Out Of Shift" ID="11">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty_Out_Of_Shift)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty_Out_Of_Shift)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString((int)SumI(CalculatedItems.Hourly_Duty_Out_Of_Shift))}</en>
+        <fa>{Helper.ToHourString((int)SumI(CalculatedItems.Hourly_Duty_Out_Of_Shift))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Hourly Leave" ID="12">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Hourly_Leave)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Hourly_Leave)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Hourly_Leave),12,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Hourly_Leave),12,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="NightWork In Shift" ID="13">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.NightWork_In_Shift)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.NightWork_In_Shift)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString((int)SumI(CalculatedItems.NightWork_In_Shift))}</en>
+        <fa>{Helper.ToHourString((int)SumI(CalculatedItems.NightWork_In_Shift))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="NightWork Out Of Shift" ID="14">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.NightWork_Out_Of_Shift)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.NightWork_Out_Of_Shift)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString((int)SumI(CalculatedItems.NightWork_Out_Of_Shift))}</en>
+        <fa>{Helper.ToHourString((int)SumI(CalculatedItems.NightWork_Out_Of_Shift))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="State" ID="15">
+      <DataBand>
+        <en>{Helper.GetStateDescription(CalculatedItems.State,CalculatedItems.Daily_Leave_Name ,CalculatedItems.Daily_Duty_Name ,"en")}</en>
+        <fa>{Helper.GetStateDescription(CalculatedItems.State,CalculatedItems.Daily_Leave_Name ,CalculatedItems.Daily_Duty_Name ,"fa")}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkingPeriod" ID="16">
+      <DataBand>
+        <en>{CalculatedItems.WorkingPeriod}</en>
+        <fa>{CalculatedItems.WorkingPeriod}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Card Number" ID="17">
+      <DataBand>
+        <en>{Helper.GetCardNumber(CalculatedItems.Card_Number)}</en>
+        <fa>{Helper.GetCardNumber(CalculatedItems.Card_Number)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.GetCardNumber(CalculatedItems.Card_Number)}</en>
+        <fa>{Helper.GetCardNumber(CalculatedItems.Card_Number)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkGroup" ID="18">
+      <DataBand>
+        <en>{CalculatedItems.WorkGroup}</en>
+        <fa>{CalculatedItems.WorkGroup}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Traffick Count" ID="19">
+      <DataBand>
+        <en>{CalculatedItems.Traffick_Count}</en>
+        <fa>{CalculatedItems.Traffick_Count}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(CalculatedItems.Traffick_Count)}</en>
+        <fa>{SumI(CalculatedItems.Traffick_Count)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="In" ID="20">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.In)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.In)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Out" ID="21">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Out)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Out)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Hourly Duty" ID="22">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Hourly_Duty)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Hourly_Duty),22,"en"))}</en>
+        <fa>{Helper.ToHourString(Helper.AdjustAndRound((int)SumI(CalculatedItems.Hourly_Duty),22,"fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Day" ID="23">
+      <DataBand>
+        <en>{CalculatedItems.Day}</en>
+        <fa>{CalculatedItems.Day}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Name" ID="24">
+      <DataBand>
+        <en>{CalculatedItems.Name}</en>
+        <fa>{CalculatedItems.Name}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{CalculatedItems.Name}</en>
+        <fa>{CalculatedItems.Name}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Personnel Number" ID="25">
+      <DataBand>
+        <en>{Helper.GetPersonnelNumber(CalculatedItems.Personnel_Number)}</en>
+        <fa>{Helper.GetPersonnelNumber(CalculatedItems.Personnel_Number)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.GetPersonnelNumber(CalculatedItems.Personnel_Number)}</en>
+        <fa>{Helper.GetPersonnelNumber(CalculatedItems.Personnel_Number)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Shift Length" ID="26">
+      <DataBand>
+        <en>{Helper.ToHourString(CalculatedItems.Shift_Length)}</en>
+        <fa>{Helper.ToHourString(CalculatedItems.Shift_Length)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString((int)SumI(CalculatedItems.Shift_Length))}</en>
+        <fa>{Helper.ToHourString((int)SumI(CalculatedItems.Shift_Length))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Earning" ID="27">
+      <DataBand>
+        <en>{CalculatedItems.Earning}</en>
+        <fa>{CalculatedItems.Earning}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(CalculatedItems.Earning)}</en>
+        <fa>{SumI(CalculatedItems.Earning)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Daily Leave Name" ID="28">
+      <DataBand>
+        <en>{CalculatedItems.Daily_Leave_Name}</en>
+        <fa>{CalculatedItems.Daily_Leave_Name}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Daily Duty Name" ID="29">
+      <DataBand>
+        <en>{CalculatedItems.Daily_Duty_Name}</en>
+        <fa>{CalculatedItems.Daily_Duty_Name}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Traffic 1" ID="30">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Traffic_1)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Traffic_1)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Traffic 2" ID="31">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Traffic_2)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Traffic_2)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Traffic 3" ID="32">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Traffic_3)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Traffic_3)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Traffic 4" ID="33">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Traffic_4)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Traffic_4)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Daily Leave Count" ID="34">
+      <DataBand>
+        <en>{CalculatedItems.Daily_Leave_Count}</en>
+        <fa>{CalculatedItems.Daily_Leave_Count}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(CalculatedItems.Daily_Leave_Count)}</en>
+        <fa>{SumI(CalculatedItems.Daily_Leave_Count)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Daily Mission Count" ID="35">
+      <DataBand>
+        <en>{CalculatedItems.Daily_Mission_Count}</en>
+        <fa>{CalculatedItems.Daily_Mission_Count}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(CalculatedItems.Daily_Mission_Count)}</en>
+        <fa>{SumI(CalculatedItems.Daily_Mission_Count)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkingPeriod Lengths in Day" ID="36">
+      <DataBand>
+        <en>{SumI(System.Convert.ToInt32(CalculatedItems.WorkingPeriod_Lengths_in_Day))}</en>
+        <fa>{SumI(System.Convert.ToInt32(CalculatedItems.WorkingPeriod_Lengths_in_Day))}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(System.Convert.ToInt32(CalculatedItems.WorkingPeriod_Lengths_in_Day))}</en>
+        <fa>{SumI(System.Convert.ToInt32(CalculatedItems.WorkingPeriod_Lengths_in_Day))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkingPeriod Changed" ID="37">
+      <DataBand>
+        <en>{SumI(System.Convert.ToInt32(CalculatedItems.WorkingPeriod_Changed))}</en>
+        <fa>{SumI(System.Convert.ToInt32(CalculatedItems.WorkingPeriod_Changed))}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(System.Convert.ToInt32(CalculatedItems.WorkingPeriod_Changed))}</en>
+        <fa>{SumI(System.Convert.ToInt32(CalculatedItems.WorkingPeriod_Changed))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="38">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Work On Vacation" ID="39">
+      <DataBand>
+        <en>{Helper.CalculateVacation((byte)CalculatedItems.WorkGroupParam.VacationCalculationMode , (int)(CalculatedItems.Work_On_Vacation + CalculatedItems.Overtime_On_Vacation), true)}</en>
+        <fa>{Helper.CalculateVacation((byte)CalculatedItems.WorkGroupParam.VacationCalculationMode , (int)(CalculatedItems.Work_On_Vacation + CalculatedItems.Overtime_On_Vacation), true)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.CalculateVacation((byte)CalculatedItems.WorkGroupParam.VacationCalculationMode ,Helper.AdjustAndRound((int)SumI(CalculatedItems.Work_On_Vacation + CalculatedItems.Overtime_On_Vacation),47,"en"), false)}
+        </en>
+        <fa>
+          {Helper.CalculateVacation((byte)CalculatedItems.WorkGroupParam.VacationCalculationMode ,Helper.AdjustAndRound((int)SumI(CalculatedItems.Work_On_Vacation + CalculatedItems.Overtime_On_Vacation),47,"fa"), false)}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="40">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="41">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Daily Leave Equivalent In  Hour" ID="42">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Hourly Leave Equivalent In Day" ID="43">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkingPeriod Type" ID="44">
+      <DataBand>
+        <en>{CalculatedItems.WorkingPeriod_Type}</en>
+        <fa>{CalculatedItems.WorkingPeriod_Type}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Overtime On Vacation" ID="45">
+      <DataBand>
+        <en>{Helper.CalculateVacation((byte)CalculatedItems.Type_Of_Offday , CalculatedItems.Overtime_On_Vacation, true)}</en>
+        <fa>{Helper.CalculateVacation((byte)CalculatedItems.Type_Of_Offday ,  CalculatedItems.Overtime_On_Vacation, true)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.CalculateVacation((byte)CalculatedItems.Type_Of_Offday ,Helper.AdjustAndRound((int)SumI( CalculatedItems.Overtime_On_Vacation),53,"en"), true)}</en>
+        <fa>{Helper.CalculateVacation((byte)CalculatedItems.Type_Of_Offday ,Helper.AdjustAndRound((int)SumI( CalculatedItems.Overtime_On_Vacation),53,"en"), true)}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Type Of Offday" ID="46">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Personnel_Name" ID="67">
+      <DataBand>
+        <en>
+          {CalculatedItems.Personnels.Personnel_Name.Trim()}
+        </en>
+        <fa>
+          {CalculatedItems.Personnels.Personnel_Name.Trim()}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>{CalculatedItems.Personnels.Personnel_Name.Trim()}</en>
+        <fa>
+          {CalculatedItems.Personnels.Personnel_Name.Trim()} 
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Personnel_Family" ID="68">
+      <DataBand>
+        <en>
+          {CalculatedItems.Personnels.Personnel_Family.Trim()}
+        </en>
+        <fa>
+          {CalculatedItems.Personnels.Personnel_Family.Trim()}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {CalculatedItems.Personnels.Personnel_Family.Trim()}
+        </en>
+        <fa>
+          {CalculatedItems.Personnels.Personnel_Family.Trim()}
+        </fa> 
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="47">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="48">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="49">
+      <DataBand>
+        <en>{CalculatedItems.CalculationDate}</en>
+        <fa>{Helper.ToPersianDate(CalculatedItems.CalculationDate)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="50">
+      <DataBand>
+        <en>{Helper.ToHourString((int)CalculatedItems.Overtime_By_Force)}</en>
+        <fa>{Helper.ToHourString((int)CalculatedItems.Overtime_By_Force)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Helper.ToHourString((int)Helper.AdjustAndRound((int)SumI(CalculatedItems.Overtime_By_Force),"Overtime By Force","fa"))}</en>
+        <fa>{Helper.ToHourString((int)Helper.AdjustAndRound((int)SumI(CalculatedItems.Overtime_By_Force),"اضافه کار اجباری","fa"))}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1000">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut1)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut1)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1001">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut2)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut2)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1002">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut3)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut3)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1003">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut4)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut4)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1004">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut5)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut5)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1005">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut6)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut6)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1006">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut7)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut7)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1007">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut8)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut8)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1008">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut9)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut9)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1009">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut10)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut10)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1010">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut11)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut11)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1011">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut12)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut12)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1012">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut13)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut13)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1013">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut14)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut14)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1014">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut15)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut15)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="" ID="1015">
+      <DataBand>
+        <en>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut16)}</en>
+        <fa>{Helper.ToShortHourString(CalculatedItems.Trafficks.InOut16)}</fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+    <Column Name="NightWork" ID="60">
+      <DataBand>
+        <en>
+          {Helper.ToHourString((int)
+          Helper.AdjustAndRound(CalculatedItems.NightWork_In_Shift,17,"en") +
+          Helper.AdjustAndRound(CalculatedItems.NightWork_Out_Of_Shift,18,"en")) }
+        </en>
+        <fa>
+          {Helper.ToHourString((int)
+          Helper.AdjustAndRound(CalculatedItems.NightWork_In_Shift,17,"fa") +
+          Helper.AdjustAndRound(CalculatedItems.NightWork_Out_Of_Shift,18,"fa")) }
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString((int)
+          SumI(Helper.AdjustAndRound(CalculatedItems.NightWork_In_Shift,17,"en")) +
+          (int)SumI(Helper.AdjustAndRound(CalculatedItems.NightWork_Out_Of_Shift,18,"en"))) }
+        </en>
+        <fa>
+          {Helper.ToHourString((int)
+          SumI(Helper.AdjustAndRound(CalculatedItems.NightWork_In_Shift,17,"fa")) +
+          (int)SumI(Helper.AdjustAndRound(CalculatedItems.NightWork_Out_Of_Shift,18,"fa"))) }
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkOnThursday" ID="61">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Overtime On Thursday" ID="62">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetThursdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkOnFriday" ID="63">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Overtime On Friday" ID="64">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetFridayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkOnOffday" ID="65">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday),55,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Work_On_Offday)),55,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Overtime On Offday" ID="66">
+      <DataBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday),56,"fa"))}
+        </fa>
+      </DataBand>
+      <GroupBand>
+        <en>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"en"))}
+        </en>
+        <fa>
+          {Helper.ToHourString(Helper.AdjustAndRound((int)
+          SumI(Helper.GetOffdayParam(CalculatedItems.Type_Of_Offday,CalculatedItems.Overtime_On_Offday)),56,"fa"))}
+        </fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Rank" ID="69">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en>{Line}</en>
+        <fa>{Line}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="WorkingPlaceName" ID="70">
+      <DataBand>
+        <en>{CalculatedItems.Personnels.WorkingPlaceName}</en>
+        <fa>{CalculatedItems.Personnels.WorkingPlaceName}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{CalculatedItems.Personnels.WorkingPlaceName}</en>
+        <fa>{CalculatedItems.Personnels.WorkingPlaceName}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="EmploymentTypeName" ID="71">
+      <DataBand>
+        <en>{CalculatedItems.Personnels.EmploymentTypeName}</en>
+        <fa>{CalculatedItems.Personnels.EmploymentTypeName}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{CalculatedItems.Personnels.EmploymentTypeName}</en>
+        <fa>{CalculatedItems.Personnels.EmploymentTypeName}</fa>
+      </GroupBand>
+    </Column>
+    <Column Name="Absence" ID="72">
+      <DataBand>
+        <en>{(CalculatedItems.State.ToString().ToLower().Trim() == "absence") ? (int)CalculatedItems.WorkingPeriod_Lengths_in_Day : 0}</en>
+        <fa>{(CalculatedItems.State.ToString().ToLower().Trim() == "absence") ? (int)CalculatedItems.WorkingPeriod_Lengths_in_Day : 0}</fa>
+      </DataBand>
+      <GroupBand>
+        <en>{SumI(DataBand,((CalculatedItems.State.ToString().ToLower().Trim() == "absence") ? (int)CalculatedItems.WorkingPeriod_Lengths_in_Day : 0))}</en>
+        <fa>{SumI(DataBand,((CalculatedItems.State.ToString().ToLower().Trim() == "absence") ? (int)CalculatedItems.WorkingPeriod_Lengths_in_Day : 0))}</fa>
+      </GroupBand>
+    </Column>
+	<Column Name="Description" ID="73">
+      <DataBand>
+        <en></en>
+        <fa></fa>
+      </DataBand>
+      <GroupBand>
+        <en></en>
+        <fa></fa>
+      </GroupBand>
+    </Column>
+  </Columns>
+  <Relations>
+    <Relation NameInSource="WorkGroupExtraParameters" Name="WorkGroupParam" Alias="WorkGroupParam" ParentSource="WorkGroupExtraParameterValue" ChildSource="CalculatedItems">
+      <ParentColumns>WorkGroupName</ParentColumns>
+      <ChildColumns>WorkGroup</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelTrraficks" Name="Trafficks" Alias="Trafficks" ParentSource="PersonnelTrafficks" ChildSource="CalculatedItems">
+      <ParentColumns>InOutCard|InOutDate</ParentColumns>
+      <ChildColumns>Card Number|CalculationDate</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelDailyLeaves" Name="DailyLeaves" Alias="DailyLeaves" ParentSource="CalculatedDailyLeaves" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode|Date</ParentColumns>
+      <ChildColumns>PersonnelCode|CalculationDate</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelHourlyLeaves" Name="HourlyLeaves" Alias="HourlyLeaves" ParentSource="CalculatedHourlyLeaves" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode|Date</ParentColumns>
+      <ChildColumns>PersonnelCode|CalculationDate</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelHourlyDuties" Name="HourlyDuties" Alias="HourlyDuties" ParentSource="CalculatedHourlyDuties" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode|Date</ParentColumns>
+      <ChildColumns>PersonnelCode|CalculationDate</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelDailyDuties" Name="DailyDuties" Alias="DailyDuties" ParentSource="CalculatedDailyDuties" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode|Date</ParentColumns>
+      <ChildColumns>PersonnelCode|CalculationDate</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelLeaveCeil" Name="Ceil" Alias="Ceil" ParentSource="LeaveCeil" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode</ParentColumns>
+      <ChildColumns>PersonnelCode</ChildColumns>
+    </Relation>
+    <Relation NameInSource="CalculatedItemsFromLeaveCeil" Name="CeilToCalc" Alias="CeilToCalc" ParentSource="CalculatedItems" ChildSource="LeaveCeil">
+      <ParentColumns>PersonnelCode</ParentColumns>
+      <ChildColumns>PersonnelCode</ChildColumns>
+    </Relation>
+    <Relation NameInSource="PersonnelDataList" Name="Personnels" Alias="Personnels" ParentSource="PersonnelList" ChildSource="CalculatedItems">
+      <ParentColumns>PersonnelCode</ParentColumns>
+      <ChildColumns>PersonnelCode</ChildColumns>
+    </Relation>
+  </Relations>
+</Category>
+</Reports>

@@ -1,0 +1,1395 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="6">
+      <CalculatedItems Ref="2" type="DataTableSource" isKey="true">
+        <Alias>CalculatedItems</Alias>
+        <Columns isList="true" count="60">
+          <value>تاریخ_x0020_محاسبه,System.DateTime</value>
+          <value>کد_x0020_پرسنلی,System.Int32</value>
+          <value>حضور,System.Int16</value>
+          <value>کسر_x0020_اولیه,System.Int16</value>
+          <value>کسر_x0020_وسط,System.Int16</value>
+          <value>کسر_x0020_آخر,System.Int16</value>
+          <value>کل_x0020_کسر_x0020_کار,System.Int16</value>
+          <value>اضافه_x0020_اول,System.Int16</value>
+          <value>اضافه_x0020_وسط,System.Int16</value>
+          <value>اضافه_x0020_آخر,System.Int16</value>
+          <value>کل_x0020_اضافه_x0020_کاری,System.Int16</value>
+          <value>اضافه_x0020_اول_x0020_مجاز,System.Int16</value>
+          <value>اضافه_x0020_وسط_x0020_مجاز,System.Int16</value>
+          <value>اضافه_x0020_آخر_x0020_مجاز,System.Int16</value>
+          <value>اضافه_x0020_کل_x0020_مجاز,System.Int16</value>
+          <value>ماموریت_x0020_ساعتی_x0020_داخل_x0020_شیفت,System.Int16</value>
+          <value>ماموریت_x0020_ساعتی_x0020_خارج_x0020_شیفت,System.Int16</value>
+          <value>مرخصی_x0020_ساعتی,System.Int16</value>
+          <value>شبکاری_x0020_داخل_x0020_شیفت,System.Int16</value>
+          <value>شبکاری_x0020_خارج_x0020_شیفت,System.Int16</value>
+          <value>وضعیت,System.String</value>
+          <value>شیفت,System.String</value>
+          <value>شماره_x0020_کارت,System.String</value>
+          <value>گروه_x0020_کاری,System.String</value>
+          <value>تعداد_x0020_تردد,System.Byte</value>
+          <value>ورود,System.Int16</value>
+          <value>خروج,System.Int16</value>
+          <value>ماموریت_x0020_ساعتی,System.Int16</value>
+          <value>روز,System.String</value>
+          <value>نام,System.String</value>
+          <value>شماره_x0020_پرسنلی,System.String</value>
+          <value>طول_x0020_شیفت,System.Int16</value>
+          <value>کارکرد,System.Int16</value>
+          <value>نام_x0020_مرخصی_x0020_روزانه,System.String</value>
+          <value>نام_x0020_ماموریت_x0020_روزانه,System.String</value>
+          <value>تردد_x0020_1,System.Int16</value>
+          <value>تردد_x0020_2,System.Int16</value>
+          <value>تردد_x0020_3,System.Int16</value>
+          <value>تردد_x0020_4,System.Int16</value>
+          <value>تعداد_x0020_مرخصی_x0020_روزانه,System.Int16</value>
+          <value>تعداد_x0020_ماموریت_x0020_روزانه,System.Int16</value>
+          <value>طول_x0020_دوره_x0020_کاری_x0020_به_x0020_روز,System.Byte</value>
+          <value>تغییر_x0020_شیفت,System.Byte</value>
+          <value>شماره_x0020_دستگاه_x0020_تردد1,System.Int32</value>
+          <value>شماره_x0020_دستگاه_x0020_تردد2,System.Int32</value>
+          <value>شماره_x0020_دستگاه_x0020_تردد3,System.Int32</value>
+          <value>شماره_x0020_دستگاه_x0020_تردد4,System.Int32</value>
+          <value>نوع_x0020_محاسبه_x0020_تعطیلکاری,System.Byte</value>
+          <value>تعطیلکاری,System.Int32</value>
+          <value>نحوه_x0020_محاسبه_x0020_مرخصی,System.Byte</value>
+          <value>نحوه_x0020_محاسبه_x0020_معادل_x0020_مرخصی_x0020_ساعتی_x0020_برای_x0020_مرخصی_x0020_روزانه,System.Byte</value>
+          <value>معادل_x0020_مرخصی_x0020_روزانه_x0020_به_x0020_ساعت,System.Int16</value>
+          <value>مقدار_x0020_مرخصی_x0020_ساعتی_x0020_معادل_x0020_یک_x0020_روز,System.Int16</value>
+          <value>نوع_x0020_نوبت_x0020_کاری,System.String</value>
+          <value>اضافه_x0020_کاری_x0020_تعطیل,System.Int32</value>
+          <value>نوع_x0020_روز_x0020_غیر_x0020_کاری,System.Byte</value>
+          <value>کارکرد_x0020_غیر_x0020_کاری,System.Int32</value>
+          <value>اضافه_x0020_کار_x0020_غیر_x0020_کاری,System.Int32</value>
+          <value>اضافه_x0020_کار_x0020_اجباری,System.Int16</value>
+          <value>اضافه_x0020_کار_x0020_اجباري,System.Int16</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>CalculatedItems</Name>
+        <NameInSource>داده های گزارش.CalculatedItems</NameInSource>
+      </CalculatedItems>
+      <CalculatedLeaves Ref="3" type="DataTableSource" isKey="true">
+        <Alias>CalculatedLeaves</Alias>
+        <Columns isList="true" count="7">
+          <value>کد_x0020_پرسنلی,System.Int32</value>
+          <value>تاریخ,System.DateTime</value>
+          <value>کد_x0020_مرخصی,System.Int32</value>
+          <value>نام_x0020_مرخصی,System.String</value>
+          <value>مقدار_x0020_مرخصی_x0020_ساعتی,System.Int32</value>
+          <value>مقدار_x0020_مرخصی_x0020_روزانه,System.Int32</value>
+          <value>مرخصی_x0020_روزانه_x0020_است_x0020__x061F_,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>CalculatedLeaves</Name>
+        <NameInSource>داده های گزارش.CalculatedLeaves</NameInSource>
+      </CalculatedLeaves>
+      <CalculatedDuties Ref="4" type="DataTableSource" isKey="true">
+        <Alias>CalculatedDuties</Alias>
+        <Columns isList="true" count="6">
+          <value>کد_x0020_پرسنلی,System.Int32</value>
+          <value>تاریخ,System.DateTime</value>
+          <value>نام_x0020_ماموریت,System.String</value>
+          <value>کد_x0020_ماموریت,System.Int32</value>
+          <value>مقدار_x0020_ماموریت_x0020_ساعتی,System.Int32</value>
+          <value>ماموریت_x0020_ساعتی_x0020_است_x0020__x061F_,System.Boolean</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>CalculatedDuties</Name>
+        <NameInSource>داده های گزارش.CalculatedDuties</NameInSource>
+      </CalculatedDuties>
+      <Personnel_x0020_List Ref="5" type="DataTableSource" isKey="true">
+        <Alias>Personnel List</Alias>
+        <Columns isList="true" count="14">
+          <value>PersonnelCode,System.Int32</value>
+          <value>Name,System.String</value>
+          <value>Family,System.String</value>
+          <value>EmploymentDate,System.DateTime</value>
+          <value>EndOfEmployment,System.DateTime</value>
+          <value>WorkingPlaceCode,System.Int32</value>
+          <value>WorkGroupCode,System.Int32</value>
+          <value>InOutCard,System.String</value>
+          <value>PersonnelNumber,System.String</value>
+          <value>WorkGroupName,System.String</value>
+          <value>WorkingPlaceName,System.String</value>
+          <value>EmploymentTypeCode,System.Int32</value>
+          <value>EmploymentTypeName,System.String</value>
+          <value>CardingTypeCode,System.Byte</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Personnel List</Name>
+        <NameInSource>داده های گزارش.Personnel List</NameInSource>
+      </Personnel_x0020_List>
+      <CalculatedApprovedItems Ref="6" type="DataTableSource" isKey="true">
+        <Alias>CalculatedApprovedItems</Alias>
+        <Columns isList="true" count="30">
+          <value>PersonnelCode,System.Int32</value>
+          <value>Presence,System.Int32</value>
+          <value>EarlyLack,System.Int32</value>
+          <value>MiddleLack,System.Int32</value>
+          <value>FinalLack,System.Int32</value>
+          <value>TotalLack,System.Int32</value>
+          <value>AuthorizedEarlyOver,System.Int32</value>
+          <value>AuthorizedMiddleOver,System.Int32</value>
+          <value>AuthorizedFinalOver,System.Int32</value>
+          <value>AuthorizedTotalOver,System.Int32</value>
+          <value>NightWorkInShift,System.Int32</value>
+          <value>NightWorkOutOfshift,System.Int32</value>
+          <value>WorkOnVacation,System.Int32</value>
+          <value>OverTimeOnVacation,System.Int32</value>
+          <value>WorkOnFriday,System.Int32</value>
+          <value>OVerTimeOnFriday,System.Int32</value>
+          <value>WorkOnOffDay,System.Int32</value>
+          <value>OVerTimeOnOffDay,System.Int32</value>
+          <value>WorkOnThursday,System.Int32</value>
+          <value>OverTimeOnThursday,System.Int32</value>
+          <value>Month,System.Byte</value>
+          <value>Absence,System.Int32</value>
+          <value>Item1,System.Object</value>
+          <value>Item2,System.Object</value>
+          <value>Item3,System.Object</value>
+          <value>Item4,System.Object</value>
+          <value>Earning,System.Int32</value>
+          <value>InOutCard,System.String</value>
+          <value>Name,System.String</value>
+          <value>Family,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>CalculatedApprovedItems</Name>
+        <NameInSource>داده های گزارش.CalculatedApprovedItems</NameInSource>
+      </CalculatedApprovedItems>
+      <WorkGroupExtraParameterValue Ref="7" type="DataTableSource" isKey="true">
+        <Alias>WorkGroupExtraParameterValue</Alias>
+        <Columns isList="true" count="55">
+          <value>VacationCalculationMode,System.Int32</value>
+          <value>WorkOnVacationCalculationMode,System.Int32</value>
+          <value>MinimumWorkOnVacation,System.Int32</value>
+          <value>MaximumWorkOnVacation,System.Int32</value>
+          <value>CalculateFreeDaysAsVacation,System.Int32</value>
+          <value>CoefOfOveralLack,System.Double</value>
+          <value>CoefOfOveralOver,System.Double</value>
+          <value>NightWorkOutOfShiftCalculationMode,System.Int32</value>
+          <value>LeaveCalculationMode,System.Int32</value>
+          <value>DailyLeaveEquivalentInHourCalculationMode,System.Int32</value>
+          <value>DailyLeaveToHourlyLeaveConvertionValue,System.Int32</value>
+          <value>HourlyLeaveToDailyLeaveConvertionValue,System.Int32</value>
+          <value>LackOfWorkAdjustmentMode,System.Int32</value>
+          <value>MonthlyLackOfWorkAdjustmentMode,System.Int32</value>
+          <value>PresenceCalculationMode,System.Int32</value>
+          <value>MissionAfterShiftCalculationMode,System.Int32</value>
+          <value>MissionInShiftCalculationMode,System.Int32</value>
+          <value>PresenceInMissionCalculationMode,System.Int32</value>
+          <value>NightWorkInShiftCalculationMode,System.Int32</value>
+          <value>IncompleteCardingCalculationMode,System.Int32</value>
+          <value>PresenceInLeaveCalculationMode,System.Int32</value>
+          <value>HourlyCardingTypeLeavesAndMissionsCalculationMode,System.Int32</value>
+          <value>ConversionUsed,System.Int32</value>
+          <value>CoefOfWorkOnVacation,System.Double</value>
+          <value>MinimumVacationOverTime,System.Int32</value>
+          <value>MaximumVacationOverTime,System.Int32</value>
+          <value>OverTimeOnVacationCalculationMode,System.Int32</value>
+          <value>CoefOfWorkOnFreeDay,System.Double</value>
+          <value>CoefOfWorkOnThursday,System.Double</value>
+          <value>CoefOfWorkOnFriday,System.Double</value>
+          <value>OverTimeOnFreeDayCalculationMode,System.Int32</value>
+          <value>OverTimeOnThursdayCalculationMode,System.Int32</value>
+          <value>OverTimeOnThursdayCalculationMode1,System.Int32</value>
+          <value>WorkOnFreeDayCalculationMode,System.Int32</value>
+          <value>WorkOnThursdayCalculationMode,System.Int32</value>
+          <value>WorkOnThursdayCalculationMode1,System.Int32</value>
+          <value>MinimumFreeDayOverTime,System.Int32</value>
+          <value>MaximumFreeDayOverTime,System.Int32</value>
+          <value>MinimumThursDayOverTime,System.Int32</value>
+          <value>MaximumThursDayOverTime,System.Int32</value>
+          <value>MinimumFriDayOverTime,System.Int32</value>
+          <value>MaximumFriDayOverTime,System.Int32</value>
+          <value>MinimumWorkOnFreeDay,System.Int32</value>
+          <value>MaximumWorkOnFreeDay,System.Int32</value>
+          <value>MinimumWorkOnThursDay,System.Int32</value>
+          <value>MaximumWorkOnThursDay,System.Int32</value>
+          <value>MinimumWorkOnFriDay,System.Int32</value>
+          <value>MaximumWorkOnFriDay,System.Int32</value>
+          <value>HourlyLeaveInPresenceCalculationMode,System.Int32</value>
+          <value>HourlyCardingDutyCalculationMode,System.Int32</value>
+          <value>HourlyCardingNightworkCalculationMode,System.Int32</value>
+          <value>HourlyCardingWorkAmountCalculationMode,System.Int32</value>
+          <value>HourlyCardingWorkAmount,System.Int32</value>
+          <value>WorkGroupCode,System.Int32</value>
+          <value>WorkGroupName,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>WorkGroupExtraParameterValue</Name>
+        <NameInSource>داده های گزارش.WorkGroupExtraParameterValue</NameInSource>
+      </WorkGroupExtraParameterValue>
+    </DataSources>
+    <Relations isList="true" count="2">
+      <Personnels Ref="8" type="DataRelation" isKey="true">
+        <Alias>Personnels</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>کد پرسنلی</value>
+        </ChildColumns>
+        <ChildSource isRef="2" />
+        <Dictionary isRef="1" />
+        <Name>Personnels</Name>
+        <NameInSource>ارتباط</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>PersonnelCode</value>
+        </ParentColumns>
+        <ParentSource isRef="5" />
+      </Personnels>
+      <ExtraParam Ref="9" type="DataRelation" isKey="true">
+        <Alias>ExtraParam</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>گروه کاری</value>
+        </ChildColumns>
+        <ChildSource isRef="2" />
+        <Dictionary isRef="1" />
+        <Name>ExtraParam</Name>
+        <NameInSource>ExtraParam</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>WorkGroupName</value>
+        </ParentColumns>
+        <ParentSource isRef="7" />
+      </ExtraParam>
+    </Relations>
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <GlobalizationStrings isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="10" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="6">
+        <PageHeaderBand1 Ref="11" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,20.2,1.4</ClientRectangle>
+          <Components isList="true" count="6">
+            <Text29 Ref="12" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>18,0.3,2.1,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,12,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text29</Name>
+              <Page isRef="10" />
+              <Parent isRef="11" />
+              <Text>گزارش روز 
+</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="13" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text29>
+            <Text42 Ref="14" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.2,0.3,6.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,12,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text42</Name>
+              <Page isRef="10" />
+              <Parent isRef="11" />
+              <Text>{" " + CalculatedItems.روز+ " " + Helper.ToPersianDate(CalculatedItems.تاریخ_محاسبه)} </Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="15" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text42>
+            <Text51 Ref="16" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.5,0.3,2.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text51</Name>
+              <Page isRef="10" />
+              <Parent isRef="11" />
+              <Text>تاریخ گزارشگیری</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="17" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </Text51>
+            <Text52 Ref="18" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.5,0.9,2.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text52</Name>
+              <Page isRef="10" />
+              <Parent isRef="11" />
+              <Text>ساعت گزارشگیری</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="19" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </Text52>
+            <Text53 Ref="20" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.3,2.5,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text53</Name>
+              <Page isRef="10" />
+              <Parent isRef="11" />
+              <Text>{Helper.ToPersianDate(DateTime.Now)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="21" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </Text53>
+            <Text54 Ref="22" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.9,2.5,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text54</Name>
+              <Page isRef="10" />
+              <Parent isRef="11" />
+              <Text>{DateTime.Now.ToShortTimeString()}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="23" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </Text54>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="10" />
+          <Parent isRef="10" />
+        </PageHeaderBand1>
+        <PageFooterBand1 Ref="24" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,26.9,20.2,0.8</ClientRectangle>
+          <Components isList="true" count="6">
+            <Text7 Ref="25" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.8,0,2.3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="10" />
+              <Parent isRef="24" />
+              <Text>تهیه کننده :</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="26" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text9 Ref="27" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.4,0,2.3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="10" />
+              <Parent isRef="24" />
+              <Text>تایید کننده :</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="28" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+            <Text10 Ref="29" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.1,0,2.3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="10" />
+              <Parent isRef="24" />
+              <Text>مدیر واحد :</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="30" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <SystemText1 Ref="31" type="SystemText" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.9,0,0.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>SystemText1</Name>
+              <Page isRef="10" />
+              <Parent isRef="24" />
+              <Text>{PageNumber}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="32" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </SystemText1>
+            <SystemText2 Ref="33" type="SystemText" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.7,0,0.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>SystemText2</Name>
+              <Page isRef="10" />
+              <Parent isRef="24" />
+              <Text>{TotalPageCount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="34" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </SystemText2>
+            <Text11 Ref="35" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.5,0,0.4,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,8.25,Bold,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="10" />
+              <Parent isRef="24" />
+              <Text>از</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="36" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageFooterBand1</Name>
+          <Page isRef="10" />
+          <Parent isRef="10" />
+        </PageFooterBand1>
+        <GroupHeaderBand1 Ref="37" type="GroupHeaderBand" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,2.6,20.2,0.8</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Condition>{CalculatedItems.تاریخ_محاسبه}</Condition>
+          <Conditions isList="true" count="0" />
+          <Name>GroupHeaderBand1</Name>
+          <Page isRef="10" />
+          <Parent isRef="10" />
+          <StartNewPage>True</StartNewPage>
+        </GroupHeaderBand1>
+        <HeaderBand1 Ref="38" type="HeaderBand" isKey="true">
+          <Border>All;Black;2;Solid;False;4;Black</Border>
+          <Brush>Wheat</Brush>
+          <ClientRectangle>0,4.2,20.2,1.4</ClientRectangle>
+          <Components isList="true" count="21">
+            <Text2 Ref="39" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,1.4,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>وضعیت</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="40" type="GeneralFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text4 Ref="41" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.4,0,1.3,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>محل خدمت</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="42" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text6 Ref="43" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.7,0,0.9,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>تعطیل کاری</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="44" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+            <Text8 Ref="45" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.6,0,0.9,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>شبکاری </Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="46" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text14 Ref="47" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.5,0,1,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>ماموریت ساعتی</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="48" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text16 Ref="49" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.5,0,1,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>مرخصی ساعتی</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="50" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+            <Text18 Ref="51" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.5,0,0.9,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>اضافه کل </Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="52" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text18>
+            <Text20 Ref="53" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.4,0,0.9,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>اضافه آخر </Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="54" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text22 Ref="55" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.3,0,0.9,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>اضافه اول </Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="56" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text22>
+            <Text24 Ref="57" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.2,0,0.9,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>کسر کار</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="58" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text24>
+            <Text26 Ref="59" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.1,0,0.9,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text26</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>تعجیل</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="60" type="GeneralFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text26>
+            <Text28 Ref="61" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11,0,0.9,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text28</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>دیر کرد</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="62" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text28>
+            <Text30 Ref="63" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.9,0,0.9,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text30</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>حضور</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="64" type="GeneralFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text30>
+            <Text32 Ref="65" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.8,0,0.6,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>ترددها</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="66" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text32>
+            <Text34 Ref="67" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.4,0,0.8,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text34</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>تردد 4</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="68" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text34>
+            <Text36 Ref="69" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.2,0,0.8,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text36</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>تردد 3</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="70" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text36>
+            <Text38 Ref="71" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15,0,0.8,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text38</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>تردد 2</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="72" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text38>
+            <Text40 Ref="73" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>18.5,0,1,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text40</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>کارت </Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="74" type="GeneralFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text40>
+            <Text44 Ref="75" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>19.5,0,0.7,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text44</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>ردیف</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="76" type="GeneralFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text44>
+            <Text1 Ref="77" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.8,0,0.8,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>تردد 1</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="78" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=False, Angle=90, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text3 Ref="79" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.6,0,1.9,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="10" />
+              <Parent isRef="38" />
+              <Text>نام و نام خانوادگی</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="80" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderBand1</Name>
+          <Page isRef="10" />
+          <Parent isRef="10" />
+        </HeaderBand1>
+        <DataBand1 Ref="81" type="DataBand" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,6.4,20.2,0.8</ClientRectangle>
+          <Components isList="true" count="21">
+            <State Ref="82" type="Text" isKey="true">
+              <Border>Left;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,1.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>State</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.GetStateDescription(CalculatedItems.وضعیت,CalculatedItems.نام_مرخصی_روزانه ,CalculatedItems.نام_ماموریت_روزانه ,"fa")}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="83" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </State>
+            <WorkOnVacation Ref="84" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.7,0,0.9,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>WorkOnVacation</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.CalculateVacation(CalculatedItems.نوع_محاسبه_تعطیلکاری , CalculatedItems.تعطیلکاری + CalculatedItems.اضافه_کاری_تعطیل, true)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="85" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </WorkOnVacation>
+            <NightWotk Ref="86" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.6,0,0.9,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>NightWotk</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.ToShortHourString(CalculatedItems.شبکاری_خارج_شیفت + CalculatedItems.شبکاری_داخل_شیفت)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="87" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </NightWotk>
+            <HourlyDuty Ref="88" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.5,0,1,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>HourlyDuty</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.ToShortHourString(CalculatedItems.ماموریت_ساعتی)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="89" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HourlyDuty>
+            <HourlyLeave Ref="90" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.5,0,1,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>HourlyLeave</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.ToShortHourString(CalculatedItems.مرخصی_ساعتی)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="91" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HourlyLeave>
+            <TotalOver Ref="92" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.5,0,0.9,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>TotalOver</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.ToShortHourString(CalculatedItems.اضافه_کل_مجاز)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="93" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </TotalOver>
+            <LastOver Ref="94" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.4,0,0.9,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>LastOver</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.ToShortHourString(CalculatedItems.اضافه_آخر_مجاز)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="95" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </LastOver>
+            <EarlyOver Ref="96" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.3,0,0.9,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>EarlyOver</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.ToShortHourString(CalculatedItems.اضافه_اول_مجاز)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="97" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </EarlyOver>
+            <Lack Ref="98" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.2,0,0.9,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Lack</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.ToShortHourString(CalculatedItems.کل_کسر_کار)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="99" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Lack>
+            <FinalLack Ref="100" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.1,0,0.9,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>FinalLack</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.ToShortHourString(CalculatedItems.کسر_آخر)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="101" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </FinalLack>
+            <EarlyLack Ref="102" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11,0,0.9,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>EarlyLack</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.ToShortHourString(CalculatedItems.کسر_اولیه)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="103" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </EarlyLack>
+            <Presence Ref="104" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.9,0,0.9,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Presence</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.GetPresence(CalculatedItems.حضور ,CalculatedItems.ExtraParam.PresenceCalculationMode )}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="105" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Presence>
+            <Trafficks Ref="106" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.8,0,0.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Trafficks</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{CalculatedItems.تعداد_تردد}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="107" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Trafficks>
+            <Traffick4 Ref="108" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.4,0,0.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Traffick4</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.ToShortHourString(CalculatedItems.تردد_4)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="109" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Traffick4>
+            <Traffick3 Ref="110" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.2,0,0.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Traffick3</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.ToShortHourString(CalculatedItems.تردد_3)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="111" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Traffick3>
+            <Traffick2 Ref="112" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15,0,0.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Traffick2</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.ToShortHourString(CalculatedItems.تردد_2)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="113" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Traffick2>
+            <Traffick1 Ref="114" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.8,0,0.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Traffick1</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.ToShortHourString(CalculatedItems.تردد_1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="115" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Traffick1>
+            <Rank Ref="116" type="Text" isKey="true">
+              <Border>Left, Right;Black;2;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>19.5,0,0.7,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>Rank</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Line}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="117" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Rank>
+            <CardNumber Ref="118" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>18.5,0,1,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>CardNumber</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{Helper.GetCardNumber(CalculatedItems.شماره_کارت)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="119" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=False, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </CardNumber>
+            <txtName Ref="120" type="Text" isKey="true">
+              <Border>Left, Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.6,0,1.9,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7,Regular,Point,False,178</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>txtName</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <Text>{CalculatedItems.نام}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="121" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=True, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </txtName>
+            <متن1 Ref="122" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.4,0,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <LinesOfUnderline>None</LinesOfUnderline>
+              <Margins>0,0,0,0</Margins>
+              <Name>متن1</Name>
+              <Page isRef="10" />
+              <Parent isRef="81" />
+              <Text>{CalculatedItems.Personnels.WorkingPlaceName}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="123" type="GeneralFormat" isKey="true" />
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </متن1>
+          </Components>
+          <Conditions isList="true" count="2">
+            <value>_x007B_CalculatedItems.وضعیت.ToString_x0028__x0029_.ToLower_x0028__x0029_.Trim_x0028__x0029__x0020__x003D__x003D__x0020__x0022_vacation_x0022__x0020__x007C__x007C__x000D__x000A_CalculatedItems.وضعیت.ToString_x0028__x0029_.ToLower_x0028__x0029_.Trim_x0028__x0029__x0020__x003D__x003D__x0020__x0022_freeday_x0022__x007D_,Black,Silver,Arial_x002C_8,True</value>
+            <value>_x007B_CalculatedItems.وضعیت.ToString_x0028__x0029_.ToLower_x0028__x0029_.Trim_x0028__x0029__x0020__x003D__x003D__x0020__x0022_incomplete_x0022__x0020__x007C__x007C__x000D__x000A_CalculatedItems.وضعیت.ToString_x0028__x0029_.ToLower_x0028__x0029_.Trim_x0028__x0029__x0020__x003D__x003D__x0020__x0022_errorintraffickorder_x0022__x0020__x007C__x007C__x000D__x000A_CalculatedItems.وضعیت.ToString_x0028__x0029_.ToLower_x0028__x0029_.Trim_x0028__x0029__x0020__x003D__x003D__x0020__x0022_errorinfindingpersonneldata_x0022__x0020__x007C__x007C__x000D__x000A_CalculatedItems.وضعیت.ToString_x0028__x0029_.ToLower_x0028__x0029_.Trim_x0028__x0029__x0020__x003D__x003D__x0020__x0022_errorincardingtype_x0022__x0020__x007C__x007C__x000D__x000A_CalculatedItems.وضعیت.ToString_x0028__x0029_.ToLower_x0028__x0029_.Trim_x0028__x0029__x0020__x003D__x003D__x0020__x0022_workingstartDate_x0022__x0020__x007C__x007C__x000D__x000A_CalculatedItems.وضعیت.ToString_x0028__x0029_.ToLower_x0028__x0029_.Trim_x0028__x0029__x0020__x003D__x003D__x0020__x0022_nopersmission_x0022__x0020__x007D_,[208:55:5],[255:199:206],Arial_x002C_8,True</value>
+          </Conditions>
+          <DataRelationName />
+          <DataSourceName>CalculatedItems</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="10" />
+          <Parent isRef="10" />
+          <Sort isList="true" count="4">
+            <value>ASC</value>
+            <value>شماره_کارت</value>
+            <value>ASC</value>
+            <value>تاریخ_محاسبه</value>
+          </Sort>
+        </DataBand1>
+        <GroupFooterBand1 Ref="124" type="GroupFooterBand" isKey="true">
+          <Border>Top;Black;2;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,8,20.2,0.8</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>GroupFooterBand1</Name>
+          <Page isRef="10" />
+          <Parent isRef="10" />
+        </GroupFooterBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>be26f62600ab404b9640c648f3c361ba</Guid>
+      <Margins>0.4,0.4,1,1</Margins>
+      <Name>Page1</Name>
+      <Page isRef="10" />
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="125" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="126" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="9">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+    <value>ReportHelper.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>2/2/2009 4:41:48 PM</ReportChanged>
+  <ReportCreated>8/21/2007 3:15:23 PM</ReportCreated>
+  <ReportGuid>f77641033e4e4054a90aff02e20fc439</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2008.1.129</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.ReportControls;
+using Stimulsoft.Report.Components;
+using ReportHelper;
+
+namespace Reports
+{
+    
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

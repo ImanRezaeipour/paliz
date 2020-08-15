@@ -1,0 +1,12 @@
+vti_encoding:SR|utf8-nl
+vti_timelastmodified:TR|08 Aug 2007 09:10:50 -0000
+vti_extenderversion:SR|5.0.2.2623
+vti_nosourcecontrol:SR|True
+vti_author:SR|SUPPORT20\\Administrator
+vti_modifiedby:SR|SUPPORT20\\Administrator
+vti_nexttolasttimemodified:TR|08 Aug 2007 09:10:50 -0000
+vti_timecreated:TR|08 Aug 2007 09:10:50 -0000
+vti_lineageid:SR|{DD908F16-B420-4EEB-A382-640F502EC00F}
+vti_cacheddtm:TX|08 Aug 2007 09:10:50 -0000
+vti_filesize:IR|0
+vti_backlinkinfo:VX|

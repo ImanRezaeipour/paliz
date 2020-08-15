@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Reports>
+<Category name="گزارشهای انفرادی" description="گزارشهای انفرادی" tag="">
+	<Report name="گزارش انفرادی" file="IndividualReport.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue" >گزارش فعالیتهای افراد انتخاب شده را در یک دوره زمانی نمایش میدهد. اطلاعات هر فرد بعد از دیگری نمایش داده خواهد شد. </Report>
+	<Report name="گزارش انفرادی2" file="IndividualReport-2.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue">گزارش فعالیتهای افراد انتخاب شده را در یک دوره زمانی نمایش میدهد. اطلاعات هر فرد بعد از دیگری نمایش داده خواهد شد.از 
+ترددهای پرسنل فقط ورود و خروج را نمایش میدهد </Report>
+	<Report name="گزارش انفرادی 3" file="IndividualReport-3.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue">گزارش فعالیتهای افراد انتخاب شده را در یک دوره زمانی نمایش میدهد. اطلاعات هر فرد بعد از دیگری نمایش داده خواهد شد. </Report>
+	<!--Report name="گزارش انفرادی کاله" file="IndividualReport-10.mrt">گزارش فعالیتهای افراد انتخاب شده را در یک دوره زمانی نمایش میدهد. اطلاعات هر فرد بعد از دیگری نمایش داده خواهد شد </Report> -->
+	<Report name="گزارش انفرادی گردشی" file="NurseIndividualReport.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue,Shifts,NurseCalculatedData"> </Report>
+</Category>
+<Category name="گزارشهای روزانه" description ="گزارشهای روزانه" tag="">
+	<Report name="گزارش روزانه" file="DailyReport.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue"> گزارش روز به روز فعالیت افراد انتخاب شده را نمایش میدهد. </Report>		
+	<Report name="گزارش روزانه 2" file="DailyReport-2.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,tblPersonnelTraffics"> گزارش روزانه صاایران</Report>
+	<Report name="گزارش روزانه 3" file="DailyReport-10.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue"> گزارش روز به روز فعالیت افراد انتخاب شده را نمایش میدهد. </Report>
+	<Report name="گزارش روزانه گردشی" file="NurseDailyReport.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue,Shifts,NurseCalculatedData"> </Report>	
+</Category>
+<Category name="گزارشهای دوره ای " description = "گزارشهای دوره ای " tag="">
+<!--
+        <Report name="خالص سازان" file="KhalesSazan.mrt" datasource ="ShiftType,CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue,LeaveCeil,LeaveAndLackFromFirstOfYear,CalculatedApprovedItems">گزارش فعالیت افراد انتخاب شده در بازه زمانی انتخاب شده نمایش میدهد. هر سطر اطلاعات یک پرسنل را نمایش خواهد داد</Report>
+-->
+    <Report name="گزارش دوره اي 1" file="DateToDateReport-8.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue">گزارش فعالیت افراد انتخاب شده در بازه زمانی انتخاب شده نمایش میدهد. هر سطر اطلاعات یک پرسنل را نمایش خواهد داد</Report>
+    <Report name="گزارش دوره ای 2" file="DateToDateReport.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue">گزارش فعالیت افراد انتخاب شده در بازه زمانی انتخاب شده نمایش میدهد. هر سطر اطلاعات یک پرسنل را نمایش خواهد داد</Report>
+    <Report name="گزارش دوره ای 3" file="DateToDateReport-10.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue">گزارش فعالیت افراد انتخاب شده در بازه زمانی انتخاب شده نمایش میدهد. هر سطر اطلاعات یک پرسنل را نمایش خواهد داد</Report>
+    <Report name="گزارش دوره ای 4" file="DateToDateReport-2.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue">گزارش فعالیت افراد انتخاب شده در بازه زمانی انتخاب شده نمایش میدهد. هر سطر اطلاعات یک پرسنل را نمایش خواهد داد. اطلاعات بر اساس محل خدمت مرتب شده است</Report>
+    <Report name="گزارش دوره ای 5" file="DateToDateReport-4.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue">گزارش ماهیانه بیستون</Report>
+    <Report name="گزارش دوره ای 6" file="DateToDateReport-5.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue">گزارش ماهیانه صنایع دفاع</Report>
+    <Report name="گزارش دوره ای 7" file="DateToDateReport-6.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue">گزارش ماهیانه صنایع دفاع</Report>
+    <Report name="گزارش دوره ای 8" file="DateToDateReport-7.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue">گزارش ماهیانه صاایران</Report>
+    <Report name="گزارش دوره ای 9" file="DateToDateReport-9.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue">گزارش دوره ای 9</Report>
+    <Report name="گزارش اضافه کاریها" file="DateToDateReport-11.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue">انواع اضافه کاریهای را لیست میکند </Report>
+	<Report name="گزارش دوره ای گردشی" file="NurseDateToDateReport.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue,Shifts,NurseCalculatedData"> </Report>	
+</Category>
+<Category name="گزارشهای تصویبی " description = "گزارشهای تصویبی " tag="approved">
+    <Report name="گزارش مقادیر تصویبی" file="approveddatetodatereport.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue" >گزارش فعالیت افراد انتخاب شده در بازه زمانی انتخاب شده نمایش میدهد. هر سطر اطلاعات یک پرسنل را نمایش خواهد داد. اطلاعات بر اساس محل خدمت مرتب شده است</Report>
+    <Report name="گزارش مقادیر تصویبی 2" file="approveddatetodatereport-2.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue,ApprovedItemData" >گزارش فعالیت افراد انتخاب شده در بازه زمانی انتخاب شده نمایش میدهد. هر سطر اطلاعات یک پرسنل را نمایش خواهد داد. اطلاعات بر اساس محل خدمت مرتب شده است</Report>
+    <Report name="گزارش مقادیر تصویبی 3" file="approveddatetodatereport-3.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue,ApprovedItemData" >گزارش کارکرد پرسنل دانشگاه پیام نور</Report>
+    <Report name="گزارش مقادیر تصویبی 4" file="approveddatetodatereport-4.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue,ApprovedItemData" >گزارش کارکرد پرسنل دانشگاه پیام نور</Report>
+</Category>
+  <Category name="گزارش تغییرات" description="گزارشات تغییرات اعمال شده در تردد های افراد " tag="traffickchange">
+	    <!-- <Report name="گزارش تغییرات ترددها" file="TraffickChangesReport.mrt" datasource ="ReportInOutChanges,PersonnelList,CalculatedItems,CalculatedLeaves,CalculatedDuties">گزارش تغییرات ترددهای افراد انتخاب شده را در یک دوره زمانی از روی تاریخ تغییر نمایش میدهد. اطلاعات هر فرد بعد از دیگری نمایش داده خواهد شد. </Report> -->
+	     <Report name="گزارش تغییرات ترددها " file="TraffickChangesReport-2.mrt" datasource ="CalculatedItems,PersonnelList,CalculatedApprovedItems,CalculatedLeaves,CalculatedDuties,ApprovdItemData,WorkGroupExtraParameterValue,ReportInOutChanges">گزارش تغییرات ترددهای افراد انتخاب شده را در یک دوره زمانی نمایش میدهد. اطلاعات هر فرد بعد از دیگری نمایش داده خواهد شد. </Report>
+  </Category>
+  <Category name="گزارش ماموریت/مرخصی " description="گزارش ماموریتها و مرخصیهای افراد." tag="leaveduty">
+	    <!-- <Report name="'گزارش تغییرات ماموریت/مرخصی" file="LeaveDutychangesReport.mrt"> گزارش روز به روز فعالیت افراد انتخاب شده را نمایش میدهد. </Report> -->
+	    <Report name="گزارش ماموریت" file="DutiesReport.mrt" datasource ="CalculatedItems,CalculatedDuties,CalculatedLeaves,PersonnelList,Duty Table">گزراش ماموریتهای انجام شده توسط افراد را نمایش میدهد</Report>
+	    <Report name="گزارش مرخصی" file="LeavesReport.mrt" datasource ="CalculatedItems,CalculatedDuties,CalculatedLeaves,PersonnelList,LeaveCeil,WorkGroupExtraParameterValue,Leave Table">گزارش مرخصیهای استفاده شده توسط افراد را نمایش میدهد</Report>
+	    <Report name="گزارش مرخصی 2" file="LeavesReport-2.mrt" datasource ="CalculatedItems,CalculatedDuties,CalculatedLeaves,PersonnelList,LeaveCeil,WorkGroupExtraParameterValue,Leave Table">گزارش مرخصیهای استفاده شده توسط افراد را نمایش میدهد</Report>
+	    <Report name="گزارش مرخصی 3" file="LeavesReport-3.mrt" datasource ="CalculatedItems,CalculatedDuties,CalculatedLeaves,PersonnelList,LeaveCeil,WorkGroupExtraParameterValue,Leave Table">گزارش مرخصیهای استفاده شده توسط افراد را نمایش میدهد</Report>
+	    <Report name="گزارش سقف مرخصی" file="LeavesCeilReport.mrt" datasource ="LeaveCeil,PersonnelList">گزارش سقف و مانده مرخصیهای افراد را نمایش میدهد. </Report>
+  </Category>
+	  <Category name ="گزارش نوبت کاری" description="" tag="">
+	    <Report name="گزارش نوبت کاری 1" file="ShiftTypeReport.mrt" datasource ="ShiftType,PersonnelList"></Report>
+   </Category>
+<Category name="گزارشات مختلف" description ="گزارشات مختلف" tag="">
+    <Report name="کاردکس ماهیانه" file="CardexReport.mrt" datasource ="MonthlyCardex,PersonnelList"></Report>
+    <Report name="گزارش ترددها" file="TrafficReport.mrt" datasource ="TrafficReport,PersonnelList">گزارش ترددهای پرسنلها</Report>
+	<Report name="گزارش ترددها 2" file ="PersonnelTraffics.mrt" datasource ="CalculatedItems,PersonnelList,tblPersonnelTraffics">گزارش ترددهای پرسنلها</Report>
+	<Report name="گزارش ترددهای ماهیانه" file ="monthlytrafficreport.mrt" datasource ="CalculatedItems,TrafficReport,PersonnelList,WorkGroupExtraParameterValue,CalculatedLeaves">گزراش ترددها پرسنل </Report>
+    <Report name="گزارش پرسنلی" file="PersonnelReport.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems">لیستی از پرسنلها و اطلاعات مربوط به آنها را نشان می دهد</Report>
+  <Report name="گزارش جزئیات پرسنلی" file="PersonnelList.mrt" datasource ="">جزئیات اطلاعات پرسنل را نمایش میدهد</Report>
+  </Category>
+
+<Category name ="گزارشات بانک مسکن" description =""  tag ="maskan">
+<Report name=" گزارش مرخصیها" file="MaskanLeavesReport.mrt" datasource ="CalculatedItems,PersonnelList,CalculatedApprovedItems,CalculatedLeaves,CalculatedDuties,CalculatedLeavesAndPenalties,WorkGroupExtraParameterValue,LeaveAndLackFromFirstOfYear"></Report>
+<Report name="گزارش مرخصیهای 2" file="MaskanLeavesReport-2.mrt" datasource ="CalculatedItems,PersonnelList,CalculatedApprovedItems,CalculatedLeaves,CalculatedDuties,CalculatedLeavesAndPenalties,WorkGroupExtraParameterValue,LeaveAndLackFromFirstOfYear"></Report>
+<Report name="گزارش مرخصیهای 3" file="MaskanLeavesReport-3.mrt" datasource ="CalculatedItems,PersonnelList,CalculatedApprovedItems,CalculatedLeaves,CalculatedDuties,CalculatedLeavesAndPenalties,WorkGroupExtraParameterValue,LeaveAndLackFromFirstOfYear"></Report>
+<Report name=" گزارش جریمه ها" file="MaskanPenalties.mrt" datasource ="CalculatedItems,PersonnelList,CalculatedApprovedItems,CalculatedLeaves,CalculatedDuties,CalculatedLeavesAndPenalties,WorkGroupExtraParameterValue,LeaveAndLackFromFirstOfYear"></Report>
+  <Report name=" گزارش غیبتها" file="MaskanPersonnelAbsence.mrt" datasource ="CalculatedItems,PersonnelList,CalculatedApprovedItems,CalculatedLeaves,CalculatedDuties,CalculatedLeavesAndPenalties,WorkGroupExtraParameterValue,LeaveAndLackFromFirstOfYear"></Report>
+  <Report name="گزارش اضافه کاریها" file="MaskanOvertime.mrt" datasource ="CalculatedItems,PersonnelList,CalculatedApprovedItems,CalculatedLeaves,CalculatedDuties,MaskanCalculatedItems,WorkGroupExtraParameterValue"></Report>
+  <Report name="گزارش اضافه کاریهای 2" file="MaskanOvertime-2.mrt" datasource ="CalculatedItems,PersonnelList,CalculatedApprovedItems,CalculatedLeaves,CalculatedDuties,MaskanCalculatedItems,WorkGroupExtraParameterValue"></Report>
+  <Report name="گزارش کارگردشی" file="MaskanShiftWorkerOvertime.mrt" datasource ="CalculatedItems,PersonnelList,MaskanCalculatedItems,WorkGroupExtraParameterValue,MaskanShiftWorkerOvertime"></Report>
+  <Report name="'گزارش روزانه گردش کاری" file="MaskanShiftWorkerOvertimeDaily.mrt" datasource ="CalculatedItems,PersonnelList,MaskanCalculatedItems,WorkGroupExtraParameterValue,MaskanShiftWorkerOvertime"></Report>
+  <Report name="گزارش مرخصیهای ساعتی " file="MaskanHourlyLeavesReport.mrt" datasource ="CalculatedItems,PersonnelList,CalculatedApprovedItems,CalculatedLeaves,CalculatedDuties,CalculatedLeavesAndPenalties,WorkGroupExtraParameterValue,LeaveAndLackFromFirstOfYear"></Report>
+  <Report name="گزارش دیرکرد روزانه" file="MaskanEarlyLackReport.mrt" datasource ="CalculatedItems,PersonnelList,CalculatedApprovedItems,CalculatedLeaves,CalculatedDuties,CalculatedLeavesAndPenalties,WorkGroupExtraParameterValue"></Report>
+  <Report name="گزارش دیرکرد روزانه 2" file="MaskanEarlyLackReport-2.mrt" datasource ="CalculatedItems,PersonnelList,CalculatedApprovedItems,CalculatedLeaves,CalculatedDuties,CalculatedLeavesAndPenalties,WorkGroupExtraParameterValue"></Report>
+  <Report name="گزارش مرخصیهای روزانه" file="MaskanDailyLeavesReport.mrt" datasource ="PersonnelList,MaskanDemandableLeaves,EstehghaghiLeaveCeil,CalculatedLeaves,WorkGroupExtraParameterValue,CalculatedLeavesAndPenalties,SumOFMaskanUsedLeavesAndPenalties,MaskanSandooghLeaves"></Report>
+  <Report name="گزارش مرخصیهای روزانه 2" file="MaskanDailyLeavesReport-2.mrt" datasource ="PersonnelList,MaskanDemandableLeaves,EstehghaghiLeaveCeil,CalculatedLeaves,WorkGroupExtraParameterValue,CalculatedLeavesAndPenalties,SumOFMaskanUsedLeavesAndPenalties,MaskanSandooghLeaves"></Report>
+  <Report name="گزارش مرخصیهای روزانه 3" file="MaskanDailyLeavesReport-3.mrt" datasource ="PersonnelList,MaskanDemandableLeaves,EstehghaghiLeaveCeil,CalculatedLeaves,WorkGroupExtraParameterValue,CalculatedLeavesAndPenalties,SumOFMaskanUsedLeavesAndPenalties,MaskanSandooghLeaves"></Report>
+  <Report name="ایام کارکرد" file="MaskanWorkingDays.mrt" datasource ="CalculatedItems,PersonnelList,CalculatedLeaves,CalculatedDuties,WorkGroupExtraParameterValue,CalculatedLeavesAndPenalties,HolidayTable"></Report>
+ <Report name="گزارش روزانه" file="MaskanDailyReport.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue,tblPersonnelTraffics,CalculatedLeavesAndPenalties"> گزارش روز به روز فعالیت افراد انتخاب شده را نمایش میدهد. </Report>		
+ <Report name="گزارش روزانه 2" file="MaskanDailyReport-2.mrt" datasource ="CalculatedItems,CalculatedLeaves,CalculatedDuties,PersonnelList,CalculatedApprovedItems,WorkGroupExtraParameterValue,tblPersonnelTraffics,CalculatedLeavesAndPenalties"> گزارش روز به روز فعالیت افراد انتخاب شده را نمایش میدهد. </Report>
+  <Report name="گزارش روزانه بدون حقوق" file="IndividualWithoutCashLeaveReport.mrt" datasource ="PersonnelList,MaskanDemandableLeaves,EstehghaghiLeaveCeil,CalculatedLeaves,WorkGroupExtraParameterValue,CalculatedLeavesAndPenalties,SumOFMaskanUsedLeavesAndPenalties"> گزارش روز به روز فعالیت افراد انتخاب شده را نمایش میدهد. </Report>
+  <Report name="گزارش روزانه استحقاقی" file="IndividualEstehghaghiLeaveReport.mrt" datasource ="PersonnelList,MaskanDemandableLeaves,EstehghaghiLeaveCeil,CalculatedLeaves,WorkGroupExtraParameterValue,CalculatedLeavesAndPenalties,SumOFMaskanUsedLeavesAndPenalties"> گزارش روز به روز فعالیت افراد انتخاب شده را نمایش میدهد. </Report>
+  <Report name="گزارش روزانه استعلاجی" file="IndividualEstelajiLeaveReport.mrt" datasource ="PersonnelList,MaskanDemandableLeaves,EstehghaghiLeaveCeil,CalculatedLeaves,WorkGroupExtraParameterValue,CalculatedLeavesAndPenalties,SumOFMaskanUsedLeavesAndPenalties"> گزارش روز به روز فعالیت افراد انتخاب شده را نمایش میدهد. </Report>
+  <Report name="گزارش روزانه ازدواج" file="IndividualEzdevajLeaveReport.mrt" datasource ="PersonnelList,MaskanDemandableLeaves,EstehghaghiLeaveCeil,CalculatedLeaves,WorkGroupExtraParameterValue,CalculatedLeavesAndPenalties,SumOFMaskanUsedLeavesAndPenalties"> گزارش روز به روز فعالیت افراد انتخاب شده را نمایش میدهد. </Report>
+  <Report name="گزارش روزانه زایمان" file="IndividualZayemanLeaveReport.mrt" datasource ="PersonnelList,MaskanDemandableLeaves,EstehghaghiLeaveCeil,CalculatedLeaves,WorkGroupExtraParameterValue,CalculatedLeavesAndPenalties,SumOFMaskanUsedLeavesAndPenalties"> گزارش روز به روز فعالیت افراد انتخاب شده را نمایش میدهد. </Report>  
+  <Report name="گزارش روزانه تحصیلی" file="IndividualTahsiliLeaveReport.mrt" datasource ="PersonnelList,MaskanDemandableLeaves,EstehghaghiLeaveCeil,CalculatedLeaves,WorkGroupExtraParameterValue,CalculatedLeavesAndPenalties,SumOFMaskanUsedLeavesAndPenalties"> گزارش روز به روز فعالیت افراد انتخاب شده را نمایش میدهد. </Report>  
+</Category>
+
+</Reports>
